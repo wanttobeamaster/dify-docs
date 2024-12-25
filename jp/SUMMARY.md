@@ -55,7 +55,7 @@
   * [オーケストレートノード](guides/workflow/orchestrate-node.md)
   * [ファイルアップロード](guides/workflow/file-upload.md)
   * [エラー処理](guides/workflow/error-handling/README.md)
-    * [事前定義されたエラー処理ロジック](guides/workflow/error-handling/predefined-error-handling-logic.md)
+    * [事前定義されたエラー処理ロジック](guides/workflow/error-handling/saretaerrojikku.md)
     * [エラータイプの概要](guides/workflow/error-handling/error-type.md)
   * [追加機能](guides/workflow/additional-features.md)
   * [プレビューとデバッグ](guides/workflow/debug-and-preview/README.md)
@@ -125,7 +125,7 @@
   * [個人アカウントの管理](guides/management/personal-account-management.md)
   * [サブスクリプション管理](guides/management/subscription-management.md)
 
-## ハンドオン工房 <a href="workshop" id="workshop"></a>
+## ハンドオン工房 <a href="#workshop" id="workshop"></a>
 
 * [初級編](workshop/basic/README.md)
   * [ゼロからAI画像生成アプリの構築方法](workshop/basic/build-ai-image-generation-app.md)
