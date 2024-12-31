@@ -24,9 +24,13 @@ Difyで最初からアプリケーションを作成する場合、ナビゲー�
 
 <figure><img src="../../.gitbook/assets/jp-create-blank-application.png" alt=""><figcaption></figcaption></figure>
 
-Difyで初めてアプリケーションを作成する際は、チャットボイス、テキストジェネレータ、エージェント、ワークフローという4つの異なる種類のアプリケーションの[基本概念](./#application\_type)を理解することが重要です。
+Difyで初めてアプリケーションを作成する際は、チャットボイス、テキストジェネレータ、エージェント、ワークフローという4つの異なる種類のアプリケーションの[基本概念](./#application_type)を理解することが重要です。
 
 アプリケーションを作成する際には、名前を付け、適切なアイコンを選択し、このアプリケーションの目的を簡潔に説明することで、チーム内での使用を容易にします。
+
+{% embed url="https://www.motionshot.app/walkthrough/6773d589d27e58127b913946/embed?fullscreen=1&hideAsSteps=1&hideCopy=1&hideDownload=1&hideSteps=1" %}
+
+
 
 <figure><img src="../../.gitbook/assets/jp-create-blank-application2.png" alt=""><figcaption><p>アプリケーションを最初から作成</p></figcaption></figure>
 
@@ -46,7 +50,7 @@ Dify DSLは、Dify.AIが定めるAIアプリケーション開発のための標
 
 以下の形式を使用して、URL経由でDSLファイルをインポートすることができます：
 
-```URL
+```url
 https://example.com/your_dsl.yml
 ```
 
