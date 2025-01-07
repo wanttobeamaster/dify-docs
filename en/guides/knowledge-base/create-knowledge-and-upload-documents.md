@@ -4,24 +4,24 @@ Steps to upload documents to create a knowledge base:
 
 1. Create a knowledge base and import either local document file or online data.
 
-{% content-ref url="1.-import-text-data/" %}
-[1.-import-text-data](1.-import-text-data/)
+{% content-ref url="create-knowledge-and-upload-documents/1.-import-text-data/" %}
+[1.-import-text-data](create-knowledge-and-upload-documents/1.-import-text-data/)
 {% endcontent-ref %}
 
 2. Choose a chunking mode and preview the spliting results. This stage involves content preprocessing and structuring, where long texts are divided into multiple smaller chunks.
 
-{% content-ref url="2.-choose-a-chunk-mode.md" %}
-[2.-choose-a-chunk-mode.md](2.-choose-a-chunk-mode.md)
+{% content-ref url="create-knowledge-and-upload-documents/2.-choose-a-chunk-mode.md" %}
+[2.-choose-a-chunk-mode.md](create-knowledge-and-upload-documents/2.-choose-a-chunk-mode.md)
 {% endcontent-ref %}
 
 3. Configure the indexing method and retrieval setting. Once the knowledge base receives a user query, it searches existing documents according to preset retrieval methods and extracts highly relevant content chunks.&#x20;
 
-{% content-ref url="3.-select-an-indexing-method.md" %}
-[3.-select-an-indexing-method.md](3.-select-an-indexing-method.md)
+{% content-ref url="create-knowledge-and-upload-documents/3.-select-an-indexing-method.md" %}
+[3.-select-an-indexing-method.md](create-knowledge-and-upload-documents/3.-select-an-indexing-method.md)
 {% endcontent-ref %}
 
 4. Wait for the chunk embeddings to complete.
-5. Once finished, link the knowledge base to your application and start using it. You can then [integrate it into your application](../integrate-knowledge-within-application.md) to build an LLM that are capable of Q\&A based on knowledge-bases. If you want to modify and manage the knowledge base further, take refer to [Knowledge Base and Document Maintenance](../knowledge-and-documents-maintenance/).
+5. Once finished, link the knowledge base to your application and start using it. You can then [integrate it into your application](integrate-knowledge-within-application.md) to build an LLM that are capable of Q\&A based on knowledge-bases. If you want to modify and manage the knowledge base further, take refer to [Knowledge Base and Document Maintenance](knowledge-and-documents-maintenance.md).
 
 <figure><img src="https://assets-docs.dify.ai/2024/12/a3362a1cd384cb2b539c9858de555518.png" alt=""><figcaption><p>Complete the creation of the knowledge base</p></figcaption></figure>
 
@@ -38,7 +38,7 @@ In production-level applications of RAG, to achieve better data retrieval, multi
 ETL solution choices in different versions of Dify:
 
 * The SaaS version defaults to using Unstructured ETL and cannot be changed;
-* The community version defaults to using Dify ETL but can enable Unstructured ETL through [environment variables](../../../getting-started/install-self-hosted/environments.md#zhi-shi-ku-pei-zhi);
+* The community version defaults to using Dify ETL but can enable Unstructured ETL through [environment variables](../../getting-started/install-self-hosted/environments.md#zhi-shi-ku-pei-zhi);
 
 Differences in supported file formats for parsing:
 

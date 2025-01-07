@@ -57,7 +57,7 @@ Different [chunking modes](../create-knowledge-and-upload-documents/2.-choose-a-
 {% tab title="General Mode" %}
 **General Mode**
 
-Chunks of text in [General mode](../create-knowledge-and-upload-documents/#general) are independent blocks. If you want to view the complete content of a chunk, click the **full-screen** icon.
+Chunks of text in [General mode](../create-knowledge-and-upload-documents.md#general) are independent blocks. If you want to view the complete content of a chunk, click the **full-screen** icon.
 
 <figure><img src="https://assets-docs.dify.ai/2024/12/c37a1a247092cda9433a10243543698f.png" alt=""><figcaption><p>Full screen viewing</p></figcaption></figure>
 

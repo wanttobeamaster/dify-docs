@@ -16,9 +16,9 @@ Here, you can modify the knowledge base’s name, description, permissions, inde
   *   **"Partial team members"**: Allows selective access to specific team members.
 
       Users without appropriate permissions cannot access the knowledge base. When granting access to team members (Options 2 or 3), authorized users are granted full permissions, including the ability to view, edit, and delete knowledge base content.
-* **Indexing Mode**: For detailed explanations, please refer to the [documentation](../create-knowledge-and-upload-documents/3.-select-an-indexing-method.md).
+* **Indexing Mode**: For detailed explanations, please refer to the [documentation](create-knowledge-and-upload-documents/3.-select-an-indexing-method.md).
 * **Embedding Model**: Allows you to modify the embedding model for the knowledge base. Changing the embedding model will re-embed all documents in the knowledge base, and the original embeddings will be deleted.
-* **Retrieval Settings**: For detailed explanations, please refer to the [documentation](../../../learn-more/extended-reading/retrieval-augment/retrieval.md).
+* **Retrieval Settings**: For detailed explanations, please refer to the [documentation](../../learn-more/extended-reading/retrieval-augment/retrieval.md).
 
 ***
 
@@ -34,8 +34,8 @@ You can manage your knowledge base documents either through a web interface or v
 
 You can administer all documents and their corresponding chunks directly in the knowledge base. For more details, refer to the following documentation:
 
-{% content-ref url="maintain-documents.md" %}
-[maintain-documents.md](maintain-documents.md)
+{% content-ref url="knowledge-and-documents-maintenance/maintain-documents.md" %}
+[maintain-documents.md](knowledge-and-documents-maintenance/maintain-documents.md)
 {% endcontent-ref %}
 
 #### Maintain Knowledge Base Via API
@@ -46,4 +46,4 @@ Dify Knowledge Base provides a comprehensive set of standard APIs. Developers ca
 [maintain-dataset-via-api.md](maintain-dataset-via-api.md)
 {% endcontent-ref %}
 
-<figure><img src="../../../.gitbook/assets/knowledge-base-api.png" alt=""><figcaption><p>Knowledge base API management</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/knowledge-base-api.png" alt=""><figcaption><p>Knowledge base API management</p></figcaption></figure>

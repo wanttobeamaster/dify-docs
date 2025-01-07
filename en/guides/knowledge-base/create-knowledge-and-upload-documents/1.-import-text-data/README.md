@@ -23,8 +23,8 @@ When creating a **Knowledge**, you can import data from online sources. The know
 [1.1-import-data-from-notion.md](1.1-import-data-from-notion.md)
 {% endcontent-ref %}
 
-{% content-ref url="sync-from-website.md" %}
-[sync-from-website.md](sync-from-website.md)
+{% content-ref url="../../sync-from-website.md" %}
+[sync-from-website.md](../../sync-from-website.md)
 {% endcontent-ref %}
 
 If a knowledge base is set up to use online data, you won’t be able to add local documents later or switch it to a local file-based mode. This prevents a single knowledge base from mixing multiple data sources, avoiding management complications.
