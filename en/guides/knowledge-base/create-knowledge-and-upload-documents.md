@@ -16,8 +16,8 @@ Steps to upload documents to create a knowledge base:
 
 3. Configure the indexing method and retrieval setting. Once the knowledge base receives a user query, it searches existing documents according to preset retrieval methods and extracts highly relevant content chunks.&#x20;
 
-{% content-ref url="create-knowledge-and-upload-documents/3.-select-an-indexing-method.md" %}
-[3.-select-an-indexing-method.md](create-knowledge-and-upload-documents/3.-select-an-indexing-method.md)
+{% content-ref url="create-knowledge-and-upload-documents/3.-select-the-indexing-method-and-retrieval-setting.md" %}
+[3.-select-the-indexing-method-and-retrieval-setting.md](create-knowledge-and-upload-documents/3.-select-the-indexing-method-and-retrieval-setting.md)
 {% endcontent-ref %}
 
 4. Wait for the chunk embeddings to complete.

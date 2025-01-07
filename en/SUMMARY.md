@@ -72,7 +72,7 @@
       * [1.1 Import Data from Notion](guides/knowledge-base/create-knowledge-and-upload-documents/1.-import-text-data/1.1-import-data-from-notion.md)
       * [1.2 Import Data from Website](guides/knowledge-base/sync-from-website.md)
     * [2. Choose a Chunk Mode](guides/knowledge-base/create-knowledge-and-upload-documents/2.-choose-a-chunk-mode.md)
-    * [3. Select an Indexing Method](guides/knowledge-base/create-knowledge-and-upload-documents/3.-select-an-indexing-method.md)
+    * [3. Select the Indexing Method and Retrieval Setting](guides/knowledge-base/create-knowledge-and-upload-documents/3.-select-the-indexing-method-and-retrieval-setting.md)
   * [Manage Knowledge](guides/knowledge-base/knowledge-and-documents-maintenance.md)
     * [Maintain Documents](guides/knowledge-base/knowledge-and-documents-maintenance/maintain-documents.md)
     * [Maintain Knowledge via API](guides/knowledge-base/maintain-dataset-via-api.md)

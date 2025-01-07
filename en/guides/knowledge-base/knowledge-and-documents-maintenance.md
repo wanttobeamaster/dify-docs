@@ -16,7 +16,7 @@ Here, you can modify the knowledge base’s name, description, permissions, inde
   *   **"Partial team members"**: Allows selective access to specific team members.
 
       Users without appropriate permissions cannot access the knowledge base. When granting access to team members (Options 2 or 3), authorized users are granted full permissions, including the ability to view, edit, and delete knowledge base content.
-* **Indexing Mode**: For detailed explanations, please refer to the [documentation](create-knowledge-and-upload-documents/3.-select-an-indexing-method.md).
+* **Indexing Mode**: For detailed explanations, please refer to the [documentation](create-knowledge-and-upload-documents/3.-select-the-indexing-method-and-retrieval-setting.md).
 * **Embedding Model**: Allows you to modify the embedding model for the knowledge base. Changing the embedding model will re-embed all documents in the knowledge base, and the original embeddings will be deleted.
 * **Retrieval Settings**: For detailed explanations, please refer to the [documentation](../../learn-more/extended-reading/retrieval-augment/retrieval.md).
 
