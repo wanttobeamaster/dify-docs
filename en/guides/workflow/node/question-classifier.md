@@ -51,6 +51,4 @@ When users input different questions, the issue classifier will automatically cl
 
 **Output Variable**:
 
-`class_name`
-
-This is the classification name output after classification. You can use the classification result variable in downstream nodes as needed.
+`class_name` stores the classification output label. You can reference this classification result in downstream nodes when needed.

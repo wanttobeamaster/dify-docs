@@ -68,7 +68,7 @@ Some LLMs, such as [Claude 3.5 Sonnet](https://docs.anthropic.com/en/docs/build-
 
 1. Click the **"Features"** button in the upper right corner of the Chatflow application to add more functionality to the application. After enabling this feature, application users can upload and update files at any time during the application dialogue. A maximum of 10 files can be uploaded simultaneously, with a size limit of 15MB per file.
 
-<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>file upload</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3) (1).png" alt=""><figcaption><p>file upload</p></figcaption></figure>
 
 Enabling this feature does not grant LLMs the ability to directly read files. A **Document Extractor** is still needed to parse documents into text for LLM comprehension.
 

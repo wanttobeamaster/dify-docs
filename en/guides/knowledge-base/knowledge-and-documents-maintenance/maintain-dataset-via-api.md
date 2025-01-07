@@ -1,4 +1,4 @@
-# Maintain Knowledge Base via API
+# Maintain Knowledge via API
 
 > The authentication and invocation methods for the Knowledge Base API are consistent with the Application Service API. However, a single Knowledge Base API token generated has the authority to operate on all visible knowledge bases under the same account. Please pay attention to data security.
 
@@ -17,11 +17,11 @@ Key advantages include:
 
 Navigate to the knowledge base page, and you can switch to the **API ACCESS** page from the left navigation. On this page, you can view the dataset API documentation provided by Dify and manage the credentials for accessing the dataset API in **API Keys**.
 
-<figure><img src="../../.gitbook/assets/knowledge-base-api-token.png" alt=""><figcaption><p>Knowledge API Document</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/knowledge-base-api-token.png" alt=""><figcaption><p>Knowledge API Document</p></figcaption></figure>
 
 ### API Requesting Examples
 
-**Create a document from text**
+#### **Create a document from text**
 
 This api is based on an existing Knowledge and creates a new document through text based on this Knowledge.
 
@@ -66,15 +66,15 @@ Response example:
 }
 ```
 
-### Create a Document from Text
+#### Create a Document from a file
 
-This API is based on an existing knowledge and creates a new document through text based on this knowledge.
+This API is based on an existing knowledge and creates a new document through a file based on this knowledge.
 
 ```bash
-curl --location --request POST 'https://api.dify.ai/v1/datasets/{dataset_id}/document/create-by-text' \
+curl --location --request POST 'https://api.dify.ai/v1/datasets/{dataset_id}/document/create-by-file' \
 --header 'Authorization: Bearer {api_key}' \
---header 'Content-Type: application/json' \
---data-raw '{"name": "text","text": "text","indexing_technique": "high_quality","process_rule": {"mode": "automatic"}}'
+--form 'data="{"indexing_technique":"high_quality","process_rule":{"rules":{"pre_processing_rules":[{"id":"remove_extra_spaces","enabled":true},{"id":"remove_urls_emails","enabled":true}],"segmentation":{"separator":"###","max_tokens":500}},"mode":"custom"}}";type=text/plain' \
+--form 'file=@"/path/to/file"'
 ```
 
 ```bash
@@ -84,13 +84,13 @@ curl --location --request POST 'https://api.dify.ai/v1/datasets/{dataset_id}/doc
     "position": 1,
     "data_source_type": "upload_file",
     "data_source_info": {
-        "upload_file_id": ""
+      "upload_file_id": ""
     },
     "dataset_process_rule_id": "",
-    "name": "text.txt",
+    "name": "Dify.txt",
     "created_from": "api",
     "created_by": "",
-    "created_at": 1695690280,
+    "created_at": 1695308667,
     "tokens": 0,
     "indexing_status": "waiting",
     "error": null,
@@ -105,16 +105,17 @@ curl --location --request POST 'https://api.dify.ai/v1/datasets/{dataset_id}/doc
   },
   "batch": ""
 }
+
 ```
 
-### Create documents from a file
+#### Create Documents from a File
 
 This api is based on an existing Knowledge and creates a new document through a file based on this Knowledge.
 
 Request example:
 
 ```json
-curl --location --request POST 'https://api.dify.ai/v1/datasets/{dataset_id}/document/create_by_file' \
+curl --location --request POST 'https://api.dify.ai/v1/datasets/{dataset_id}/document/create-by-file' \
 --header 'Authorization: Bearer {api_key}' \
 --form 'data="{"indexing_technique":"high_quality","process_rule":{"rules":{"pre_processing_rules":[{"id":"remove_extra_spaces","enabled":true},{"id":"remove_urls_emails","enabled":true}],"segmentation":{"separator":"###","max_tokens":500}},"mode":"custom"}}";type=text/plain' \
 --form 'file=@"/path/to/file"'
@@ -153,7 +154,7 @@ Response example:
 
 ```
 
-### Create an empty Knowledge base
+#### Create an Empty Knowledge Base
 
 {% hint style="warning" %}
 Only used to create an empty knowledge base.
@@ -192,7 +193,7 @@ Response example:
 }
 ```
 
-### Get a knowledge base list
+#### Get Knowledge Base List
 
 Request example:
 
@@ -230,7 +231,7 @@ Response example:
 }
 ```
 
-### Delete a knowledge base
+#### Delete a Knowledge Base
 
 Request example:
 
@@ -245,7 +246,7 @@ Response example:
 204 No Content
 ```
 
-#### Update document via text
+#### Update a Document with Text
 
 This api is based on an existing Knowledge and updates the document through text based on this Knowledge
 
@@ -297,7 +298,7 @@ This api is based on an existing Knowledge, and updates documents through files 
 Request example:
 
 ```bash
-curl --location --request POST 'https://api.dify.ai/v1/datasets/{dataset_id}/documents/{document_id}/update_by_file' \
+curl --location --request POST 'https://api.dify.ai/v1/datasets/{dataset_id}/documents/{document_id}/update-by-file' \
 --header 'Authorization: Bearer {api_key}' \
 --form 'data="{"name":"Dify","indexing_technique":"high_quality","process_rule":{"rules":{"pre_processing_rules":[{"id":"remove_extra_spaces","enabled":true},{"id":"remove_urls_emails","enabled":true}],"segmentation":{"separator":"###","max_tokens":500}},"mode":"custom"}}";type=text/plain' \
 --form 'file=@"/path/to/file"'
@@ -335,7 +336,7 @@ Response example:
 }
 ```
 
-#### Get document embedding status (progress)
+#### Get Document Embedding Status (Progress)
 
 Request example:
 
@@ -365,7 +366,7 @@ Response example:
 }
 ```
 
-#### Delete a document
+#### Delete a Document
 
 Request example:
 
@@ -382,7 +383,7 @@ Response example:
 }
 ```
 
-#### Get the document list of a knowledge base
+#### Get the Document List of a Knowledge Base
 
 Request example:
 
@@ -422,7 +423,7 @@ Response example:
 }
 ```
 
-#### Add chunks to a document
+#### Add Chunks to a Document
 
 Request example:
 
@@ -467,7 +468,7 @@ Response example:
 
 ```
 
-### Get chunks from a document
+#### Get Chunks from a Document
 
 Request example:
 
@@ -510,7 +511,7 @@ Response example:
 }
 ```
 
-### Delete a chunk in a document
+#### Delete a Chunk in a Document
 
 Request example:
 
@@ -528,7 +529,7 @@ Response example:
 }
 ```
 
-### Update a chunk in a document
+#### Update a Chunk in a Document
 
 Request example:
 
@@ -572,7 +573,7 @@ Response example:
 }
 ```
 
-### Retrieve Chunks from a Knowledge Base
+#### Retrieve Chunks from a Knowledge Base
 
 Request example:
 

@@ -8,7 +8,7 @@ The login methods supported by different versions of Dify are as follows:
 
 > Note: For Dify Cloud Service, if the email associated with a GitHub or Google account is the same as the email used to log in with a verification code, the system will automatically link them as the same account, avoiding the need for manual binding and preventing duplicate registrations.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Modifying Personal Information
 
@@ -27,7 +27,7 @@ You can modify the following details:
 
 > Note: The password reset feature is only available in the Community Version.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Login Methods
 
@@ -60,7 +60,7 @@ You can view the apps currently linked to your account on the **Account** page.
 
 ⚠️ Dangerous Operation. Please proceed with caution.
 
-To confirm the deletion of your Dify SaaS account, click on your avatar in the top right corner, select **“Account”** from the dropdown menu, and then click the **“Delete Account”** button. 
+To confirm the deletion of your Dify SaaS account, click on your avatar in the top right corner, select **“Account”** from the dropdown menu, and then click the **“Delete Account”** button.
 
 Deleting your account is irreversible, and the same email address cannot be re-registered within 30 days. All workspaces owned by the account will also be deleted, and it will be automatically removed from all shared workspaces.
 
@@ -70,19 +70,20 @@ Enter the email address you want to delete and the confirmation verification cod
 
 ### FAQ
 
-**1. Can I revert the account deletion if I accidentally delete my account?**  
+**1. Can I revert the account deletion if I accidentally delete my account?**\
 Account deletion is irreversible. If there are exceptional circumstances, please contact us at `support@dify.ai` within 20 days of the deletion and provide a detailed explanation.
 
-**2. What happens to my roles and data in the team after I delete my account?**  
-After account deletion:  
-- If you were the **team owner**, the workspace(s) you created will be dissolved, and all data within those workspaces will be deleted. Team members will lose access to the workspace.  
-- If you were a **team member or admin**, the workspaces you joined will retain their data, including the applications created by your account. Your account will be removed from the member list of those workspaces.
+**2. What happens to my roles and data in the team after I delete my account?**\
+After account deletion:
 
-**3. Can I re-register a new account with the same email after deleting my account?**  
+* If you were the **team owner**, the workspace(s) you created will be dissolved, and all data within those workspaces will be deleted. Team members will lose access to the workspace.
+* If you were a **team member or admin**, the workspaces you joined will retain their data, including the applications created by your account. Your account will be removed from the member list of those workspaces.
+
+**3. Can I re-register a new account with the same email after deleting my account?**\
 You cannot re-register a new account using the same email within 30 days of account deletion.
 
-**4. Will my authorizations with third-party services (e.g., Google, GitHub) be revoked after deleting my account?**  
+**4. Will my authorizations with third-party services (e.g., Google, GitHub) be revoked after deleting my account?**\
 Yes, all authorizations with third-party services (e.g., Google, GitHub) will be automatically revoked after account deletion.
 
-**5. Will my Dify subscription be canceled and refunded after deleting my account?**  
+**5. Will my Dify subscription be canceled and refunded after deleting my account?**\
 Your Dify subscription will be automatically canceled upon account deletion. However, the subscription fee is non-refundable, and no future charges will be made.

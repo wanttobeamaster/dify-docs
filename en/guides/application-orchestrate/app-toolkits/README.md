@@ -2,7 +2,7 @@
 
 In **Application Orchestration**, click **Add Feature** to open the application toolbox.
 
-The application toolbox provides various additional features for Dify's [applications](../#application\_type):
+The application toolbox provides various additional features for Dify's [applications](../#application_type):
 
 <figure><img src="../../../.gitbook/assets/content_moderation (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -32,4 +32,4 @@ During interactions with AI applications, we often have stringent requirements r
 
 The annotated replies feature allows for customizable high-quality Q\&A responses through manual editing and annotation.
 
-See [Annotated Replies](../../biao-zhu/annotation-reply.md).
+See [Annotated Replies](../../annotation/annotation-reply.md).

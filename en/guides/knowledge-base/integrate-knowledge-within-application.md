@@ -2,7 +2,7 @@
 
 ### Creating an Application Integrated with Knowledge Base
 
-A **"Knowledge Base"** can be used as an external information source to provide precise answers to user questions via LLM. You can associate an existing knowledge base with any [application type](https://docs.dify.ai/guides/application-orchestrate#application\_type) in Dify.
+A **"Knowledge Base"** can be used as an external information source to provide precise answers to user questions via LLM. You can associate an existing knowledge base with any [application type](https://docs.dify.ai/guides/application-orchestrate#application_type) in Dify.
 
 Taking a chat assistant as an example, the process is as follows:
 
@@ -28,7 +28,7 @@ The retriever scans all knowledge bases linked to the application for text conte
 
 This method simultaneously queries all knowledge bases connected in **"Context"**, seeking relevant text chucks across multiple knowledge bases, collecting all content that aligns with the user's question, and ultimately applying the Rerank strategy to identify the most appropriate content to respond to the user. This retrieval approach offers more comprehensive and accurate results by leveraging multiple knowledge bases simultaneously.
 
-<figure><img src="../../.gitbook/assets/en-rag-multiple.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/2024/12/fca4f030e71a857e15a753f508e1b042.png" alt=""><figcaption></figcaption></figure>
 
 For instance, in application A, with three knowledge bases K1, K2, and K3. When a user send a question, multiple relevant pieces of content will be retrieved and combined from these knowledge bases. To ensure the most pertinent content is identified, the Rerank strategy is employed to find the content that best relates to the user's query, enhancing the precision and reliability of the results.
 
@@ -64,28 +64,26 @@ Dify currently supports multiple Rerank models. To use external Rerank models, y
 
 **Adjustable Parameters**
 
-*   **TopK**
+* **TopK**: Determines how many text chunks, deemed most similar to the user’s query, are retrieved. It also automatically adjusts the number of chunks based on the chosen model’s context window. The default value is **3**, and higher numbers will recall more text chunks.
+* **Score Threshold**: Sets the minimum similarity score required for a chunk to be retrieved. Only chunks exceeding this score are retrieved. The default value is **0.5**. Higher thresholds demand greater similarity and thus result in fewer chunks being retrieved.
 
-    This parameter filters the text segments that are most similar to the user's question. The system dynamically adjusts the number of segments based on the context window size of the selected model. A higher value results in more text segments being recalled.
-*   **Score Threshold**
+### View Linked Applications in the Knowledge Base
 
-    This parameter establishes the similarity threshold for filtering text segments. Only those segments with a vector retrieval similarity score exceeding the set threshold will be recalled. A higher threshold value results in fewer texts being recalled, but those recalled are likely to be more relevant. Adjust this parameter based on your specific needs for precision versus recall.
+On the left side of the knowledge base, you can see all linked Apps. Hover over the circular icon to view the list of all linked apps. Click the jump button on the right to quickly browser them.
 
-The multi-recall mode can achieve higher quality recall results when retrieving from multiple knowledge bases; therefore, it is **recommended to set the recall mode to multi-recall**.
+<figure><img src="https://assets-docs.dify.ai/2024/12/28899b9b0eba8996f364fb74e5b94c7f.png" alt=""><figcaption><p>Viewing the linked Apps</p></figcaption></figure>
 
 ### Frequently Asked Questions
 
-Here's the translation of the provided content:
-
 1. **How should I choose Rerank settings in multi-recall mode?**
 
-If users know the exact information or terminology, and keyword retrieval can accurately deliver matching results, set the **Keyword to 1** in the "Weight Score".
+If users know the exact information or terminology, you can use keyword search for precise matching. In that case, set **“Keywords” to 1** under Weight Settings.
 
-If the exact vocabulary does not appear in the knowledge base, or if there are cross-language queries, it's recommended to set the **Semantic setting to 1** in the "Weight Score".
+If the knowledge base doesn’t contain the exact terms or if a cross-lingual query is involved, we recommend setting **“Semantic” to 1** under Weight Settings.
 
-If business personnel are familiar with the actual questioning scenarios of users and wish to actively adjust the ratio of semantics or keywords, it's recommended to adjust the ratio in the "Weight Score" themselves.
+If you are familiar with real user queries and want to adjust the ratio of semantics to keywords, they can manually tweak the ratio under **Weight Settings**.
 
-If the content in the knowledge base is complex and cannot be matched by simple conditions such as semantics or keywords, while requiring precise answers, and if you are willing to incur additional costs, it's recommended to use the **Rerank model** for content retrieval.
+If the knowledge base is complex, making simple semantic or keyword matches insufficient—and you need highly accurate answers and are willing to pay more—consider using a **Rerank Model** for content retrieval.
 
 2. **What should I do if I encounter issues finding the “Weight Score” or the requirement to configure a Rerank model?**
 

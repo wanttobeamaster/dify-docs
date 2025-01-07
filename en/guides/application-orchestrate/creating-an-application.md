@@ -22,15 +22,15 @@ Select any template and click **Use this template.**
 
 If you need to create a blank application on Dify, you can select "Studio" from the navigation and then choose "Create from Blank" in the application list.
 
+<figure><img src="../../.gitbook/assets/create-from-blank.png" alt=""><figcaption><p>Create a blank application</p></figcaption></figure>
+
 When creating an application for the first time, you might need to first understand the [basic concepts](./#application_type) of the four different types of applications on Dify: Chatbot, Text Generator, Agent, Chatflow and Workflow.
 
 {% embed url="https://www.motionshot.app/walkthrough/6773d589d27e58127b913946/embed?fullscreen=1&hideAsSteps=1&hideCopy=1&hideDownload=1&hideSteps=1" %}
 
-<figure><img src="../../.gitbook/assets/create-from-blank.png" alt=""><figcaption><p>Create a blank application</p></figcaption></figure>
-
 When selecting a specific application type, you can customize it by providing a name, choosing an appropriate icon(or uploading your favorite image as an icon), and writing a clear and concise description of its purpose. These details will help team members easily understand and use the application in the future.
 
-![](https://assets-docs.dify.ai/2024/12/4b257b8437c22a582a603fee787ee372.png)
+![](https://assets-docs.dify.ai/2024/12/8012e6ed06bfb10b239a4b999b1a0787.png)
 
 ### Creating from a DSL File
 

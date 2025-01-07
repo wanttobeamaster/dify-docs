@@ -1,28 +1,47 @@
-# Knowledge Base
+# Knowledge
 
-The training data for large language models is generally based on publicly available data, and each training session requires a significant amount of computational power. This means that the knowledge of the models generally does not include private domain knowledge, and there is a certain delay in the public knowledge domain. To solve this problem, the current common solution is to use RAG (Retrieval-Augmented Generation) technology, which uses users' questions to match the most relevant external data, and after retrieving the relevant content, reorganize and insert the response back as the context of the model prompt.
+Dify’s Knowledge feature visualizes each stage of the RAG pipeline, providing a friendly UI for application builders to easily manage personal or team knowledge. It also allows for seamless integration into AI applications.
 
-{% hint style="info" %}
-To learn more, please check the extended reading on [Retrieval-Augmented Generation (RAG)](../../learn-more/extended-reading/retrieval-augment/)
-{% endhint %} 
+Developers can upload internal company documents, FAQs, and standard working guides, then process them into structured data that large language models (LLMs) can query.&#x20;
 
-Dify's knowledge base feature visualizes each step in the RAG pipeline, providing a simple and easy-to-use user interface to help application builders in managing personal or team knowledge bases, and quickly integrating them into AI applications. You only need to prepare text content, such as:
+Compared with the static pre-trained datasets built into AI models, the content in a knowledge base can be updated in real time, ensuring LLMs always have access to the latest information and helping avoid problems caused by outdated or missing data.
+
+When an LLM receives a user query, it first uses keywords to search within the knowledge base. Based on those keywords, the knowledge base returns content chunks with high relevance rankings, giving the LLM crucial context to generate more precise answers.
+
+This approach ensures LLMs don’t rely solely on pre-trained knowledge. Instead, they can also draw from real-time documents and databases, enhancing both the accuracy and relevance of responses.
+
+**Key Advantages**
+
+**• Real-Time Updates**: The knowledge base can be updated anytime, ensuring the model always has the latest information.
+
+• **Precision**: By retrieving relevant documents, the LLM can ground its answers in actual information, minimizing hallucinations.
+
+• **Flexibility**: Developers can customize the knowledge base content to match specific needs, defining the scope of knowledge as required.
+
+***
+
+You only need to prepare text content, such as:
 
 * Long text content (TXT, Markdown, DOCX, HTML, JSONL, or even PDF files)
 * Structured data (CSV, Excel, etc.)
+* Online data source(Web pages, Notion, etc.)
 
-Additionally, we are gradually supporting synchronizing data from various data sources to datasets, including:
+By simply uploading files to the **Knowledge Base**, data processing is handled automatically.
 
-* Web pages
-* Notion
-* Github
-* Databases
-* ……
+> If your team already has an independent knowledge base, you can use the [“Connect to an External Knowledge Base”](connect-external-knowledge.md) feature to establish its connection with Dify.
 
-{% hint style="info" %}
-**Scenario**: If your company wants to establish an AI customer service assistant based on the existing knowledge base and product documentation, you can upload the documents to the dataset in Dify and build a chatbot. In the past, this might have taken you weeks and been difficult to maintain continuously.
-{% endhint %}
+<figure><img src="https://assets-docs.dify.ai/2024/12/effc826d2584d5f2983cdcd746099bb6.png" alt=""><figcaption><p>Create a knowledge base</p></figcaption></figure>
+
+### **Use Case**
+
+If you want to create an AI customer support assistant based on your existing knowledge base and product documentation, you can simply upload those files to the Knowledge Base in Dify, then set up a conversational application.&#x20;
+
+Traditionally, going from raw text training to a fully developed AI customer support chatbot could take weeks, plus it’s challenging to maintain and iterate effectively.&#x20;
+
+In Dify, the entire process takes just three minutes, after which you can immediately begin gathering user feedback.
 
 ### Knowledge Base and Documents
 
-In Dify, Knowledge is a collection of documents. A knowledge base can be integrated into an application as a retrieval context. Documents can be uploaded by developers or a member of operation team, or synchronized from other data sources (usually corresponding to one unit file in the data source).
+In Dify, a Knowledge Base is a collection of Documents, each of which can include multiple Chunks of content. You can integrate an entire knowledge base into an application to serve as a retrieval context, drawing from uploaded files or data synchronized from other sources.
+
+If your team already has an independent, external knowledge that is separate from the Dify platform, you can link it using the [External Knowledge Base](external-knowledge-api-documentation.md) feature. This way, you don’t need to re-upload all your content to Dify. Your AI app can directly access and process information in real time from your team’s existing knowledge.

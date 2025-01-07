@@ -16,7 +16,7 @@ Here, we use a interviewer application as an example to introduce the way to com
 
 Click the "Create Application" button on the homepage to create an application. Fill in the application name, and select **"Chatbot"**.
 
-![](https://assets-docs.dify.ai/2024/12/4b257b8437c22a582a603fee787ee372.png)
+![](https://assets-docs.dify.ai/2024/12/8012e6ed06bfb10b239a4b999b1a0787.png)
 
 #### Step 2: Compose the Application
 
