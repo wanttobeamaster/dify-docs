@@ -19,4 +19,4 @@ Dify 为所有人提供了[云服务](http://cloud.dify.ai)，你无需自己部
 * 团队版
 * 企业版
 
-各版本定价请参考：[https://dify.ai/pricing](https://dify.ai/pricing)
+点击[此处](https://dify.ai/pricing)查看各版本定价请参考。

@@ -16,21 +16,19 @@
 
 任意选择某个模板，并将其添加至工作区。
 
-<figure><img src="../../.gitbook/assets/image (220).png" alt=""><figcaption><p>Dify 应用模板</p></figcaption></figure>
-
 ### 创建一个新应用
 
 如果你需要在 Dify 上创建一个空白应用，你可以从导航选择 「工作室」 ，在应用列表内选择 「从空白创建 」。
 
-<figure><img src="../../.gitbook/assets/image (218).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/2024/12/bfee6805544a811553c5fe8d28227694.png" alt=""><figcaption></figcaption></figure>
 
-初次创建应用时，你可能需要先理解 Dify 上 4 种不同应用类型的[基本概念](./#application_type)，分别是聊天助手、文本生成应用、Agent 和工作流。
+Dify 上可以创建 4 种不同的应用类型，分别是聊天助手、文本生成应用、Agent 和工作流。
 
-创建应用时，你需要给应用起一个名字、选择合适的图标，或者上传喜爱的图片用作图标、使用简介清晰的文字来描述此应用的用途，以方便后续应用在团队内的使用。
+创建应用时，你需要给应用起一个名字、选择合适的图标，或者上传喜爱的图片用作图标、使用一段清晰的文字描述此应用的用途，以便后续应用在团队内的使用。
 
 {% embed url="https://www.motionshot.app/walkthrough/6765339bcf1efee248025520/embed?fullscreen=1&hideCopy=1&hideDownload=1&hideSteps=1" %}
 
-![](https://assets-docs.dify.ai/2024/12/572b246b74431dd550c5b61d9215dbaa.png)
+![](https://assets-docs.dify.ai/2024/12/1429eb56e0082c281f7aaeb48e72cb0f.png)
 
 ### 通过 DSL 文件创建应用
 
