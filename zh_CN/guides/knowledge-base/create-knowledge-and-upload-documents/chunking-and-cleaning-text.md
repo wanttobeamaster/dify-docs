@@ -141,7 +141,3 @@ LLM 收到用户问题后，能否精准地回答出知识库中的内容，取�
 [setting-indexing-methods.md](setting-indexing-methods.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
