@@ -83,38 +83,39 @@ For details on how to publish plugins to the Dify Marketplace, please refer to t
 [publish-to-dify-marketplace.md](publish-plugins/publish-to-dify-marketplace.md)
 {% endcontent-ref %}
 
-### **Quick Start: Installing and Using Plugins**&#x20;
+### **Quick Start**
 
-This section will demonstrate how to quickly install and use plugins, using a "Tool" type plugin as an example.
+If you want to quickly install and use the plugin, please refer to the following documentation:
 
-#### **Finding and Installing Plugins**&#x20;
+{% content-ref url="quick-start/install-and-use-plugins.md" %}
+[install-and-use-plugins.md](quick-start/install-and-use-plugins.md)
+{% endcontent-ref %}
 
-Visit the "Tools" page, where you'll see plugins installed in your current Workspace and system-recommended plugins.
+If you want to get started with plugin development, please refer to the following documentation:
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/1020522b0b598b260ae8d272935107e2.png" alt=""><figcaption><p>Dify Tool</p></figcaption></figure>
-
-You can search for plugins using tags or the search box. If you can't find a useful tool, click "Plugins" in the top right corner to go to the **Marketplace** for installation.
-
-Besides this, you can also install through two other methods:
-
-* GitHub
-* Local file upload
-
-For detailed instructions, please refer to "[Installing Plugins](quick-start/install-and-use-plugins.md)".
-
-#### **Using Plugins**&#x20;
-
-"Tool" type plugins can be used in Chatflow / Workflow / Agent application types. Some plugins may require API authorization after installation before they can be used. For detailed instructions, please refer to "[Plugins Usage](broken-reference)".
-
-### **Developing Plugins**&#x20;
-
-Please refer to "[Plugin Development](develop-plugins/)". After development, you can import and use the plugin locally.
+{% content-ref url="develop-plugins/" %}
+[develop-plugins](develop-plugins/)
+{% endcontent-ref %}
 
 ### **Publishing Plugins**&#x20;
 
 If you want to publish your plugin to the [Dify Marketplace](https://marketplace-plugin.dify.ai), please follow the guidelines to complete the plugin information and related documentation. Submit the plugin code to the [GitHub repository](https://github.com/langgenius/dify-official-plugins), and it will be listed in the plugin marketplace after review approval.
 
+{% content-ref url="publish-plugins/publish-to-dify-marketplace.md" %}
+[publish-to-dify-marketplace.md](publish-plugins/publish-to-dify-marketplace.md)
+{% endcontent-ref %}
+
 Besides publishing to official Dify channels, you can also publish to personal GitHub projects or share as file packages. For detailed instructions, please refer to "Publishing Plugins".
+
+{% content-ref url="publish-plugins/publish-to-your-personal-github-repository.md" %}
+[publish-to-your-personal-github-repository.md](publish-plugins/publish-to-your-personal-github-repository.md)
+{% endcontent-ref %}
+
+{% content-ref url="publish-plugins/package-the-plugin-file-and-publish-it.md" %}
+[package-the-plugin-file-and-publish-it.md](publish-plugins/package-the-plugin-file-and-publish-it.md)
+{% endcontent-ref %}
+
+
 
 
 
