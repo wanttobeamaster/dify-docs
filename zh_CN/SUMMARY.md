@@ -48,6 +48,7 @@
     * [迭代](guides/workflow/node/iteration.md)
     * [参数提取](guides/workflow/node/parameter-extractor.md)
     * [HTTP 请求](guides/workflow/node/http-request.md)
+    * [Agent](guides/workflow/node/agent.md)
     * [工具](guides/workflow/node/tools.md)
     * [结束](guides/workflow/node/end.md)
     * [直接回复](guides/workflow/node/answer.md)
