@@ -50,6 +50,7 @@
     * [Iteration](guides/workflow/node/iteration.md)
     * [Parameter Extraction](guides/workflow/node/parameter-extractor.md)
     * [HTTP Request](guides/workflow/node/http-request.md)
+    * [Agent](guides/workflow/node/agent.md)
     * [Tools](guides/workflow/node/tools.md)
   * [Shortcut Key](guides/workflow/shortcut-key.md)
   * [Orchestrate Node](guides/workflow/orchestrate-node.md)
