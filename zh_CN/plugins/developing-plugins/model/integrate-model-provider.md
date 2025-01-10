@@ -9,9 +9,23 @@
 
 关于如何准备插件开发的脚手架工具，详细说明请参考[初始化开发工具](../tool-initialization.md)。
 
+### 创建新项目 <a href="#chuang-jian-xin-xiang-mu" id="chuang-jian-xin-xiang-mu"></a>
+
+在脚手架命令行工具的路径下，创建一个新的 dify 插件项目。
+
+```
+./dify-plugin-darwin-arm64 plugin init
+```
+
+如果你已将该二进制文件重命名为了 `dify` 并拷贝到了 `/usr/local/bin` 路径下，可以运行以下命令创建新的插件项目：
+
+```bash
+dify plugin init
+```
+
 ### 选择模型插件模板 <a href="#xuan-ze-cha-jian-lei-xing-he-mu-ban" id="xuan-ze-cha-jian-lei-xing-he-mu-ban"></a>
 
-插件分为三种类型：工具、模型和扩展。脚手架工具内的所有模板均已提供完整的代码项目，本示例将选择 `LLM` 类型插件。
+脚手架工具内的所有模板均已提供完整的代码项目，选择 `LLM` 类型插件模板。
 
 ![Plugin type: llm](https://assets-docs.dify.ai/2024/12/8efe646e9174164b9edbf658b5934b86.png)
 

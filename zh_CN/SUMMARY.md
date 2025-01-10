@@ -158,6 +158,7 @@
     * [接入预定义模型](plugins/developing-plugins/model/jie-ru-yu-ding-yi-mo-xing.md)
     * [接入自定义模型](plugins/developing-plugins/model/jie-ru-zi-ding-yi-mo-xing.md)
     * [调试插件](plugins/developing-plugins/model/debug-plugin.md)
+  * [Agent 策略插件](plugins/developing-plugins/agent.md)
   * [Extension 插件](plugins/developing-plugins/extension.md)
   * [Bundle 插件包](plugins/developing-plugins/bundle.md)
   * [最佳实践](plugins/developing-plugins/best-practice/README.md)
