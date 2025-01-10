@@ -1,6 +1,6 @@
-# Access to Predefined Models
+# Integrate the Predefined Model
 
-Before accessing a predefined model, make sure you have created a [model provider](creating-model-providers.md). Accessing predefined models is roughly divided into the following steps:
+Before accessing a predefined model, make sure you have created a [model provider](create-model-providers.md). Accessing predefined models is roughly divided into the following steps:
 
 1.  **Create Module Structures by Model Type**&#x20;
 

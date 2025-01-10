@@ -5,13 +5,13 @@ This guide will help you quickly develop an Extension type plugin and understand
 ### **Prerequisites**
 
 * Dify plugin scaffolding tool
-* Python environment, version ≥ 3.10&#x20;
+* Python environment, version ≥ 3.12
 
 For detailed instructions on preparing the plugin development scaffolding tool, please refer to [Initializing Development Tools](initialize-development-tools.md).
 
 ### **Create New Project**&#x20;
 
-In the current path, run the scaffolding command-line tool to create a new dify plugin project:
+In the current path, run the CLI tool to create a new dify plugin project:
 
 ```bash
 ./dify-plugin-darwin-arm64 plugin init

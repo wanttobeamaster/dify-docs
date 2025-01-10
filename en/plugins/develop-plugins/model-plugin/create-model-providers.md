@@ -1,4 +1,4 @@
-# Creating Model Providers
+# Create Model Providers
 
 Creating a Model Type Plugin The first step in creating a Model type plugin is to initialize the plugin project and create the model provider file, followed by integrating specific predefined/custom models.
 
@@ -8,6 +8,20 @@ Creating a Model Type Plugin The first step in creating a Model type plugin is t
 * Python environment, version ≥ 3.12
 
 For detailed instructions on preparing the plugin development scaffolding tool, please refer to [Initializing Development Tools](../initialize-development-tools.md).
+
+### **Create New Project**&#x20;
+
+In the current path, run the CLI tool to create a new dify plugin project:
+
+```bash
+./dify-plugin-darwin-arm64 plugin init
+```
+
+If you have renamed the binary file to `dify` and copied it to the `/usr/local/bin` path, you can run the following command to create a new plugin project:
+
+```bash
+dify plugin init
+```
 
 ### **Choose Model Plugin Template**&#x20;
 
@@ -207,5 +221,5 @@ class XinferenceProvider(Provider):
 
 After initializing the model provider, the next step is to integrate specific llm models provided by the provider. For detailed instructions, please refer to:
 
-* Integrating Predefined Models
-* Integrating Custom Models
+* Develop Predefined Models
+* Develop Custom Models

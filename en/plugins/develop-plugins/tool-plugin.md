@@ -23,6 +23,20 @@ This article uses `GoogleSearch` as an example of how to quickly develop a tool 
 
 For detailed instructions on how to prepare scaffolding tools for plugin development, see [Initializing Development Tools](initialize-development-tools.md).
 
+### **Create New Project**&#x20;
+
+In the current path, run the CLI tool to create a new dify plugin project:
+
+```bash
+./dify-plugin-darwin-arm64 plugin init
+```
+
+If you have renamed the binary file to `dify` and copied it to the `/usr/local/bin` path, you can run the following command to create a new plugin project:
+
+```bash
+dify plugin init
+```
+
 ### Select plugin type and template
 
 There are three types of plugins: tools, models and extensions. All templates within Scaffolding Tools are provided with full code projects. The following part will use the Tool type plugin template as an example.
