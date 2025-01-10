@@ -41,8 +41,6 @@ dify plugin init
 
 脚手架工具内的所有模板均已提供完整的代码项目。在本文实例中，选择 `Tool` 插件。对于已熟悉插件的开发者而言，无需借助模板，可参考[接口文档](../api-documentation/)指引完成不同类型的插件开发。
 
-### 创建新项目 <a href="#chuang-jian-xin-xiang-mu" id="chuang-jian-xin-xiang-mu"></a>
-
 ![Plugins type: tool](https://assets-docs.dify.ai/2024/12/dd3c0f9a66454e15868eabced7b74fd6.png)
 
 #### 配置插件权限
