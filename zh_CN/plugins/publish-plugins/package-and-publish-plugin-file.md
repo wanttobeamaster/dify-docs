@@ -1,43 +1,45 @@
-# 打包插件文件并发布
+# 本地发布与分享
 
-完成插件开发后，你可以将插件项目打包为一个本地文件并分享给他人。获取插件文件后即可安装至 Dify Workspace 内。本文将为你介绍如何将插件项目打包为本地文件，以及如何通过本地文件安装插件。
+完成插件开发后，你可以将插件项目打包为一个本地文件并分享给他人，通过插件文件后即可安装至 Dify Workspace 内。
+
+* **特点**：
+  * 便于**版本管理**和**开源共享**。
+  * 用户可通过插件链接直接安装，无需平台审核。
+* **发布流程**：
+  * 将插件代码推送至 GitHub 仓库。
+  * 分享仓库链接，用户可通过链接将插件集成至 **Dify Workspace**。
+
+本文将介绍如何将插件项目打包为本地文件，以及如何使用本地文件安装插件。
 
 ### 前置准备
 
-打包插件需要使用 Dify 插件开发脚手架工具，你可以前往 [Github 项目地址](https://github.com/langgenius/dify-plugin-daemon/releases)，选择并下载适用于你的操作系统版本。&#x20;
+* **Dify 插件开发工具**，详细说明请参考[初始化开发工具](../quick-start/developing-plugins/tool-initialization.md)。
 
-本文**以装载 M 系列芯片的 macOS** 为例，下载 `dify-plugin-darwin-arm64` 文件，然后在终端输入前往该文件的所在路径的命令，并给予其执行权限。
-
-```bash
-chmod +x dify-plugin-darwin-arm64
-```
-
-为了便于全局使用该脚手架工具，建议将该二进制文件重命名为 `dify` 并拷贝至 `/usr/local/bin` 系统路径内。
-
-配置完成后，在终端输入 `dify -v` 命令查看是否能够输出版本号信息。
+配置完成后，在终端输入 `dify -v` 命令，检查是否输出版本号信息以确认已安装必要的开发工具。
 
 ### 打包插件
 
-插件项目开发完成后，请确保已完成[远程连接测试](../developing-plugins/extension.md#tiao-shi-cha-jian)。打包插件时需前往插件项目的上一级目录，然后运行以下插件打包命令：
+> 打包插件前，请确保插件的 `manifest.yaml` 文件中的 author 字段与 GitHub id 保持一致。
+
+插件项目开发完成后，请确保已完成[远程连接测试](../quick-start/developing-plugins/extension.md#tiao-shi-cha-jian)。需前往插件项目的上一级目录，运行以下插件打包命令：
 
 ```bash
-cd ../
 dify plugin package ./your_plugin_project
 ```
 
-运行命令后，将在当前路径下生成以 `.difypkg` 后缀结尾的文件。
+运行命令后将在当前路径下生成以 `.difypkg` 后缀结尾的文件。
 
-![](https://assets-docs.dify.ai/2024/12/98e09c04273eace8fe6e5ac976443cca.png)
+![生成插件文件](https://assets-docs.dify.ai/2024/12/98e09c04273eace8fe6e5ac976443cca.png)
 
 ### 安装插件
 
 访问 Dify 插件管理页，轻点右上角的**安装插件** → **通过本地文件**安装，或将插件文件拖拽至页面空白处安装插件。
 
-![](https://assets-docs.dify.ai/2024/12/8c31c4025a070f23455799f942b91a57.png)
+![安装插件文件](https://assets-docs.dify.ai/2024/12/8c31c4025a070f23455799f942b91a57.png)
 
 ### 发布插件
 
-你可以将该插件文件分享给他人，或上传至互联网供他人下载。
+你可以将插件文件分享给他人，或上传至互联网供他人下载。
 
 
 

@@ -12,9 +12,7 @@ description: 'Author: Allen'
 
 #### Marketplace
 
-Dify Marketplace 是一个面向开发者的开放生态系统，提供模型、工具、代理策略、扩展模块和解决方案包等丰富的资源，帮助开发者快速扩展 Dify 平台的功能。
-
-选择任意插件，点击“安装”按钮即可轻松将插件安装至当前 Workspace 内。
+你可以选择任意插件，点击“安装”按钮即可轻松将插件安装至当前 Workspace 内。
 
 ![通过 Marketplace 安装插件](https://assets-docs.dify.ai/2025/01/6ae8b661b7fa01b228a954d00ef552f3.png)
 
@@ -84,7 +82,7 @@ Chatflow 和 Workflow 类型应用共用一套工作流编排画布，因此使�
 
 如需了解如何上手插件开发，请阅读以下内容：
 
-{% content-ref url="../developing-plugins/" %}
-[developing-plugins](../developing-plugins/)
+{% content-ref url="developing-plugins/" %}
+[developing-plugins](developing-plugins/)
 {% endcontent-ref %}
 

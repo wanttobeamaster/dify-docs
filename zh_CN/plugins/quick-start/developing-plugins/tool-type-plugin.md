@@ -39,7 +39,7 @@ dify plugin init
 
 ### 选择插件类型和模板
 
-脚手架工具内的所有模板均已提供完整的代码项目。在本文实例中，选择 `Tool` 插件。对于已熟悉插件的开发者而言，无需借助模板，可参考[接口文档](../api-documentation/)指引完成不同类型的插件开发。
+脚手架工具内的所有模板均已提供完整的代码项目。在本文实例中，选择 `Tool` 插件。对于已熟悉插件的开发者而言，无需借助模板，可参考[接口文档](../../api-documentation/)指引完成不同类型的插件开发。
 
 ![Plugins type: tool](https://assets-docs.dify.ai/2024/12/dd3c0f9a66454e15868eabced7b74fd6.png)
 
@@ -158,7 +158,7 @@ extra:
     source: google.py
 ```
 
-* 其中 `credentials_for_provider` 的子级结构需要满足 [ProviderConfig](../api-documentation/tong-yong-gui-fan-ding-yi.md#providerconfig) 的规范。
+* 其中 `credentials_for_provider` 的子级结构需要满足 [ProviderConfig](../../api-documentation/tong-yong-gui-fan-ding-yi.md#providerconfig) 的规范。
 * 需要指定该供应商包含了哪些工具。本示例仅包含了一个 `tools/google_search.yaml` 文件。
 * 作为供应商，除了定义其基础信息外，还需要实现一些它的代码逻辑，因此需要指定其实现逻辑，在本例子中，将功能的代码文件放在了 `google.py` 中，但是暂时不实现它，而是先编写 `google_search` 的代码。
 
@@ -271,7 +271,7 @@ class GoogleSearchTool(Tool):
         yield self.create_json_message(valuable_res)
 ```
 
-在该例子中，我们很简单地请求了 `serpapi`，并使用 `self.create_json_message` 返回一串 `json` 的格式化数据，如果想了解更多的返回数据类型，可以参考[工具接口文档](../api-documentation/tool.md)。
+在该例子中，我们很简单地请求了 `serpapi`，并使用 `self.create_json_message` 返回一串 `json` 的格式化数据，如果想了解更多的返回数据类型，可以参考[工具接口文档](../../api-documentation/tool.md)。
 
 #### 4. 完成工具供应商代码
 
@@ -342,12 +342,12 @@ dify plugin package ./google
 
 **插件接口文档：**
 
-* [Manifest](../api-documentation/manifest.md) 结构
-* [Endpoint](../api-documentation/endpoint.md) 详细定义
-* [反向调用 Dify 能力](../api-documentation/fan-xiang-diao-yong-dify-fu-wu/)
-* [工具](../api-documentation/tool.md)
-* [模型](../api-documentation/model/)
-* [扩展 Agent 策略](../api-documentation/agent.md)
+* [Manifest](../../api-documentation/manifest.md) 结构
+* [Endpoint](../../api-documentation/endpoint.md) 详细定义
+* [反向调用 Dify 能力](../../api-documentation/fan-xiang-diao-yong-dify-fu-wu/)
+* [工具](../../api-documentation/tool.md)
+* [模型](../../api-documentation/model/)
+* [扩展 Agent 策略](../../api-documentation/agent.md)
 
 
 

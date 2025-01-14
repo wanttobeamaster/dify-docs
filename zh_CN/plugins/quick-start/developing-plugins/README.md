@@ -39,27 +39,27 @@ Extension 插件允许开发者将业务代码封装为插件，并自动提供 
 
 如果你想阅读插件项目的详细接口文档，请阅读以下标准规范文档：
 
-1. [通用结构标准定义](../api-documentation/tong-yong-gui-fan-ding-yi.md)
-2. [Manifest 标准定义](../api-documentation/manifest.md)
-3. [工具接入标准定义](../api-documentation/tool.md)
-4. [模型接入简介](../api-documentation/model/)
-5. [Endpoint 标准定义](../api-documentation/endpoint.md)
-6. [扩展 Agent 策略](../api-documentation/agent.md)
+1. [通用结构标准定义](../../api-documentation/tong-yong-gui-fan-ding-yi.md)
+2. [Manifest 标准定义](../../api-documentation/manifest.md)
+3. [工具接入标准定义](../../api-documentation/tool.md)
+4. [模型接入简介](../../api-documentation/model/)
+5. [Endpoint 标准定义](../../api-documentation/endpoint.md)
+6. [扩展 Agent 策略](../../api-documentation/agent.md)
 7. 反向调用 Dify 平台能力
-   1. 反向调用 [app.md](../api-documentation/fan-xiang-diao-yong-dify-fu-wu/app.md "mention")
-   2. 反向调用 [model.md](../api-documentation/fan-xiang-diao-yong-dify-fu-wu/model.md "mention")
-   3. 反向调用节点 [node.md](../api-documentation/fan-xiang-diao-yong-dify-fu-wu/node.md "mention")
-   4. 反向调用工具 [tool.md](../api-documentation/fan-xiang-diao-yong-dify-fu-wu/tool.md "mention")
-8. [插件持久化存储能力](../api-documentation/chi-jiu-hua-cun-chu.md)
+   1. 反向调用 [app.md](../../api-documentation/fan-xiang-diao-yong-dify-fu-wu/app.md "mention")
+   2. 反向调用 [model.md](../../api-documentation/fan-xiang-diao-yong-dify-fu-wu/model.md "mention")
+   3. 反向调用节点 [node.md](../../api-documentation/fan-xiang-diao-yong-dify-fu-wu/node.md "mention")
+   4. 反向调用工具 [tool.md](../../api-documentation/fan-xiang-diao-yong-dify-fu-wu/tool.md "mention")
+8. [插件持久化存储能力](../../api-documentation/chi-jiu-hua-cun-chu.md)
 
 ### 贡献指南
 
 想为 Dify Plugin 提供代码和功能，或者为官方插件贡献力量？我们为你准备了详细的开发与贡献指南，帮助你轻松了解插件的开发流程和贡献步骤：
 
-*   [Marketplace 发布指南](../publish-plugins/publish-plugin-to-dify-marketplace.md)
+*   [Marketplace 发布指南](../../publish-plugins/publish-plugin-to-dify-marketplace.md)
 
     了解如何将你的插件提交到 Dify Marketplace，向更多开发者分享你的成果。
-*   [GitHub 发布指南](../publish-plugins/publish-plugin-on-personal-github-repo.md)
+*   [GitHub 发布指南](../../publish-plugins/publish-plugin-on-personal-github-repo.md)
 
     学习如何在 GitHub 上发布和管理插件，确保插件的持续优化和社区协作。
 

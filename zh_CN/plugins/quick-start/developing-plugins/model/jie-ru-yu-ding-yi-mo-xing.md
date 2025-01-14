@@ -10,7 +10,7 @@
     在对应的模型类型模块下，创建一个与模型类型同名的 Python 文件（例如 llm.py）。在文件中定义实现具体模型逻辑的类，该类应符合系统的模型接口规范。
 3.  **添加预定义模型配置**
 
-    如果供应商提供了预定义模型，为每个模型创建与模型名称同名的 `YAML` 文件（例如 `claude-3.5.yaml`）。按照 [AIModelEntity](../../api-documentation/model/model-designing-specification.md#aimodelentity) 的规范编写文件内容，描述模型的参数和功能。
+    如果供应商提供了预定义模型，为每个模型创建与模型名称同名的 `YAML` 文件（例如 `claude-3.5.yaml`）。按照 [AIModelEntity](../../../api-documentation/model/model-designing-specification.md#aimodelentity) 的规范编写文件内容，描述模型的参数和功能。
 4.  **测试插件**
 
     为新增的供应商功能编写单元测试和集成测试，确保所有功能模块符合预期，并能够正常运行。
@@ -81,7 +81,7 @@
 │       └── tts.py
 ```
 
-建议将所有模型配置都准备完毕后再开始模型代码的实现，完整的 YAML 规则请参考[模型设计规则](../../api-documentation/model/model-designing-specification.md)。如需查看更多代码详情，请参考示例 [Github 代码仓库](https://github.com/langgenius/dify-official-plugins/tree/main/models)。
+建议将所有模型配置都准备完毕后再开始模型代码的实现，完整的 YAML 规则请参考[模型设计规则](../../../api-documentation/model/model-designing-specification.md)。如需查看更多代码详情，请参考示例 [Github 代码仓库](https://github.com/langgenius/dify-official-plugins/tree/main/models)。
 
 ### 2. **编写模型调用代码**
 
@@ -182,7 +182,7 @@ def _invoke_error_mapping(self) -> dict[type[InvokeError], list[type[Exception]]
 
 ### **3. 添加预定义模型配置**
 
-如果供应商提供了预定义模型，为每个模型创建与模型名称同名的 `YAML` 文件（例`如 claude-3.5.yaml`）。按照 [AIModelEntity](../../api-documentation/model/model-designing-specification.md#aimodelentity) 的规范编写文件内容，描述模型的参数和功能。
+如果供应商提供了预定义模型，为每个模型创建与模型名称同名的 `YAML` 文件（例`如 claude-3.5.yaml`）。按照 [AIModelEntity](../../../api-documentation/model/model-designing-specification.md#aimodelentity) 的规范编写文件内容，描述模型的参数和功能。
 
 `claude-3-5-sonnet-20240620` 模型示例代码：
 
@@ -268,11 +268,11 @@ REMOTE_INSTALL_KEY=****-****-****-****-****
 
 **插件接口文档：**
 
-* [Manifest](../../api-documentation/manifest.md) 结构
-* [Endpoint](../../api-documentation/endpoint.md) 详细定义
-* [反向调用 Dify 能力](../../api-documentation/fan-xiang-diao-yong-dify-fu-wu/)
-* [工具](../../api-documentation/tool.md)
-* [模型](../../api-documentation/model/)
+* [Manifest](../../../api-documentation/manifest.md) 结构
+* [Endpoint](../../../api-documentation/endpoint.md) 详细定义
+* [反向调用 Dify 能力](../../../api-documentation/fan-xiang-diao-yong-dify-fu-wu/)
+* [工具](../../../api-documentation/tool.md)
+* [模型](../../../api-documentation/model/)
 
 
 

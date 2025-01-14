@@ -302,7 +302,7 @@ def _invoke_error_mapping(self) -> dict[type[InvokeError], list[type[Exception]]
     """
 ```
 
-如需了解更多接口方法，请参考[接口文档：Model](../../api-documentation/model/)。
+如需了解更多接口方法，请参考[接口文档：Model](../../../api-documentation/model/)。
 
 如需获取本文所涉及的完整代码文件，请访问 [GitHub 代码仓库](https://github.com/langgenius/dify-official-plugins/tree/main/models/xinference)。
 
@@ -318,8 +318,8 @@ def _invoke_error_mapping(self) -> dict[type[InvokeError], list[type[Exception]]
 
 如果想要将插件发布至 Dify Marketplace，请参考以下内容：
 
-{% content-ref url="../../publish-plugins/publish-plugin-to-dify-marketplace.md" %}
-[publish-plugin-to-dify-marketplace.md](../../publish-plugins/publish-plugin-to-dify-marketplace.md)
+{% content-ref url="../../../publish-plugins/publish-plugin-to-dify-marketplace.md" %}
+[publish-plugin-to-dify-marketplace.md](../../../publish-plugins/publish-plugin-to-dify-marketplace.md)
 {% endcontent-ref %}
 
 ### **探索更多**
@@ -332,8 +332,8 @@ def _invoke_error_mapping(self) -> dict[type[InvokeError], list[type[Exception]]
 
 **插件接口文档：**
 
-* [Manifest](../../api-documentation/manifest.md) 结构
-* [Endpoint](../../api-documentation/endpoint.md) 详细定义
-* [反向调用 Dify 能力](../../api-documentation/fan-xiang-diao-yong-dify-fu-wu/)
-* [工具](../../api-documentation/tool.md)
-* [模型](../../api-documentation/model/)
+* [Manifest](../../../api-documentation/manifest.md) 结构
+* [Endpoint](../../../api-documentation/endpoint.md) 详细定义
+* [反向调用 Dify 能力](../../../api-documentation/fan-xiang-diao-yong-dify-fu-wu/)
+* [工具](../../../api-documentation/tool.md)
+* [模型](../../../api-documentation/model/)

@@ -167,7 +167,7 @@ model_credential_schema:
       en_US: Enter your API Base
 ```
 
-如需查看更多完整的模型供应商 YAML 规范，详情请参考[模型接口文档](../../api-documentation/model/mo-xing-jie-kou.md)。
+如需查看更多完整的模型供应商 YAML 规范，详情请参考[模型接口文档](../../../api-documentation/model/mo-xing-jie-kou.md)。
 
 2. **编写模型供应商代码**
 
@@ -240,5 +240,5 @@ class XinferenceProvider(Provider):
 
 初始化模型供应商后，接下来需要接入供应商所提供的具体 llm 模型。详细说明请参考以下内容：
 
-* [接入预定义模型](../../../guides/model-configuration/predefined-model.md)
-* [接入自定义模型](../../../guides/model-configuration/customizable-model.md)\
+* [接入预定义模型](../../../../guides/model-configuration/predefined-model.md)
+* [接入自定义模型](../../../../guides/model-configuration/customizable-model.md)\

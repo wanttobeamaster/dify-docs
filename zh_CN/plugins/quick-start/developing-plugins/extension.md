@@ -37,7 +37,7 @@ dify plugin init
 
 ### 3. 选择插件类型并初始化项目模板
 
-脚手架工具内的所有模板均已提供完整的代码项目。出于演示说明，本文将以 `Extension` 类型插件模板作为示例。对于已熟悉插件的开发者而言，无需借助模板，可参考[接口文档](../api-documentation/)指引完成不同类型的插件开发。
+脚手架工具内的所有模板均已提供完整的代码项目。出于演示说明，本文将以 `Extension` 类型插件模板作为示例。对于已熟悉插件的开发者而言，无需借助模板，可参考[接口文档](../../api-documentation/)指引完成不同类型的插件开发。
 
 ![Extension](https://assets-docs.dify.ai/2024/11/ff08f77b928494e10197b456fc4e2d5b.png)
 
@@ -260,16 +260,16 @@ dify-plugin package ./neko
 
 **插件接口文档：**
 
-* [Manifest](../api-documentation/manifest.md) 结构
-* [Endpoint](../api-documentation/endpoint.md) 详细定义
-* [反向调用 Dify 能力](../api-documentation/fan-xiang-diao-yong-dify-fu-wu/)
-* [工具](../api-documentation/tool.md)
-* [模型](../api-documentation/model/)
-* [扩展 Agent 策略](../api-documentation/agent.md)
+* [Manifest](../../api-documentation/manifest.md) 结构
+* [Endpoint](../../api-documentation/endpoint.md) 详细定义
+* [反向调用 Dify 能力](../../api-documentation/fan-xiang-diao-yong-dify-fu-wu/)
+* [工具](../../api-documentation/tool.md)
+* [模型](../../api-documentation/model/)
+* [扩展 Agent 策略](../../api-documentation/agent.md)
 
 **最佳实践：**
 
-[开发 Telegram Bot 插件](best-practice/kai-fa-yi-ge-neng-gou-dui-jie-telegram-bot-de-cha-jian.md)
+[开发 Telegram Bot 插件](best-practice/kai-fa-slack-bot-cha-jian.md)
 
 
 
