@@ -51,8 +51,8 @@ chmod +x dify-plugin-darwin-arm64
 [model](model/)
 {% endcontent-ref %}
 
-{% content-ref url="agent.md" %}
-[agent.md](agent.md)
+{% content-ref url="agent-strategy.md" %}
+[agent-strategy.md](agent-strategy.md)
 {% endcontent-ref %}
 
 {% content-ref url="extension.md" %}

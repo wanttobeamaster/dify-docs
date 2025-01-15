@@ -269,7 +269,7 @@ dify-plugin package ./neko
 
 **最佳实践：**
 
-[开发 Telegram Bot 插件](best-practice/kai-fa-slack-bot-cha-jian.md)
+[开发 Telegram Bot 插件](best-practice/develop-slack-bot.md)
 
 
 
