@@ -300,7 +300,7 @@ dify plugin package ./slack_bot
 
 ### 5. 发布插件（可选）
 
-现在可以将它上传至 [Dify Marketplace 仓库](https://github.com/langgenius/dify-plugins) 来发布你的插件了！不过在发布前，请确保你的插件遵循了[插件发布规范](https://langgenius.feishu.cn/wiki/OuRdwGwGwiIOdPkJqTncH5e2nNb)。
+现在可以将它上传至 [Dify Marketplace 仓库](https://github.com/langgenius/dify-plugins) 来发布你的插件了！不过在发布前，请确保你的插件遵循了[插件发布规范](https://docs.dify.ai/zh-hans/plugins/publish-plugins/publish-plugin-to-dify-marketplace)。
 
 ### 参考阅读
 

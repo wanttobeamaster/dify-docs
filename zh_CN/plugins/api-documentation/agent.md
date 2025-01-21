@@ -16,7 +16,7 @@ plugins:
     - "provider/agent.yaml"
 ```
 
-此处已省去 `manifest` 文件内部分无关的字段。如需了解 Manifest 的详细格式，请参考 [Manifest](https://langgenius.feishu.cn/wiki/T0jqwX5Psi28F8k6ZoocBa5Yneh) 文档。
+此处已省去 `manifest` 文件内部分无关的字段。如需了解 Manifest 的详细格式，请参考 [Manifest](https://docs.dify.ai/zh-hans/plugins/api-documentation/manifest) 文档。
 
 ### 定义 Agent 供应商
 

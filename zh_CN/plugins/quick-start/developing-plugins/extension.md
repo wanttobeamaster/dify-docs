@@ -248,7 +248,7 @@ dify-plugin package ./neko
 
 ### 发布插件
 
-现在可以将它上传至 [Dify Plugins 代码仓库](https://github.com/langgenius/dify-plugins) 来发布你的插件了！上传前，请确保你的插件遵循了[插件发布规范](https://langgenius.feishu.cn/wiki/OuRdwGwGwiIOdPkJqTncH5e2nNb)。审核通过后，代码将合并至主分支并自动上线至 [Dify Marketplace](https://marketplace-plugin.dify.ai)。
+现在可以将它上传至 [Dify Plugins 代码仓库](https://github.com/langgenius/dify-plugins) 来发布你的插件了！上传前，请确保你的插件遵循了[插件发布规范](https://docs.dify.ai/zh-hans/plugins/publish-plugins/publish-plugin-to-dify-marketplace)。审核通过后，代码将合并至主分支并自动上线至 [Dify Marketplace](https://marketplace-plugin.dify.ai)。
 
 ### 探索更多
 
