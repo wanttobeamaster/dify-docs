@@ -239,7 +239,7 @@ Dify provides remote debugging method, go to "Plugin Management" page to get the
 
 ### Publishing Plugins
 
-You can now publish your plugin by uploading it to the [Dify Plugins code repository](https://github.com/langgenius/dify-plugins)! Before uploading, make sure your plugin follows the [plugin release guide](../../publish-plugins/publish-to-dify-marketplace.md). Once approved, the code will be merged into the master branch and automatically live in the [Dify Marketplace](https://marketplace-plugin.dify.ai/).
+You can now publish your plugin by uploading it to the [Dify Plugins code repository](https://github.com/langgenius/dify-plugins)! Before uploading, make sure your plugin follows the [plugin release guide](../../publish-plugins/publish-to-dify-marketplace.md). Once approved, the code will be merged into the master branch and automatically live in the [Dify Marketplace](https://marketplace.dify.ai/).
 
 #### Exploring More
 

@@ -16,7 +16,7 @@ description: 'Author: Yeuoly, Allen'
 
 新的插件系统突破了原有框架的限制，提供了更丰富和强大的扩展能力。提供四种类型插件，每一种类型对应成熟的场景解决方案，赋予开发者用无限的创意改造 Dify 应用的空间。
 
-同时，插件系统还具备更加友好的传播属性，你可以通过 [Dify Marketplace](https://marketplace-plugin.dify.ai/) 或 [GitHub](publish-plugins/publish-plugin-on-personal-github-repo.md) 以及[本地文件](publish-plugins/package-and-publish-plugin-file.md)的形式分享你的插件；其他开发者能够便捷地安装插件。
+同时，插件系统还具备更加友好的传播属性，你可以通过 [Dify Marketplace](https://marketplace.dify.ai/) 或 [GitHub](publish-plugins/publish-plugin-on-personal-github-repo.md) 以及[本地文件](publish-plugins/package-and-publish-plugin-file.md)的形式分享你的插件；其他开发者能够便捷地安装插件。
 
 > Dify Marketplace 是一个面向开发者的开放生态系统，提供模型、工具、AI Agent、Extensions 和插件包等丰富的资源。通过 Marketplace，你可以为现有 Dify 应用无缝接入第三方服务，增强现有应用的能力，共同推动 Dify 生态的发展。
 
@@ -82,7 +82,7 @@ description: 'Author: Yeuoly, Allen'
 
 *   **更加自由地自定义 API 接口 (Endpoint 扩展)**
 
-    除了 Dify 应用内原有的 API（例如 Chatbot 应用 API，Workflow 应用 API 等），插件系统新增了自定义 API 的能力。开发者可以根据业务需求，将业务代码封装为插件并托管至 [Dify Marketplace](https://marketplace-plugin.dify.ai/)，并自动提供 Endpoint，实现数据处理、请求响应等自定义逻辑。
+    除了 Dify 应用内原有的 API（例如 Chatbot 应用 API，Workflow 应用 API 等），插件系统新增了自定义 API 的能力。开发者可以根据业务需求，将业务代码封装为插件并托管至 [Dify Marketplace](https://marketplace.dify.ai/)，并自动提供 Endpoint，实现数据处理、请求响应等自定义逻辑。
 
 ### 阅读更多
 
@@ -102,7 +102,7 @@ description: 'Author: Yeuoly, Allen'
 
 **发布插件**
 
-如果想要将插件发布至 [Dify Marketplace](https://marketplace-plugin.dify.ai)，请根据指引填写完整插件信息和相关使用文档。将插件代码投稿至 [GitHub 仓库](https://github.com/langgenius/dify-official-plugins)，审核通过后将在插件市场中上线。
+如果想要将插件发布至 [Dify Marketplace](https://marketplace.dify.ai/)，请根据指引填写完整插件信息和相关使用文档。将插件代码投稿至 [GitHub 仓库](https://github.com/langgenius/dify-official-plugins)，审核通过后将在插件市场中上线。
 
 {% content-ref url="publish-plugins/publish-plugin-to-dify-marketplace.md" %}
 [publish-plugin-to-dify-marketplace.md](publish-plugins/publish-plugin-to-dify-marketplace.md)

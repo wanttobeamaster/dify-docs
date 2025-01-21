@@ -213,8 +213,9 @@
     * [Retrieval Modes](learn-more/extended-reading/retrieval-augment/retrieval.md)
   * [How to Use JSON Schema Output in Dify?](learn-more/extended-reading/how-to-use-json-schema-in-dify.md)
 * [FAQ](learn-more/faq/README.md)
-  * [Self-Host Related](learn-more/faq/install-faq.md)
+  * [Self-Host](learn-more/faq/install-faq.md)
   * [LLM Configuration and Usage](learn-more/faq/use-llms-faq.md)
+  * [Plugins](learn-more/faq/faq.md)
 
 ## Policies
 

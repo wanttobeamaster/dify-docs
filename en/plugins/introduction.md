@@ -99,7 +99,7 @@ If you want to get started with plugin development, please refer to the followin
 
 ### **Publishing Plugins**&#x20;
 
-If you want to publish your plugin to the [Dify Marketplace](https://marketplace-plugin.dify.ai), please follow the guidelines to complete the plugin information and related documentation. Submit the plugin code to the [GitHub repository](https://github.com/langgenius/dify-official-plugins), and it will be listed in the plugin marketplace after review approval.
+If you want to publish your plugin to the [Dify Marketplace](https://marketplace.dify.ai/), please follow the guidelines to complete the plugin information and related documentation. Submit the plugin code to the [GitHub repository](https://github.com/langgenius/dify-official-plugins), and it will be listed in the plugin marketplace after review approval.
 
 {% content-ref url="publish-plugins/publish-to-dify-marketplace.md" %}
 [publish-to-dify-marketplace.md](publish-plugins/publish-to-dify-marketplace.md)

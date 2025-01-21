@@ -536,25 +536,25 @@ curl --location --request POST 'https://api.dify.ai/v1/datasets/{dataset_id}/doc
 #### 检索知识库
 
 ```bash
-curl --location --request GET 'https://api.dify.ai/v1/datasets/{dataset_id}/retrieve' \
+curl --location --request POST 'https://api.dify.ai/v1/datasets/{dataset_id}/retrieve' \
 --header 'Authorization: Bearer {api_key}'\
 --header 'Content-Type: application/json'\
 --data-raw '{
-        "query": "test",
-        "retrieval_model": {
-            "search_method": "keyword_search",
-            "reranking_enable": false,
-            "reranking_mode": null,
-            "reranking_model": {
-                "reranking_provider_name": "",
-                "reranking_model_name": ""
-            },
-            "weights": null,
-            "top_k": 1,
-            "score_threshold_enabled": false,
-            "score_threshold": null
-        }
-    }'
+    "query": "test",
+    "retrieval_model": {
+        "search_method": "keyword_search",
+        "reranking_enable": false,
+        "reranking_mode": null,
+        "reranking_model": {
+            "reranking_provider_name": "",
+            "reranking_model_name": ""
+        },
+        "weights": null,
+        "top_k": 1,
+        "score_threshold_enabled": false,
+        "score_threshold": null
+    }
+}'
 ```
 
 ```bash

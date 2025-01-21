@@ -180,6 +180,7 @@
 * [FAQ](learn-more/faq/README.md)
   * [ローカルデプロイに関するFAQ](learn-more/faq/install-faq.md)
   * [LLM設定と使用に関するFAQ](learn-more/faq/llms-use-faq.md)
+  * [プラグイン](learn-more/faq/plugins.md)
 
 ## ポリシー <a href="#policies" id="policies"></a>
 

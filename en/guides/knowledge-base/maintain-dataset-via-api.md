@@ -578,7 +578,7 @@ Response example:
 Request example:
 
 ```bash
-curl --location --request GET 'https://api.dify.ai/v1/datasets/{dataset_id}/retrieve' \
+curl --location --request POST 'https://api.dify.ai/v1/datasets/{dataset_id}/retrieve' \
 --header 'Authorization: Bearer {api_key}'\
 --header 'Content-Type: application/json'\
 --data-raw '{
