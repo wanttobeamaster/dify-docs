@@ -223,3 +223,7 @@
 * [User Agreement](policies/agreement/README.md)
   * [Terms of Service](https://dify.ai/terms)
   * [Privacy Policy](https://dify.ai/privacy)
+
+## Features
+
+* [Workflow](features/workflow.md)
