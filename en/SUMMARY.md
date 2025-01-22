@@ -215,7 +215,7 @@
 * [FAQ](learn-more/faq/README.md)
   * [Self-Host](learn-more/faq/install-faq.md)
   * [LLM Configuration and Usage](learn-more/faq/use-llms-faq.md)
-  * [Plugins](learn-more/faq/faq.md)
+  * [Plugins](learn-more/faq/plugins.md)
 
 ## Policies
 

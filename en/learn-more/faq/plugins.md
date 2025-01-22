@@ -1,15 +1,13 @@
 # Plugins
 
-> The following issue and solution are available for version `1.0.0` Community Edition.
+> The following issue and solution apply to version `1.0.0` **Community Edition**.
 
-### How to Handle Errors When Installing Plugins?
+#### How to Handle Errors When Installing Plugins?
 
-**Issue**: When you see an error message: `plugin verification has been enabled, and the plugin you want to install has a bad signature`, how to handle the issue?
+**Issue**: If you encounter the error message: `plugin verification has been enabled, and the plugin you want to install has a bad signature`, how to handle the issue?
 
 **Solution**: Add the following line to the end of your `.env` configuration file: `FORCE_VERIFYING_SIGNATURE=false`
 
-After adding this field, the Dify platform will permit installation of all plugins not listed (and thus not verified) in the Dify Marketplace. 
+Once this field is added, the Dify platform will allow the installation of all plugins that are not listed (and thus not verified) in the Dify Marketplace.
 
-For security reasons, please install unknown source plugins in a test or sandbox environment first and confirm their safety before deploying to the production environment.
-
-
+**Note**: For security reasons, always install plugins from unknown sources in a test or sandbox environment first. Confirm their safety before deploying to the production environment.
