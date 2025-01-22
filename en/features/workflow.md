@@ -4,4 +4,4 @@
 
 You can now find the updated page here: [Workflow](https://docs.dify.ai/guides/workflow).
 
-> Please update your bookmarks to the new page.
+> Please update your bookmark to the new page.
