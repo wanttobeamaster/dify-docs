@@ -14,7 +14,7 @@ description: 'Author: Yeuoly, Allen'
 
 ### 插件有哪些优势？
 
-新的插件系统突破了原有框架的限制，提供了更丰富和强大的扩展能力。提供四种类型插件，每一种类型对应成熟的场景解决方案，赋予开发者用无限的创意改造 Dify 应用的空间。
+新的插件系统突破了原有框架的限制，提供了更丰富和强大的扩展能力。提供五种类型插件，每一种类型对应成熟的场景解决方案，赋予开发者用无限的创意改造 Dify 应用的空间。
 
 同时，插件系统还具备更加友好的传播属性，你可以通过 [Dify Marketplace](https://marketplace.dify.ai/) 或 [GitHub](publish-plugins/publish-plugin-on-personal-github-repo.md) 以及[本地文件](publish-plugins/package-and-publish-plugin-file.md)的形式分享你的插件；其他开发者能够便捷地安装插件。
 
@@ -28,7 +28,8 @@ description: 'Author: Yeuoly, Allen'
 
 *   **Models（模型）**
 
-    各类 AI 模型的接入插件，包含主流模型服务商和自定义模型，支持配置和调用。专注于请求 LLM API 服务。关于模型插件的开发详情，请参考[快速开始： Model 类型插件](quick-start/develop-plugins/model/)。
+    各类 AI 模型的接入插件，包含主流模型服务商和自定义模型，支持配置和调用。专注于请求 LLM API 服务。关于模型插件的开发详情，请参考[快速开始： Model 类型插件](quick-start/develop-plugins/model-plugin/)。
+
 *   **Tools（工具）**
 
     能够被 Chatflow / Workflow / Agent 应用类型所使用的外部工具，提供完整的工具集和 API 实现能力。不仅可以调用各类工具，还能构建自定义端点。

@@ -14,7 +14,7 @@ chmod +x dify-plugin-darwin-arm64
 
 For global use of the scaffolding tool, it's recommended to rename the binary file to `dify` and copy it to the `/usr/local/bin` system path.
 
-After configuration, enter the `dify -v` command in terminal to verify version number output.
+After configuration, enter the `dify version` command in terminal to verify version number output.
 
 ### **Packaging Plugins**
 

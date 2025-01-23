@@ -1,121 +1,96 @@
 # Introduction
 
-### **Introduction to Plugins**
+> To access the plugin’s functionality in the Community Edition, please update the version to v1.0.0.
 
-Third-party models and tools are vital components that help developers enhance their applications. Although the Dify platform includes multiple tools developed and maintained by Dify teams and community contributors, these existing tools in their current form struggle to comprehensively address the diverse needs of various specialized scenarios. Additionally, developing new tools and integrating them into the Dify platform requires a lengthy process.
+## **What is the Plugin?**
 
-A better approach is to cultivate an open ecosystem, enabling every developer to easily create their own tools.
+Plugin is a more developer-friendly and highly extensible third-party service extension module. While the Dify platform already includes numerous tools maintained by the Dify team and community contributors, the existing tools may not fully meet the demands of various niche scenarios. Additionally, developing and integrating new tools into the Dify platform often requires a lengthy process.
 
-Introducing the all-new Plugins—a more developer-friendly and highly extensible third-party service extension module. The new plugin system breaks free from the limitations of the original framework, offering richer and more powerful extension capabilities. It provides four types of plugins, each tailored to mature scenario-based solutions, giving developers endless creative opportunities to transform Dify applications.
+We have embraced an open ecosystem to address this issue, enabling every developer to easily create their own tools. By leveraging third-party **models and tools**, developers can significantly enhance the capabilities of their applications.
 
-Moreover, the plugin system features more user-friendly distribution options. You can share your plugins through the [Dify Marketplace](publish-plugins/publish-to-dify-marketplace.md), [GitHub](publish-plugins/publish-plugin-on-personal-github-repo.md), or as [local files](publish-plugins/package-and-publish-plugin-file.md), allowing other developers to conveniently install them.
+## What is the Advantage of Plugin?
 
-Whether you want to integrate new models or add specific tools to expand the existing functionalities of the Dify platform, you can find the necessary resources in the extensive plugin marketplace. **We hope more developers will join in building the Dify ecosystem and reap its benefits.**
+The new plugin system goes beyond the limitations of the previous framework, offering richer and more powerful extension capabilities. It supports five distinct plugin types, each designed to solve well-defined scenarios, giving developers limitless freedom to customize and enhance Dify applications.
 
-> To experience the plugin's functionality in the Community Edition, please upgrade the version number to v1.0.0.
+Additionally, the plugin system is designed to be easily shared. You can distribute your plugins via the [Dify Marketplace](https://marketplace.dify.ai/), [GitHub](publish-plugins/publish-plugin-on-personal-github-repo), or as a [local file package](publish-plugins/package-and-publish-plugin-file). Other developers can quickly install these plugins and benefit from them.
+
+> Dify Marketplace is an open ecosystem designed for developers, offering a broad range of resources—models, tools, AI Agents, Extensions, and plugin bundles. You can seamlessly integrate third-party services into your existing Dify applications through the Marketplace, enhancing their capabilities and advancing the overall Dify community.
+
+Whether you’re looking to integrate a new model or add a specialized tool to expand Dify’s existing features, the robust plugin marketplace has the resources you need. **We encourage more developers to join and help shape the Dify ecosystem, benefiting everyone involved.**
 
 <figure><img src="https://assets-docs.dify.ai/2025/01/83f9566063db7ae4886f6a139f3f81ff.png" alt=""><figcaption></figcaption></figure>
 
-### **Plugin Types**
-
-Plugins include the following four types:
+## **What Are the Types of Plugin?**
 
 *   **Models**
 
-    Integration plugins for various AI models, including mainstream service providers and custom models. These plugins support configuration and invocation, focusing on LLM API service requests. For details about model plugin development, please refer to [Quick Start: Model Type Plugins](develop-plugins/model-plugin/).
+    These plugins integrate various AI models (including mainstream providers and custom setups) to handle configuration and requests for LLM APIs. For more on creating a model plugin, see the [Quick Start: Model-Type Plugin](https://docs.dify.ai/plugins/quick-start/develop-plugins/model-plugin).
+
 *   **Tools**
 
-    External tools usable in Chatflow, Workflow, or Agent applications, offering comprehensive toolsets and API implementation capabilities. These plugins enable both calling existing tools and building custom endpoints. For example, when developing a Discord Bot, you can utilize available tools and create custom endpoints for message handling. For more details about tool plugin development, please refer to [Quick Start: Tool Type Plugins](develop-plugins/tool-plugin.md).
+    Designed for Chatflow, Workflow, or Agent application types, these plugins provide a complete set of external tools and APIs. They can invoke all sorts of utilities or host custom endpoints.
+For example, when developing a Discord Bot, you can use existing tools while also setting up specialized endpoints to handle message sending and receiving. See [Quick Start: Tool Plugin](https://docs.dify.ai/plugins/quick-start/develop-plugins/tool-plugin) to learn more about building a tool plugin.
+
 *   **Agent Strategy**
 
     The Agent Strategy plugin defines the reasoning and decision-making logic within an Agent node, including tool selection, invocation, and result processing.
+
 *   **Extensions**
 
-    A lightweight solution for simple scenarios, providing only endpoint capabilities. These plugins enable quick feature extensions through HTTP services, ideal for basic API requesting integrations.
+    Lightweight plugins that only provide endpoint capabilities for simpler scenarios, enabling fast expansions via HTTP services. This approach is ideal for straightforward integrations requiring basic API invoking. For more details, refer to [Quick Start: Extension Plugin](quick-start/develop-plugins/extension-plugin.md).
 
-    For more details on developing extension plugins, refer to [Quick Start: Extension Type Plugins](develop-plugins/extension-plugin.md).
 *   **Bundle**
 
-    A bundle combines multiple plugins into a single set for batch installation, streamlining the process and eliminating the need for manual installations.
+    A “plugin bundle” is a collection of multiple plugins. Bundles allow you to install a curated set of plugins all at once—no more adding them one by one. For more information on creating plugin bundles, see [Plugin Development: Bundle Plugin](quick-start/develop-plugins/bundle.md).
 
-    For more details on developing bundles, refer to Plugin Development: [Bundle Type Plugins](develop-plugins/bundle.md).
+### **What’s New in Plugins?**
 
-### **Plugin Features**
+*   **Extend LLM’s Multimodal Capabilities**
 
-Compared to existing tools or models, the plugin system introduces the following new features:
+    Plugins can boost an LLM’s ability to handle multimedia. Developers can add tasks like image editing, video processing, and more—ranging from cropping and background removal to working with portrait images.
 
-*   **Enhanced LLM Multimodal Capabilities**
-
-    The plugin system enhances LLM capabilities for processing multimedia content. Developers can leverage plugins to enable tasks such as image processing, video processing, and more, including functionalities like image cropping, background editing, and portrait processing.
 *   **Developer-Friendly Debugging Capabilities**
 
-    The plugin system offers robust development and debugging support:
+    The plugin system supports popular IDEs and debugging tools. You just configure a few environment variables to remotely connect to a Dify instance—even one running as a SaaS. Any actions you take on that plugin in Dify are forwarded to your local runtime for debugging.
 
-    * Compatible with mainstream IDEs and debugging tools, requiring minimal environment variable configuration for remote connection to a Dify instance.
-    * Supports integration with Dify’s SaaS service, forwarding all plugin-related operations performed in Dify directly to your local environment.
 *   **Persistent Data Storage**
 
-    To accommodate complex application scenarios, the plugin system offers data persistence storage capabilities:
+    Designed for more complex use cases, the plugin system now includes data persistence:
+	- **Plugin-Level Data Storage**: You can share workspace-level information with plugins, enabling richer custom features.
+	- **Built-In Data Management**: Plugins can reliably store and manage data, making it easier to implement complex business logic.
 
-    * Plugin-level data storage
-      * Workspace-level data sharing
-      * Built-in data management mechanisms This enables plugins to reliably save and manage application data, supporting more complex business scenarios.
-*   **Convenient Reverse Invoking**
+*   **Convenient Reverse Invocation**
 
-    The plugin system provides bi-directional interaction capabilities. Through SDK, plugins can actively call Dify's core functions, including:
+    Plugins can now interact bidirectionally with Dify’s core functions, including:
 
-    * AI model calls
-      * Tool usage
-      * Application access
-      * Knowledge base interaction
-      * Function node calls (such as question classification, parameter extraction, etc.) This bi-directional calling mechanism gives plugins more powerful function integration capabilities.
-*   **More Flexability in Custom API Endpoints (Endpoint Extensions)**
+    * AI model invokes
+    * Tool usage
+    * Application access
+    * Knowledge base interaction
+    * Function node calls (such as question classification, parameter extraction, etc.) 
 
-    In addition to Dify’s native application APIs (such as the Chatbot and Workflow APIs), the plugin system introduces custom API capabilities. Developers can create new API endpoints tailored to business needs, enabling custom logic for data processing, request handling, and more.
+This two-way mechanism allows plugins to act not only as a way to leverage existing Dify capabilities, but also as a standalone gateway—expanding the usage scenarios for your applications.
 
-### **Dify Marketplace: A Co-created Ecosystem**
+*   **Freely Customizable API Endpoints**
 
-Dify Marketplace is an open ecosystem for developers, offering a rich collection of resources such as models, tools, AI Agents, Extensions, and plugin packages. Through the Marketplace, you can seamlessly integrate third-party services into your existing Dify applications, enhancing their capabilities and contributing to the growth of the Dify ecosystem.
+    Beyond the existing Dify app APIs (like Chatbot or Workflow APIs), you can now create custom APIs within plugins. Developers can wrap their business logic as a plugin, host it on the [Dify Marketplace](https://marketplace.dify.ai/), and automatically get endpoint support for data processing and request handling.
 
-For details on how to publish plugins to the Dify Marketplace, please refer to the following:
+## Learn More
 
-{% content-ref url="publish-plugins/publish-to-dify-marketplace.md" %}
-[publish-to-dify-marketplace.md](publish-plugins/publish-to-dify-marketplace.md)
-{% endcontent-ref %}
+**Quick Start**
 
-### **Quick Start**
+- To quickly install and use plugins, see:
+[Install Plugins](quick-start/install-plugins.md)
+- To start developing plugins, see:
+[Develop Plugins](https://docs.dify.ai/plugins/quick-start/develop-plugins)
 
-If you want to quickly install and use the plugin, please refer to the following documentation:
+**Publishing Plugins**
 
-{% content-ref url="quick-start/install-and-use-plugins.md" %}
-[install-and-use-plugins.md](quick-start/install-and-use-plugins.md)
-{% endcontent-ref %}
+To publish your plugin on the [Dify Marketplace](https://marketplace.dify.ai/), fill out the required information and usage documentation. Then submit your plugin code to the [GitHub repository](https://github.com/langgenius/dify-official-plugins). Once approved, it will be listed in the marketplace:
 
-If you want to get started with plugin development, please refer to the following documentation:
+[Publish to Dify Marketplace](https://docs.dify.ai/plugins/publish-plugins/publish-to-dify-marketplace)
 
-{% content-ref url="develop-plugins/" %}
-[develop-plugins](develop-plugins/)
-{% endcontent-ref %}
+Beyond the official Dify Marketplace, you can also host your plugin on a personal GitHub repository or package it as a file for direct sharing:
 
-### **Publishing Plugins**
-
-If you want to publish your plugin to the [Dify Marketplace](https://marketplace.dify.ai/), please follow the guidelines to complete the plugin information and related documentation. Submit the plugin code to the [GitHub repository](https://github.com/langgenius/dify-official-plugins), and it will be listed in the plugin marketplace after review approval.
-
-{% content-ref url="publish-plugins/publish-to-dify-marketplace.md" %}
-[publish-to-dify-marketplace.md](publish-plugins/publish-to-dify-marketplace.md)
-{% endcontent-ref %}
-
-Besides publishing to official Dify channels, you can also publish to personal GitHub projects or share as file packages. For detailed instructions, please refer to "Publishing Plugins".
-
-{% content-ref url="publish-plugins/publish-plugin-on-personal-github-repo.md" %}
-[publish-plugin-on-personal-github-repo.md](publish-plugins/publish-plugin-on-personal-github-repo.md)
-{% endcontent-ref %}
-
-{% content-ref url="publish-plugins/package-and-publish-plugin-file.md" %}
-[package-and-publish-plugin-file.md](publish-plugins/package-and-publish-plugin-file.md)
-{% endcontent-ref %}
-
-
-
-
-
+•	[Publish a Plugin on a Personal GitHub Repo](https://docs.dify.ai/plugins/publish-plugins/publish-plugin-on-personal-github-repo)
+•	[Package and Publish a Plugin File](https://docs.dify.ai/plugins/publish-plugins/package-and-publish-plugin-file)

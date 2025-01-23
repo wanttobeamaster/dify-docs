@@ -15,7 +15,7 @@
 
 * **Dify 插件开发工具**，详细说明请参考[初始化开发工具](../quick-start/develop-plugins/initialize-development-tools.md)。
 
-配置完成后，在终端输入 `dify -v` 命令，检查是否输出版本号信息以确认已安装必要的开发工具。
+配置完成后，在终端输入 `dify version` 命令，检查是否输出版本号信息以确认已安装必要的开发工具。
 
 ### 打包插件
 
