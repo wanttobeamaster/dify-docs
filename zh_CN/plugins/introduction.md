@@ -29,7 +29,6 @@ description: 'Author: Yeuoly, Allen'
 *   **Models（模型）**
 
     各类 AI 模型的接入插件，包含主流模型服务商和自定义模型，支持配置和调用。专注于请求 LLM API 服务。关于模型插件的开发详情，请参考[快速开始： Model 类型插件](quick-start/develop-plugins/model-plugin/)。
-
 *   **Tools（工具）**
 
     能够被 Chatflow / Workflow / Agent 应用类型所使用的外部工具，提供完整的工具集和 API 实现能力。不仅可以调用各类工具，还能构建自定义端点。
@@ -50,24 +49,18 @@ description: 'Author: Yeuoly, Allen'
 *   **增强 LLM 的多模态能力**
 
     插件系统可以增强 LLM 处理多媒体内容的能力。开发者可以根据场景，通过插件辅助 LLM 完成图片处理、视频处理等任务，包括但不限于图片裁切、背景处理、人物图像处理等。
-
-
 *   **开发者友好的调试能力**
 
     插件系统提供了完善的开发和调试支持：
 
-    *   支持主流 IDE 和调试工具，仅需配置一些简单的环境变量，即可远程连接一个 Dify 实例。甚至支持连接 Dify 的 SaaS 服务，此时你在 Dify 中对该插件的任何操作都会被转发至你的本地运行
-
-
+    * 支持主流 IDE 和调试工具，仅需配置一些简单的环境变量，即可远程连接一个 Dify 实例。甚至支持连接 Dify 的 SaaS 服务，此时你在 Dify 中对该插件的任何操作都会被转发至你的本地运行
 *   **持久化存储数据**
 
     为支持复杂应用场景，插件系统全新引入了数据持久化存储能力：
 
     * 插件级别的数据存储
       * Workspace 级别的数据共享，你可以向插件传递当前工作空间的信息，帮助插件提供更多自定义功能。
-      *   内置的数据管理机制，这使得插件能够可靠地保存和管理应用数据，支持更复杂的业务场景。
-
-
+      * 内置的数据管理机制，这使得插件能够可靠地保存和管理应用数据，支持更复杂的业务场景。
 *   **便捷地反向调用**
 
     插件系统提供了双向互动的能力，它能够按照指令主动调用 Dify 的核心功能，包括：
@@ -79,8 +72,6 @@ description: 'Author: Yeuoly, Allen'
     * 功能节点调用（如问题分类、参数提取等） 这种双向调用机制让插件具备了更强大的功能整合能力。
 
     这意味着不仅可以使用已有的 Dify 应用能力全面增强插件能力，还可以将插件作为一个独立的 Dify 应用请求网关，扩充应用的使用场景。
-
-
 *   **更加自由地自定义 API 接口 (Endpoint 扩展)**
 
     除了 Dify 应用内原有的 API（例如 Chatbot 应用 API，Workflow 应用 API 等），插件系统新增了自定义 API 的能力。开发者可以根据业务需求，将业务代码封装为插件并托管至 [Dify Marketplace](https://marketplace.dify.ai/)，并自动提供 Endpoint，实现数据处理、请求响应等自定义逻辑。
@@ -105,8 +96,8 @@ description: 'Author: Yeuoly, Allen'
 
 如果想要将插件发布至 [Dify Marketplace](https://marketplace.dify.ai/)，请根据指引填写完整插件信息和相关使用文档。将插件代码投稿至 [GitHub 仓库](https://github.com/langgenius/dify-official-plugins)，审核通过后将在插件市场中上线。
 
-{% content-ref url="publish-plugins/publish-to-dify-marketplace.md" %}
-[publish-to-dify-marketplace.md](publish-plugins/publish-to-dify-marketplace.md)
+{% content-ref url="publish-plugins/publish-to-dify-marketplace/" %}
+[publish-to-dify-marketplace](publish-plugins/publish-to-dify-marketplace/)
 {% endcontent-ref %}
 
 除了将插件发布至 Dify 官方插件市场以外，你也可以发布至个人 GitHub 项目内或打包为文件包，以文件的形式分享。
@@ -118,4 +109,3 @@ description: 'Author: Yeuoly, Allen'
 {% content-ref url="publish-plugins/package-and-publish-plugin-file.md" %}
 [package-and-publish-plugin-file.md](publish-plugins/package-and-publish-plugin-file.md)
 {% endcontent-ref %}
-

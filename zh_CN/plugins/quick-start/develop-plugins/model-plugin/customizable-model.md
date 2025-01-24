@@ -1,6 +1,6 @@
 # 接入自定义模型
 
-自定义模型指的是需要自行部署或配置的 LLM。本文将以 [Xinference  模型](https://inference.readthedocs.io/en/latest/)为例，演示如何在模型插件内接入自定义模型。
+自定义模型指的是需要自行部署或配置的 LLM。本文将以 [Xinference 模型](https://inference.readthedocs.io/en/latest/)为例，演示如何在模型插件内接入自定义模型。
 
 自定义模型默认包含模型类型和模型名称两个参数，无需在供应商 yaml 文件定义。
 
@@ -186,7 +186,7 @@ def get_num_tokens(self, model: str, credentials: dict, prompt_messages: list[Pr
   """
 ```
 
-在某些情况下，如果不想直接返回 0，可以使用 `self._get_num_tokens_by_gpt2(text: str)`  方法计算 tokens。该方法位于 `AIModel` 基类中，使用 GPT-2 的 Tokenizer 进行计算。但请注意，这是一个替代方案，计算结果可能存在一定误差。
+在某些情况下，如果不想直接返回 0，可以使用 `self._get_num_tokens_by_gpt2(text: str)` 方法计算 tokens。该方法位于 `AIModel` 基类中，使用 GPT-2 的 Tokenizer 进行计算。但请注意，这是一个替代方案，计算结果可能存在一定误差。
 
 * **模型凭据校验**
 
@@ -205,7 +205,7 @@ def validate_credentials(self, model: str, credentials: dict) -> None:
 
 *   **模型参数 Schema**
 
-    与[预定义类型模型](integrate-the-predefined-model.md)不同，由于没有在 yaml 文件中定义一个模型支持哪些参数，因此，我们需要动态时间模型参数的Schema。  如 Xinference 支持`max_tokens` `temperature` `top_p` 这三个模型参数。  但是有的供应商根据不同的模型支持不同的参数，如供应商 `OpenLLM` 支持`top_k`，但是并不是这个供应商提供的所有模型都支持 `top_k`，我们这里举例A模型支持 `top_k`，B 模型不支持`top_k`，那么我们需要在这里动态生成模型参数的Schema，如下所示：
+    与[预定义类型模型](integrate-the-predefined-model.md)不同，由于没有在 yaml 文件中定义一个模型支持哪些参数，因此，我们需要动态时间模型参数的Schema。 如 Xinference 支持`max_tokens` `temperature` `top_p` 这三个模型参数。 但是有的供应商根据不同的模型支持不同的参数，如供应商 `OpenLLM` 支持`top_k`，但是并不是这个供应商提供的所有模型都支持 `top_k`，我们这里举例A模型支持 `top_k`，B 模型不支持`top_k`，那么我们需要在这里动态生成模型参数的Schema，如下所示：
 
 与[预定义模型类型](integrate-the-predefined-model.md)不同，由于未在 YAML 文件中预设模型所支持的参数，因此需要动态生成模型参数的 Schema。
 
@@ -283,8 +283,8 @@ def validate_credentials(self, model: str, credentials: dict) -> None:
 
 Runtime Errors:
 
-* `InvokeConnectionError`  调用连接错误
-* `InvokeServerUnavailableError`  调用服务方不可用
+* `InvokeConnectionError` 调用连接错误
+* `InvokeServerUnavailableError` 调用服务方不可用
 * `InvokeRateLimitError` 调用达到限额
 * `InvokeAuthorizationError` 调用鉴权失败
 * `InvokeBadRequestError` 调用传参有误
@@ -314,12 +314,12 @@ def _invoke_error_mapping(self) -> dict[type[InvokeError], list[type[Exception]]
 [debug-plugin.md](debug-plugin.md)
 {% endcontent-ref %}
 
-### 4.  发布插件
+### 4. 发布插件
 
 如果想要将插件发布至 Dify Marketplace，请参考以下内容：
 
-{% content-ref url="../../../publish-plugins/publish-to-dify-marketplace.md" %}
-[publish-to-dify-marketplace.md](../../../publish-plugins/publish-to-dify-marketplace.md)
+{% content-ref url="../../../publish-plugins/publish-to-dify-marketplace/" %}
+[publish-to-dify-marketplace](../../../publish-plugins/publish-to-dify-marketplace/)
 {% endcontent-ref %}
 
 ### **探索更多**

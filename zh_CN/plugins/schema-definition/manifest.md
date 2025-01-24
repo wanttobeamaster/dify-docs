@@ -12,7 +12,7 @@ Manifest 是一个符合 yaml 规范的文件，它定义了**插件**最基础�
 
 下面是一个 Manifest 文件的简单示例，将在下文解释各个数据的含义和作用。
 
-如需参考其它插件的代码，请参考 [Github 代码仓库](https://github.com/langgenius/dify-plugin-sdks/tree/main/python/examples)。
+如需参考其它插件的代码，请参考 [GitHub 代码仓库](https://github.com/langgenius/dify-official-plugins/blob/main/tools/google/manifest.yaml)。
 
 ```yaml
 version: 0.0.1
@@ -50,6 +50,7 @@ meta:
     language: "python"
     version: "3.10"
     entrypoint: "main"
+privacy: "./privacy.md"
 ```
 
 ### 结构
@@ -84,10 +85,10 @@ meta:
       * `size`(int64)：最大允许多大的持久化内存，单位字节
 * `plugins`(object, required)：插件扩展的具体能力的`yaml`文件列表，插件包内的绝对路径，如需要扩展模型，则需要定义一个类似于 `openai.yaml`的文件，并将该文件路径填写在此处，且该路径上的文件必须真实存在，否则打包将失败。
   * 格式
-    * `tools`(list\[string]): 扩展的[工具](tool.md)供应商
-    * `models`(list\[string])：扩展的[模型](model/)供应商
-    * `endpoints`(list\[string])：扩展的 [Endpoints](endpoint.md) 供应商
-    * `agent_strategies` (list\[string]): 扩展的 Agent 策略供应商
+    * `tools`(list\[string])：插件扩展的[工具](tool.md)供应商
+    * `models`(list\[string])：插件扩展的[模型](model/)供应商
+    * `endpoints`(list\[string])：插件扩展的 [Endpoints](endpoint.md) 供应商
+    * `agent_strategies` (list\[string])：插件扩展的 Agent 策略供应商
   * 限制
     * 不允许同时扩展工具与模型
     * 不允许没有任意扩展
@@ -100,4 +101,5 @@ meta:
     * `language`(string)：目前仅支持 python
     * `version`(string)：语言的版本，目前仅支持 `3.12`
     * `entrypoint`(string)：程序入口，在 python 下应为 `main`
+* `privacy` (string, optional)：可选项，指定插件隐私政策文件的相对路径或 URL，例如 `"./privacy.md"` 或 `"https://your-web/privacy"`。如果计划将插件上架至 Dify Marketplace，该字段为必填项，用于提供明确的用户数据使用和隐私声明。详细填写指引请参考[插件隐私政策准则](../publish-plugins/publish-to-dify-marketplace/plugin-privacy-protection-guidelines.md)。
 

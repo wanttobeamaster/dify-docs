@@ -20,8 +20,8 @@
 
 详细说明请参考：
 
-{% content-ref url="publish-to-dify-marketplace.md" %}
-[publish-to-dify-marketplace.md](publish-to-dify-marketplace.md)
+{% content-ref url="publish-to-dify-marketplace/" %}
+[publish-to-dify-marketplace](publish-to-dify-marketplace/)
 {% endcontent-ref %}
 
 #### 2. **GitHub 仓库**
@@ -71,6 +71,3 @@
 * **想要推广插件** → **推荐使用 Marketplace**，通过官方审核保障插件质量，提升曝光度。
 * **开源共享项目** → **推荐使用 GitHub**，方便版本管理与社区协作。
 * **快速分发或内部测试** → **推荐使用插件文件**，简单高效地安装和分享。
-
-
-
