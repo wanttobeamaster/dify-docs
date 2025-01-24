@@ -9,7 +9,7 @@ Dify Marketplace 欢迎来自合作伙伴和社区开发者的插件上架申请
 将插件发布至 Dify Marketplace 包含以下步骤：
 
 1. 根据[插件开发者准则](plugin-developer-guidelines.md)完成插件的开发和测试；
-2. 根据[插件隐私政策准则](plugin-privacy-protection-guidelines.md)撰写该插件隐私政策，并将该隐私政策的文件路径或 URL 写入[插件 Manifest 文件](https://docs.dify.ai/zh-hans/~/changes/6KfNqN3CHAlq7UWg7yIi/plugins/api-documentation/manifest)；
+2. 根据[插件隐私政策准则](plugin-privacy-protection-guidelines.md)撰写该插件隐私政策，并将该隐私政策的文件路径或 URL 写入插件 [Manifest 文件](../../schema-definition/manifest.md)；
 3. 完成插件打包；
 4. Fork [Dify Plugins](https://github.com/langgenius/dify-plugins) 代码仓库；
 5. 创建 Organization 目录，在 Organization 目录下创建插件名目录，将插件的代码和 pkg 文件上传至对应的插件名目录下；
