@@ -205,15 +205,13 @@ def validate_credentials(self, model: str, credentials: dict) -> None:
 
 *   **模型参数 Schema**
 
-    与[预定义类型模型](integrate-the-predefined-model.md)不同，由于没有在 yaml 文件中定义一个模型支持哪些参数，因此，我们需要动态时间模型参数的Schema。 如 Xinference 支持`max_tokens` `temperature` `top_p` 这三个模型参数。 但是有的供应商根据不同的模型支持不同的参数，如供应商 `OpenLLM` 支持`top_k`，但是并不是这个供应商提供的所有模型都支持 `top_k`，我们这里举例A模型支持 `top_k`，B 模型不支持`top_k`，那么我们需要在这里动态生成模型参数的Schema，如下所示：
-
 与[预定义模型类型](integrate-the-predefined-model.md)不同，由于未在 YAML 文件中预设模型所支持的参数，因此需要动态生成模型参数的 Schema。
 
 例如，Xinference 支持 `max_tokens`、`temperature` 和 `top_p` 三种模型参数。然而一些供应商（例如 OpenLLM）会根据具体模型支持不同的参数。
 
 举例来说，供应商 `OpenLLM` 的 A 模型支持 `top_k` 参数，而 B 模型则不支持 `top_k`。在该情况下，需要动态生成每个模型对应的参数 Schema，示例代码如下：
 
-* ```python
+```python
   def get_customizable_model_schema(self, model: str, credentials: dict) -> AIModelEntity | None:
       """
           used to define customizable model schema

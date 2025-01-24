@@ -32,7 +32,7 @@ Slack 是一个自由开放的实时办公通信平台，拥有丰富的 API。�
     Slack Bot 插件将处理 Slack 请求，发送至 Dify 中的应用。由 LLM 分析用户输入的内容并给出回应。
 4.  **Dify 应用回应后，将消息返回至 Slack Bot 并回答用户**
 
-    Slack Bot 获取 Dify 应用的回复后，通过插件将消息原路返回至 Slack Bot，使得用户能够在使用 Telegram 时直接与 Dify 应用互动
+    Slack Bot 获取 Dify 应用的回复后，通过插件将消息原路返回至 Slack Bot，使得用户能够在使用 Slack 时直接与 Dify 应用互动
 
 ### 前置准备 <a href="#qian-zhi-zhun-bei" id="qian-zhi-zhun-bei"></a>
 
@@ -42,9 +42,9 @@ Slack 是一个自由开放的实时办公通信平台，拥有丰富的 API。�
 
 前往 [Slack API](https://api.slack.com/apps) 平台， 选择以 scratch 方式创建 Slack APP，并选择需部署应用的 Slack 空间。
 
-![Telegram api token](https://assets-docs.dify.ai/2025/01/8217c23ee16c47c586a1387a442ea6f0.png)
+![Slack api token](https://assets-docs.dify.ai/2025/01/8217c23ee16c47c586a1387a442ea6f0.png)
 
-;开启 Webhooks 功能。
+开启 Webhooks 功能。
 
 ![开启 Webhooks 功能](https://assets-docs.dify.ai/2025/01/fc9d7797608422219a01248f7151fc81.png)
 
@@ -262,11 +262,11 @@ python -m main
 
 在 Dify 的插件管理页中找到自动安装的测试插件，新建一个 Endpoint，填写名称、Bot token、选择需要连接的 app。
 
-![测试插件](https://assets-docs.dify.ai/2025/01/07f87e8a2786d6f5f05195961c5630c3.png)
+<img src="https://assets-docs.dify.ai/2025/01/07f87e8a2786d6f5f05195961c5630c3.png" alt="测试插件" width="400px" />
 
 保存后将生成一个 POST 请求地址。
 
-![生成 POST 请求地址](https://assets-docs.dify.ai/2025/01/e6952a5798a7ae793b3fe7df6f76ea73.png)
+<img src="https://assets-docs.dify.ai/2025/01/e6952a5798a7ae793b3fe7df6f76ea73.png" alt="生成 POST 请求地址" width="400px" />
 
 接下来还需要完成 Slack App 的设置。
 
