@@ -610,3 +610,21 @@ Used to set the browser policy for session cookies used for identity verificatio
 - COOKIE_SECURE
 
   Cookie Secure configuration, default is false.
+
+### Chunk Length Configuration
+
+#### MAXIMUM_CHUNK_TOKEN_LENGTH 
+
+Configuration for document chunk length. It is used to control the size of text segments when processing long documents. Default: 500. Maximum: 4000.
+
+**Larger Chunks**
+- Retain more context within each chunk, ideal for tasks requiring a broader understanding of the text.
+- Reduce the total number of chunks, lowering processing time and storage overhead.
+
+**Smaller Chunks**
+- Provide finer granularity, improving accuracy for tasks like extraction or summarization.
+- Reduce the risk of exceeding model token limits, making it safer for models with stricter constraints.
+
+**Configuration Recommendations**
+- Choose larger chunks for context-heavy tasks like sentiment analysis or document summarization.
+- Choose smaller chunks for fine-grained tasks such as keyword extraction or paragraph-level processing.
