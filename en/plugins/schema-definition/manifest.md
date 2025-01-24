@@ -44,6 +44,7 @@ meta:
     language: "python"
     version: "3.10"
     entrypoint: "main"
+privacy: "./privacy.md"
 ```
 
 ### **Structure**
@@ -94,3 +95,4 @@ meta:
     * `language` (string): Currently only supports python
     * `version` (string): Language version, currently only supports `3.12`
     * `entrypoint` (string): Program entry point, should be `main` for Python
+* `privacy` (string, optional): An optional field specifying the relative path or URL to the plugin’s privacy policy file, such as `"./privacy.md`" or `"https://your-web/privacy"`. If you plan to publish the plugin to the Dify Marketplace, this field is required to provide a clear statement on user data usage and privacy. For more detailed instructions, please refer to the [Plugin Privacy Policy Guidelines](../publish-plugins/publish-to-dify-marketplace/plugin-privacy-protection-guidelines.md#id-1.-list-the-types-of-data-collected).

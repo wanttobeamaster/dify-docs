@@ -28,7 +28,7 @@ For development examples, refer to the following content:
 Extension plugins enable developers to package business code as plugins and automatically provide an Endpoint request entry, functioning akin to an API service hosted on the Dify platform. For more details and development examples, see the following:
 
 {% content-ref url="extension.md" %}
-[extension-plugin.md](extension-plugin.md)
+[extension.md](extension.md)
 {% endcontent-ref %}
 
 ### **Endpoints Documentation**
@@ -54,10 +54,7 @@ Want to contribute code and features to Dify Plugin? Or want to contribute code 
 
 We provide detailed development guidelines and contribution guidelines to help you understand our architecture design and contribution process:
 
-* [Dify Plugin Contribution Guidelines](../../publish-plugins/publish-to-dify-marketplace.md)
-   Learn how to submit your plugin to the Dify Marketplace to share your work with a broader developer community.
-
-* [GitHub Publishing Guidelines](../../publish-plugins/publish-plugin-on-personal-github-repo.md)
-   Discover how to publish and manage your plugins on GitHub, ensuring ongoing optimization and collaboration with the community.
+* [Dify Plugin Contribution Guidelines](../../publish-plugins/publish-to-dify-marketplace/) Learn how to submit your plugin to the Dify Marketplace to share your work with a broader developer community.
+* [GitHub Publishing Guidelines](../../publish-plugins/publish-plugin-on-personal-github-repo.md) Discover how to publish and manage your plugins on GitHub, ensuring ongoing optimization and collaboration with the community.
 
 Welcome to join us and become our contributors, and help to enhance the Dify ecosystem alongside developers worldwide!

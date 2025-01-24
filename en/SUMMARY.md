@@ -179,7 +179,9 @@
     * [Tool](plugins/schema-definition/reverse-invocation-of-the-dify-service/tool.md)
     * [Node](plugins/schema-definition/reverse-invocation-of-the-dify-service/node.md)
 * [Publish Plugins](plugins/publish-plugins/README.md)
-  * [Publish to Dify Marketplace](plugins/publish-plugins/publish-to-dify-marketplace.md)
+  * [Publish to Dify Marketplace](plugins/publish-plugins/publish-to-dify-marketplace/README.md)
+    * [Plugin Developer Guidelines](plugins/publish-plugins/publish-to-dify-marketplace/plugin-developer-guidelines.md)
+    * [Plugin Privacy Protection Guidelines](plugins/publish-plugins/publish-to-dify-marketplace/plugin-privacy-protection-guidelines.md)
   * [Publish to Your Personal GitHub Repository](plugins/publish-plugins/publish-plugin-on-personal-github-repo.md)
   * [Package the Plugin File and Publish it](plugins/publish-plugins/package-and-publish-plugin-file.md)
 
