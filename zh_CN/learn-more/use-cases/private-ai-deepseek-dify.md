@@ -23,7 +23,7 @@ Dify 作为同样开源的 AI 应用开发平台，提供完整的私有化部�
 
 - [Docker](https://www.docker.com/)
 - Docker Compose
-- [Ollama][https://ollama.com/]
+- [Ollama](https://ollama.com)
 - [Dify 社区版](https://github.com/langgenius/dify)
 
 ## 开始部署
@@ -118,7 +118,7 @@ Dify 社区版默认使用 80 端口，点击链接 `http://your_server_ip` 即�
 
 当使用 Docker 部署 Dify 和 Ollama 时，可能遇到以下错误：
 
-```text
+```bash
 httpconnectionpool(host=127.0.0.1, port=11434): max retries exceeded with url:/cpi/chat
 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8562812c20>:
 fail to establish a new connection:[Errno 111] Connection refused'))
@@ -149,7 +149,7 @@ fail to establish a new connection:[Errno 111] Connection refused'))
     http://host.docker.internal:11434
     ```
 
-### 在 Linux 上设置环境变量
+**Linux 环境配置方法：**
 
 如果 Ollama 作为 systemd 服务运行，应该使用 `systemctl` 设置环境变量：
 
@@ -171,7 +171,7 @@ fail to establish a new connection:[Errno 111] Connection refused'))
    systemctl restart ollama
    ```
 
-### 在 Windows 环境内设置环境变量
+**Windows 环境配置方法：**
 
 在 Windows 上，Ollama 继承了你的用户和系统环境变量。
 
