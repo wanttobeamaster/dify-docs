@@ -107,7 +107,9 @@ Configure the Model:
 
 ![](https://assets-docs.dify.ai/2025/01/cb8637be4dca5a0e684fd9a21df3711f.png)
 
-2.	Add an LLM Node, select the `deepseek-r1:7b` model under Ollama, and use the `{{#sys.query#}}` variable in system prompts to connect it with the initial input.
+2.	Add an LLM Node, select the `deepseek-r1:7b` model under Ollama, and use the `{{#sys.query#}}` variable into the system prompt to connect to the initial node. If you encounter any API issues, you can handle them via [Load Balancing](https://docs.dify.ai/guides/model-configuration/load-balancing) or the [Error Handling](https://docs.dify.ai/guides/workflow/error-handling) node.
+
+	2.	Add an LLM node, select the deepseek-r1:7b model under the Ollama framework, and insert the {{#sys.query#}} variable into the system prompt to connect to the initial node. If you encounter any API issues, you can handle them via Load Balancing or the Error Handling node.
 
 ![](https://assets-docs.dify.ai/2025/01/c21f076398eb09d773d3e543561293e6.png)
 

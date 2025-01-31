@@ -104,7 +104,7 @@ Dify 社区版默认使用 80 端口，点击链接 `http://your_server_ip` 即�
 
 ![](https://assets-docs.dify.ai/2025/01/cb8637be4dca5a0e684fd9a21df3711f.png)
 
-2. 添加 LLM 节点，选择 Ollama 框架内的 `deepseek-r1:7b` 模型，并在系统提示词内添加 `{{#sys.query#}}` 变量以连接起始节点。
+2. 添加 LLM 节点，选择 Ollama 框架内的 `deepseek-r1:7b` 模型，并在系统提示词内添加 `{{#sys.query#}}` 变量以连接起始节点。如遇 API 异常，可以通过[负载均衡](https://docs.dify.ai/zh-hans/guides/model-configuration/load-balancing)功能或[异常处理](https://docs.dify.ai/zh-hans/guides/workflow/error-handling)节点进行处理。
 
 ![](https://assets-docs.dify.ai/2025/01/c21f076398eb09d773d3e543561293e6.png)
 
