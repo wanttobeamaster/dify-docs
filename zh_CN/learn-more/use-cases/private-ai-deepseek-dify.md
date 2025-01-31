@@ -30,9 +30,9 @@ Dify 作为同样开源的 AI 应用开发平台，提供完整的私有化部�
 
 ### 1. 安装 Ollama
 
-[Ollama][https://ollama.com/] 是一款跨平台的大模型管理客户端（MacOS、Windows、Linux），旨在无缝部署大型语言模型 (LLM)，例如 DeepSeek、Llama、Mistral 等。Ollama 提供大模型一键部署，所有使用数据均会保存在本地机器内，提供全方面的数据隐私和安全性。
+[Ollama](https://ollama.com/) 是一款跨平台的大模型管理客户端（MacOS、Windows、Linux），旨在无缝部署大型语言模型 (LLM)，例如 DeepSeek、Llama、Mistral 等。Ollama 提供大模型一键部署，所有使用数据均会保存在本地机器内，提供全方面的数据隐私和安全性。
 
-访问 [Ollama 官网][https://ollama.com/]，根据提示下载并安装 Ollama 客户端。安装完成后，在终端内运行 `ollama -v` 命令将输出版本号。
+访问 [Ollama 官网](https://ollama.com/)，根据提示下载并安装 Ollama 客户端。安装完成后，在终端内运行 `ollama -v` 命令将输出版本号。
 
 ```bash
 ➜  ~ ollama -v
@@ -73,7 +73,7 @@ Dify 社区版默认使用 80 端口，点击链接 `http://your_server_ip` 即�
 选择 LLM 模型类型。
 
 - Model Name，填写具体部署的模型型号。上文部署的模型型号为 deepseek-r1 7b，因此填写 `deepseek-r1:7b`
-- Base URL，填写 Ollama 客户端的运行地址，通常为 `http://your_server_ip:11434`。如遇连接问题，请阅读下文中的 [常见问题](#常见问题)。
+- Base URL，填写 Ollama 客户端的运行地址，通常为 `http://your_server_ip:11434`。如遇连接问题，请阅读中[常见问题](https://docs.dify.ai/zh-hans/learn-more/use-cases/private-ai-deepseek-dify#chang-jian-wen-ti)。
 - 其它选项保持默认值。根据 [DeepSeek 模型说明](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B)，最大生成长度为 32,768 Tokens。
 
 ![](https://assets-docs.dify.ai/2025/01/6f3b53427e46786ba7d1374739344142.png)

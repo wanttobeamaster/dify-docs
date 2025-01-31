@@ -9,15 +9,15 @@
 * 快速构建基于 DeepSeek R1 模型的 AI 对话机器人
 * 启用检索增强生成（RAG）能力，搭建 DeepSeek R1 + 知识库的 AI 应用
 
-> 出于数据安全考虑，你也可以将 Dify 和 DeepSeek 部署至私有服务器内，详细说明请参考：[本地部署 DeepSeek + Dify，构建你的专属私有 AI 助手][./private-ai-deepseek-dify.md]
+> 出于数据安全考虑，你也可以将 Dify 和 DeepSeek 部署至私有服务器内，详细说明请参考：[本地部署 DeepSeek + Dify，构建你的专属私有 AI 助手](./private-ai-deepseek-dify.md)
 
 ## 前置准备
 
 ### 1. 申请 DeepSeek API
 
-访问 [DeepSeek API 开放平台][https://platform.deepseek.com/]，按照页面提示进行申请 API Key。
+访问 [DeepSeek API 开放平台](https://platform.deepseek.com/)，按照页面提示进行申请 API Key。
 
-> 若提示链接无法访问，你也可以考虑在本地部署 DeepSeek 模型。详细说明请参考 [本地部署指南][./private-ai-deepseek-dify.md]
+> 若提示链接无法访问，你也可以考虑在本地部署 DeepSeek 模型。详细说明请参考 [本地部署指南](./private-ai-deepseek-dify.md)
 
 ### 2. 注册 Dify
 
@@ -43,7 +43,7 @@ Dify 是一个能够帮助你快速搭建生成式 AI 应用的平台，通过�
 
 ![](https://assets-docs.dify.ai/2025/01/de134c6285985fe1552223eb33641b9f.png)
 
-配置完成后即可在聊天框中进行聊天互动。
+配置完成后即可在聊天框中进行互动。
 
 ![](https://assets-docs.dify.ai/2025/01/3760e9a0cb7c2070978134d8f7f13929.png)
 
@@ -53,7 +53,7 @@ Dify 是一个能够帮助你快速搭建生成式 AI 应用的平台，通过�
 
 #### 3.1 创建知识库
 
-将需要 AI 分析处理的文档上传至知识库中。为确保 DeepSeek 模型能够准确理解文档内容，建议使用"父子分段"模式进行文本处理 - 这种模式能够更好地保留文档的层级结构和上下文关系。如需了解详细的配置步骤，请参考：[创建知识库][https://docs.dify.ai/zh-hans/guides/knowledge-base/create-knowledge-and-upload-documents]。
+将需要 AI 分析处理的文档上传至知识库中。为确保 DeepSeek 模型能够准确理解文档内容，建议使用"父子分段"模式进行文本处理 - 这种模式能够更好地保留文档的层级结构和上下文关系。如需了解详细的配置步骤，请参考：[创建知识库](https://docs.dify.ai/zh-hans/guides/knowledge-base/create-knowledge-and-upload-documents)。
 
 ![](https://assets-docs.dify.ai/2025/01/f38af53d2b124391e2ea32f29da7d87d.png)
 
@@ -73,6 +73,6 @@ Dify 是一个能够帮助你快速搭建生成式 AI 应用的平台，通过�
 
 除了构建简单的 AI 应用外，你还可以创建 Chatflow / Workflow 搭建更多复杂功能的应用（例如具备文件识别、图像识别、语音识别等能力）。详细说明请参考以下文档：
 
-* [工作流][https://docs.dify.ai/zh-hans/guides/workflow]
-* [文件上传][https://docs.dify.ai/zh-hans/guides/workflow/file-upload]
-* [本地部署 DeepSeek + Dify，构建你的专属私有 AI 助手][./private-ai-deepseek-dify.md]
+* [工作流](https://docs.dify.ai/zh-hans/guides/workflow)
+* [文件上传](https://docs.dify.ai/zh-hans/guides/workflow/file-upload)
+* [本地部署 DeepSeek + Dify，构建你的专属私有 AI 助手](./private-ai-deepseek-dify.md)
