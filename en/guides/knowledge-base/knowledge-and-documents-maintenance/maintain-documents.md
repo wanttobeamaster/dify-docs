@@ -89,7 +89,7 @@ In[ Parent-child](maintain-documents.md#parent-child-chunking-mode) mode, conten
 
 In Q\&A Mode, a content chunk consists of a question and an answer. Click on any document title to view the text chunks.
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/98e2486f6c5e06b4ece1b81d078afa08.png" alt=""><figcaption><p><strong>Q&#x26;A Mode - check content chunk</strong></p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/2024/12/98e2486f6c5e06b4ece1b81d078afa08.png" alt=""><figcaption><p><strong>Q&A Mode - check content chunk</strong></p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -211,7 +211,7 @@ You can also treat child chunks as tags for the current parent text block.
 
 In Q\&A chunking mode, each content chunk consists of a question and an answer. Click on the text chunk you wish to edit to modify the question and answer individually. Additionally, you can edit the keywords for the current chunk.
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/5c69adc0d4ec470d0677e67a4dd894a1.png" alt=""><figcaption><p><strong>Q&#x26;A Mode - modify text chunks</strong></p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/2024/12/5c69adc0d4ec470d0677e67a4dd894a1.png" alt=""><figcaption><p><strong>Q&A Mode - modify text chunks</strong></p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 

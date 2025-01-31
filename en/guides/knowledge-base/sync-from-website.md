@@ -18,7 +18,7 @@ Click on the avatar in the upper right corner, then go to the **DataSource** pag
 
 Log in to the [Firecrawl website](https://www.firecrawl.dev/) to complete registration, get your API Key, and then enter and save it in Dify.
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FRncMhlfeYTrpujwzDIqw%2Fuploads%2FtAwcLoAYT1A2v12pfJC3%2Fimage.png?alt=media&#x26;token=3b5b784f-2808-431f-8595-2638d038c190" alt=""><figcaption><p>Get the API Key and save it in Dify</p></figcaption></figure>
+<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FRncMhlfeYTrpujwzDIqw%2Fuploads%2FtAwcLoAYT1A2v12pfJC3%2Fimage.png?alt=media&token=3b5b784f-2808-431f-8595-2638d038c190" alt=""><figcaption><p>Get the API Key and save it in Dify</p></figcaption></figure>
 
 #### 2. Scrape target webpage
 

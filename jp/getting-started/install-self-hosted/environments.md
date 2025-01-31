@@ -172,7 +172,7 @@ dockerイメージまたはdocker-composeによる起動時にのみ有効です
 
     フォーマットは以下の通りです（直接接続モード）
 
-    <pre><code><strong>redis://&#x3C;redis_username>:&#x3C;redis_password>@&#x3C;redis_host>:&#x3C;redis_port>/&#x3C;redis_database>
+    <pre><code><strong>redis://<redis_username>:<redis_password>@<redis_host>:<redis_port>/<redis_database>
     </strong><strong>  
     </strong></code></pre>
 
@@ -180,7 +180,7 @@ dockerイメージまたはdocker-composeによる起動時にのみ有効です
 
     Sentinelモード
 
-    <pre><code><strong>sentinel://&#x3C;sentinel_username>:&#x3C;sentinel_password>@&#x3C;sentinel_host>:&#x3C;sentinel_port>/&#x3C;redis_database>
+    <pre><code><strong>sentinel://<sentinel_username>:<sentinel_password>@<sentinel_host>:<sentinel_port>/<redis_database>
     </strong><strong>  
     </strong></code></pre>
 

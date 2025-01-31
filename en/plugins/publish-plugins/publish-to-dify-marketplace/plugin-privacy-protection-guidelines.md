@@ -18,7 +18,7 @@ Center your privacy policy around the following points:
 * Home address or other physical address
 * Government-issued identification numbers (e.g., Social Security number, passport number, driver's license number)
 
-&#x20;**Type B**: **Indirect Identifiers**
+**Type B**: **Indirect Identifiers**
 
 * Device identifiers (e.g., IMEI, MAC address, device ID)
 * IP address
@@ -56,7 +56,6 @@ For example, if the plugin you are developing involves Slack services, make sure
 
 For detailed instructions on filling out specific fields, please refer to the [Manifest](https://docs.dify.ai/plugins/schema-definition/manifest) documentation.
 
-\
 **FAQ**
 
 1. **What does "collect and use" mean regarding user personal data? Are there any common examples of how personal data is collected and used in any Plugin?**

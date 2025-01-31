@@ -181,7 +181,9 @@
     * [Telegram Botとの統合プラグイン開発](plugins/best-practice/developing-a-plugin-that-integrated-with-telegram-bot.md)
     * [Slack Bot プラグインの開発](plugins/best-practice/develop-slack-bot.md)
 * [プラグインの公開](plugins/publish-plugins/README.md)
-  * [Difyマーケットプレイスへの公開](plugins/publish-plugins/publish-to-dify-marketplace.md)
+  * [Difyマーケットプレイスへの公開](plugins/publish-plugins/publish-to-dify-marketplace/README.md)
+    * [プラグイン開発者ガイドライン](plugins/publish-plugins/publish-to-dify-marketplace/plugin-developer-guidelines.md)
+    * [プラグインのプライバシー保護に関するガイドライン](plugins/publish-plugins/publish-to-dify-marketplace/plugin-privacy-protection-guidelines.md)
   * [個人GitHubリポジトリへの公開](plugins/publish-plugins/publish-plugin-on-personal-github-repo.md)
   * [ローカルでの公開と共有](plugins/publish-plugins/package-and-publish-plugin-file.md)
 

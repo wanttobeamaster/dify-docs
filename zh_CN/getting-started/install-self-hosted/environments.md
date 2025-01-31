@@ -156,7 +156,7 @@ Flask 调试模式，开启可在接口输出 trace 信息，方便调试。
 
     格式如下（直连模式）
 
-    <pre><code><strong>redis://&#x3C;redis_username>:&#x3C;redis_password>@&#x3C;redis_host>:&#x3C;redis_port>/&#x3C;redis_database>
+    <pre><code><strong>redis://<redis_username>:<redis_password>@<redis_host>:<redis_port>/<redis_database>
     </strong><strong>  
     </strong></code></pre>
 
@@ -164,7 +164,7 @@ Flask 调试模式，开启可在接口输出 trace 信息，方便调试。
 
     哨兵模式
 
-    <pre><code><strong>sentinel://&#x3C;sentinel_username>:&#x3C;sentinel_password>@&#x3C;sentinel_host>:&#x3C;sentinel_port>/&#x3C;redis_database>
+    <pre><code><strong>sentinel://<sentinel_username>:<sentinel_password>@<sentinel_host>:<sentinel_port>/<redis_database>
     </strong><strong>  
     </strong></code></pre>
 

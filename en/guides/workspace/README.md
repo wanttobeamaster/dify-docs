@@ -6,7 +6,7 @@ Dify is a multi-user platform where workspaces are the basic units of team colla
 
 It is important to note that the login methods supported by Dify's cloud service and community edition differ, as shown in the table below.
 
-<table><thead><tr><th width="146"></th><th width="299">Community version &#x26; Dify Premium</th><th width="141">Dify Cloud</th><th>Enterprise version</th></tr></thead><tbody><tr><td>Email Login</td><td>Supported</td><td>Not Supported</td><td>Supported</td></tr><tr><td>GitHub Login</td><td>Not Supported</td><td>Supported</td><td>-</td></tr><tr><td>Google Login</td><td>Not Supported</td><td>Supported</td><td>-</td></tr><tr><td>SSO Login</td><td>Not Supported</td><td>Not Supported</td><td>Supported</td></tr></tbody></table>
+<table><thead><tr><th width="146"></th><th width="299">Community version & Dify Premium</th><th width="141">Dify Cloud</th><th>Enterprise version</th></tr></thead><tbody><tr><td>Email Login</td><td>Supported</td><td>Not Supported</td><td>Supported</td></tr><tr><td>GitHub Login</td><td>Not Supported</td><td>Supported</td><td>-</td></tr><tr><td>Google Login</td><td>Not Supported</td><td>Supported</td><td>-</td></tr><tr><td>SSO Login</td><td>Not Supported</td><td>Not Supported</td><td>Supported</td></tr></tbody></table>
 
 ### Creating an Account
 

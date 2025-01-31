@@ -6,12 +6,10 @@
 
 拖拽或选中文件进行上传，**支持批量上传**，同时上传的文件数量限制取决于[订阅计划](https://dify.ai/pricing)。
 
-本地上传文档文件存在以下限&#x5236;**：**
+**本地上传文档文件存在以下限制：**
 
 * 单文档的上传大小限制为 **15MB**
 *   不同 SaaS 版本的[订阅计划](https://dify.ai/pricing)限定了**批量上传个数、文档上传总数、向量存储空间**
-
-
 
     <figure><img src="https://assets-docs.dify.ai/2025/01/22064cb61356e4c005c4072d5d066cf6.png" alt=""><figcaption><p>创建知识库</p></figcaption></figure>
 
