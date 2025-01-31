@@ -4,20 +4,20 @@
 
 As an open-source generative AI application development platform, **Dify** empowers developers to build smarter AI applications leveraging DeepSeek LLMs. The Dify platform delivers these key development experiences:  
 
-**Visual Development** - Create DeepSeek R1-powered AI applications in 3 minutes through intuitive visual orchestration  
-**Knowledge Base Augmentation** - Activate RAG capabilities by connecting internal documents to build precision Q&A systems  
-**Workflow Expansion** - Implement complex business logic via drag-and-drop functional nodes and third-party tool plugins  
-**Data Insights** – Comes with built-in metrics on total conversations, user engagement, and more, and supports integration with specialized monitoring platforms.
+- **Visual Development** - Create DeepSeek R1-powered AI applications in 3 minutes through intuitive visual orchestration  
+- **Knowledge Base Augmentation** - Activate RAG capabilities by connecting internal documents to build precision Q&A systems  
+- **Workflow Expansion** - Implement complex business logic via drag-and-drop functional nodes and third-party tool plugins  
+- **Data Insights** – Comes with built-in metrics on total conversations, user engagement, and more, and supports integration with specialized monitoring platforms.
 ...
 
-This guide details DeepSeek API integration with Dify to achieve two core implementations:  
-**Intelligent Chatbot Development** - Directly harness DeepSeek R1's chain-of-thought reasoning capabilities  
-**Knowledge-Enhanced Application Construction** - Enable accurate information retrieval and generation through private knowledge bases  
+This guide details DeepSeek API integration with Dify to achieve two core implementations:
 
-> For compliance-sensitive industries like finance and legal, Dify offers **[On-Premises Deployment for DeepSeek + Dify](private-ai-deepseek-dify.md)**:  
-> - Synchronized deployment of DeepSeek models and Dify platform in private networks  
-> - Granular access control and data isolation mechanisms  
-> - Full data sovereignty assurance  
+- **Intelligent Chatbot Development** - Directly harness DeepSeek R1's chain-of-thought reasoning capabilities
+- **Knowledge-Enhanced Application Construction** - Enable accurate information retrieval and generation through private knowledge bases  
+
+> For compliance-sensitive industries like finance and legal, Dify offers **[Private Deployment of DeepSeek + Dify: Build Your Own AI Assistant](private-ai-deepseek-dify.md)**:  
+> - Synchronized deployment of DeepSeek models and Dify platform in private networks
+> - Full data sovereignty assurance
 
 The Dify × DeepSeek integration enables developers to bypass infrastructure complexities and directly advance to **scenario-based AI implementation**, accelerating the transformation of LLM technology into operational productivity.  
 
