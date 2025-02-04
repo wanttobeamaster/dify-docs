@@ -45,7 +45,7 @@ dify plugin init
 
 *   `predefined-model` **预定义模型**
 
-    常见的大模型类型，只需要配置统一的供应商凭据即可使用模型供应商下的预定义模型。例如，`Openai` 模型供应商下提供 `gpt-3.5-turbo-0125` 和 `gpt-4o-2024-05-13` 等一系列预定义模型。详细开发说明请参考接入预定义模型。
+    常见的大模型类型，只需要配置统一的供应商凭据即可使用模型供应商下的预定义模型。例如，`OpenAI` 模型供应商下提供 `gpt-3.5-turbo-0125` 和 `gpt-4o-2024-05-13` 等一系列预定义模型。详细开发说明请参考接入预定义模型。
 *   `customizable-model` **自定义模型**
 
     需要手动新增每个模型的凭据配置，例如 `Xinference`，它同时支持 LLM 和 Text Embedding，但是每个模型都有唯一的 **model\_uid**，如果想要将两者同时接入，需要为每个模型配置一个 **model\_uid**。详细开发说明请参考接入自定义模型。
@@ -67,7 +67,7 @@ dify plugin init
 
 以下是每个步骤的完整操作详情。
 
-#### ;1. **创建模型供应商配置文件**
+#### 1. **创建模型供应商配置文件**
 
 Manifest 是 YAML 格式文件，声明了模型供应商基础信息、所支持的模型类型、配置方式、凭据规则。插件项目模板将在 `/providers` 路径下自动生成配置文件。
 
@@ -169,7 +169,7 @@ model_credential_schema:
 
 如需查看更多完整的模型供应商 YAML 规范，详情请参考[模型接口文档](../../../schema-definition/model/model-schema.md)。
 
-2. **编写模型供应商代码**
+#### 2. **编写模型供应商代码**
 
 在 `/providers` 文件夹下创建一个同名的 python 文件，例如 `anthropic.py` 并实现一个 `class` ，继承 `__base.provider.Provider` 基类，例如 `AnthropicProvider`。
 
@@ -220,9 +220,10 @@ def validate_provider_credentials(self, credentials: dict) -> None:
 
 当然也可以先预留 `validate_provider_credentials` 实现，在模型凭据校验方法实现后直接复用。
 
+#### **自定义模型供应商**
+
 对于其它类型模型供应商而言，请参考以下配置方法。
 
-**自定义模型供应商**
 
 对于像 `Xinference` 这样的自定义模型供应商，可以跳过完整实现的步骤。只需创建一个名为 `XinferenceProvider` 的空类，并在其中实现一个空的 `validate_provider_credentials` 方法。
 

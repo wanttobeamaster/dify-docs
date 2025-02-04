@@ -154,7 +154,7 @@ model:
 
 For a more complete look at the Model Provider YAML specification, see [Schema](../../schema-definition/) for details.
 
-2. **Write model provider code**
+#### 2. **Write model provider code**
 
 Create a python file with the same name, e.g. `anthropic.py`, in the `/providers` folder and implement a `class` that inherits from the `__base.provider.Provider` base class, e.g. `AnthropicProvider`. The following is the `Anthropic` sample code:
 
@@ -203,7 +203,7 @@ def validate_provider_credentials(self, credentials: dict) -> None:
 
 Of course, it is also possible to reserve the `validate_provider_credentials` implementation first and reuse it directly after the model credentials verification method is implemented. For other types of model providers, please refer to the following configuration methods.
 
-**Custom Model Providers**
+#### **Custom Model Providers**
 
 For custom model providers like `Xinference`, you can skip the full implementation step. Simply create an empty class called `XinferenceProvider` and implement an empty `validate_provider_credentials` method in it.
 

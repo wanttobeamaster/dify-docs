@@ -169,7 +169,7 @@ model_credential_schema:
 
 より詳細なモデルプロバイダーYAMLの仕様については、[モデルインターフェースドキュメント](../../../schema-definition/model/model-schema.md)を参照してください。
 
-2. **モデルプロバイダーコードの記述**
+#### 2. **モデルプロバイダーコードの記述**
 
 `/providers`フォルダに、同じ名前のPythonファイル（たとえば、`anthropic.py`）を作成し、`__base.provider.Provider`基本クラス（たとえば、`AnthropicProvider`）を継承する`class`を実装します。
 
@@ -220,9 +220,9 @@ def validate_provider_credentials(self, credentials: dict) -> None:
 
 もちろん、`validate_provider_credentials`の実装を後回しにして、モデル認証情報検証メソッドの実装後に直接再利用することもできます。
 
-他のタイプのモデルプロバイダーについては、以下の設定方法を参照してください。
+#### **カスタムモデルプロバイダー**
 
-**カスタムモデルプロバイダー**
+他のタイプのモデルプロバイダーについては、以下の設定方法を参照してください。
 
 `Xinference`のようなカスタムモデルプロバイダーの場合、完全な実装手順を省略できます。`XinferenceProvider`という名前の空のクラスを作成し、その中に空の`validate_provider_credentials`メソッドを実装するだけで済みます。
 
