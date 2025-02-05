@@ -206,7 +206,7 @@
 
 * [活用事例](learn-more/use-cases/README.md)
   * [DeepSeek & Dify連携ガイド：多段階推論を活用したAIアプリケーション構築](learn-more/use-cases/integrate-deepseek-to-build-an-ai-app.md)
-  * [DeepSeek + Dify のプライベートデプロイ：あなた自身のAIアシスタントの構築方法](learn-more/use-cases/private-ai-deepseek-dify.md)
+  * [Ollama + DeepSeek + Dify のプライベートデプロイ：あなた自身のAIアシスタントの構築方法](learn-more/use-cases/private-ai-ollama-deepseek-dify.md)
   * [あなた専用のQAチャットボットのトレーニング方法](learn-more/use-cases/train-a-qa-chatbot-that-belongs-to-you.md)
   * [コードなしでMidjourney プロンプトボットを作成する方法](learn-more/use-cases/create-a-midjoureny-prompt-word-robot-with-zero-code.md)
   * [Notion AI アシスタントを構築する](learn-more/use-cases/build-an-notion-ai-assistant.md)

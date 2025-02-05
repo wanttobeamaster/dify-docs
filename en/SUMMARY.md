@@ -205,7 +205,7 @@
 
 * [Use Cases](learn-more/use-cases/README.md)
   * [DeepSeek & Dify Integration Guide: Building AI Applications with Multi-Turn Reasoning](learn-more/use-cases/integrate-deepseek-to-build-an-ai-app.md)
-  * [Private Deployment of DeepSeek + Dify: Build Your Own AI Assistant](learn-more/use-cases/private-ai-deepseek-dify.md)
+  * [Private Deployment of Ollama + DeepSeek + Dify: Build Your Own AI Assistant](learn-more/use-cases/private-ai-ollama-deepseek-dify.md)
   * [Build a Notion AI Assistant](learn-more/use-cases/build-an-notion-ai-assistant.md)
   * [Create a MidJourney Prompt Bot with Dify](learn-more/use-cases/create-a-midjourney-prompt-bot-with-dify.md)
   * [Create an AI Chatbot with Business Data in Minutes](learn-more/use-cases/create-an-ai-chatbot-with-business-data-in-minutes.md)

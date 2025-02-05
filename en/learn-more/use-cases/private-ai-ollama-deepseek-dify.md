@@ -1,4 +1,4 @@
-# Private Deployment of DeepSeek + Dify: Build Your Own AI Assistant
+# Private Deployment of Ollama + DeepSeek + Dify: Build Your Own AI Assistant
 
 ## Overview
 
