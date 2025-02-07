@@ -37,19 +37,19 @@ docker compose -f docker-compose.middleware.yaml up -d
 
 #### 安装基础环境
 
-服务器启动需要 Python 3.11 或 3.12。建议使用 [pyenv](https://github.com/pyenv/pyenv) 快速安装 Python 环境。
+服务器启动需要 Python 3.12。建议使用 [pyenv](https://github.com/pyenv/pyenv) 快速安装 Python 环境。
 
 要安装其他 Python 版本，请使用 `pyenv install`。
 
 ```Bash
-pyenv install 3.11
+pyenv install 3.12
 ```
 
-要切换到 "3.11" Python 环境，请使用以下命令:
+要切换到 "3.12" Python 环境，请使用以下命令:
 
 
 ```Bash
-pyenv global 3.11
+pyenv global 3.12
 ```
 
 #### 启动步骤
@@ -74,7 +74,7 @@ pyenv global 3.11
     Dify API 服务使用 [Poetry](https://python-poetry.org/docs/) 来管理依赖。你可以执行 `poetry shell` 来激活环境。
 
     ```
-    poetry env use 3.11
+    poetry env use 3.12
     poetry install
     ```
 
