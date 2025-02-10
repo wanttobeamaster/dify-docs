@@ -76,7 +76,7 @@ Go to **Profile → Settings → Model Providers** in the Dify platform. Select 
 
 Configure the Model:
 •	Model Name: Enter the deployed model name, e.g., `deepseek-r1:7b`.
-•	Base URL: Set the Ollama client’s local service URL, typically `http://your_server_ip:11434`.
+•	Base URL: Set the Ollama client’s local service URL, typically `http://your_server_ip:11434`. If you encounter connection issues, please refer to the [FAQ](https://docs.dify.ai/learn-more/use-cases/private-ai-ollama-deepseek-dify#id-1.-connection-errors-when-using-docker).
 •	Other settings: Keep default values. According to the [DeepSeek model specifications](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B), the max token length is 32,768.
 
 ![](https://assets-docs.dify.ai/2025/01/6f3b53427e46786ba7d1374739344142.png)
@@ -109,11 +109,11 @@ Configure the Model:
 
 2.	Add an LLM Node, select the `deepseek-r1:7b` model under Ollama, and use the `{{#sys.query#}}` variable into the system prompt to connect to the initial node. If you encounter any API issues, you can handle them via [Load Balancing](https://docs.dify.ai/guides/model-configuration/load-balancing) or the [Error Handling](https://docs.dify.ai/guides/workflow/error-handling) node.
 
-	2.	Add an LLM node, select the deepseek-r1:7b model under the Ollama framework, and insert the {{#sys.query#}} variable into the system prompt to connect to the initial node. If you encounter any API issues, you can handle them via Load Balancing or the Error Handling node.
+3.	Add an LLM node, select the deepseek-r1:7b model under the Ollama framework, and insert the {{#sys.query#}} variable into the system prompt to connect to the initial node. If you encounter any API issues, you can handle them via Load Balancing or the Error Handling node.
 
 ![](https://assets-docs.dify.ai/2025/01/c21f076398eb09d773d3e543561293e6.png)
 
-3.	Add an End Node to complete the configuration. Test the workflow by entering a query. If the response is correct, the setup is complete.
+4.	Add an End Node to complete the configuration. Test the workflow by entering a query. If the response is correct, the setup is complete.
 
 ![](https://assets-docs.dify.ai/2025/01/820c37c70cb029cba60ca289e8d6e89a.png)
 
@@ -177,11 +177,11 @@ If Ollama is run as a systemd service, environment variables should be set using
 
 On windows, Ollama inherits your user and system environment variables.
 
-1. First Quit Ollama by clicking on it in the task bar
-2. Edit system environment variables from the control panel
+1. First Quit Ollama by clicking on it in the task bar.
+2. Edit system environment variables from the control panel.
 3. Edit or create New variable(s) for your user account for `OLLAMA_HOST`, `OLLAMA_MODELS`, etc.
-4. Click OK/Apply to save
-5. Run `ollama` from a new terminal window
+4. Click OK/Apply to save.
+5. Run `ollama` from a new terminal window.
 
 ### 2. How to Modify the Address and Port of Ollama Service?
 

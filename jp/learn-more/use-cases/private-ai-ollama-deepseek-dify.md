@@ -77,6 +77,7 @@ Difyプラットフォームの **Profile → Settings → Model Providers** に
 モデルを構成します。
 •	モデル名：デプロイしたモデル名（例：`deepseek-r1:7b`）を入力します。
 •	ベースURL：OllamaクライアントのローカルサービスURL（通常は `http://your_server_ip:11434`）を設定します。
+接続問題が発生した場合は、[よくある質問](https://docs.dify.ai/ja-jp/learn-more/use-cases/private-ai-ollama-deepseek-dify#id-1-docker-noer)をご参照ください。
 •	その他の設定：デフォルト値を保持します。[DeepSeekモデルの仕様](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B)によると、最大トークン長は32,768です。
 
 ![](https://assets-docs.dify.ai/2025/01/6f3b53427e46786ba7d1374739344142.png)
@@ -109,11 +110,11 @@ Difyプラットフォームの **Profile → Settings → Model Providers** に
 
 2.	LLMノードを追加し、Ollama の下にある `deepseek-r1:7b` モデルを選択し、`{{#sys.query#}}` 変数をシステムプロンプトに使用して、最初のノードに接続します。APIの問題が発生した場合は、[ロードバランシング](https://docs.dify.ai/guides/model-configuration/load-balancing)または[エラー処理](https://docs.dify.ai/guides/workflow/error-handling)ノードを使用して処理できます。
 
-	2.	LLMノードを追加し、Ollamaフレームワークの下にあるdeepseek-r1:7bモデルを選択し、{{#sys.query#}}変数をシステムプロンプトに挿入して、最初のノードに接続します。APIの問題が発生した場合は、ロードバランシングまたはエラー処理ノードを使用して処理できます。
+3.	LLMノードを追加し、Ollamaフレームワークの下にあるdeepseek-r1:7bモデルを選択し、{{#sys.query#}}変数をシステムプロンプトに挿入して、最初のノードに接続します。APIの問題が発生した場合は、ロードバランシングまたはエラー処理ノードを使用して処理できます。
 
 ![](https://assets-docs.dify.ai/2025/01/c21f076398eb09d773d3e543561293e6.png)
 
-3.	Endノードを追加して構成を完了します。クエリを入力してワークフローをテストします。応答が正しければ、セットアップは完了です。
+4.	Endノードを追加して構成を完了します。クエリを入力してワークフローをテストします。応答が正しければ、セットアップは完了です。
 
 ![](https://assets-docs.dify.ai/2025/01/820c37c70cb029cba60ca289e8d6e89a.png)
 

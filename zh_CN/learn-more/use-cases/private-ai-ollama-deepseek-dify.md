@@ -73,7 +73,7 @@ Dify 社区版默认使用 80 端口，点击链接 `http://your_server_ip` 即�
 选择 LLM 模型类型。
 
 - Model Name，填写具体部署的模型型号。上文部署的模型型号为 deepseek-r1 7b，因此填写 `deepseek-r1:7b`
-- Base URL，填写 Ollama 客户端的运行地址，通常为 `http://your_server_ip:11434`。如遇连接问题，请阅读中[常见问题](https://docs.dify.ai/zh-hans/learn-more/use-cases/private-ai-deepseek-dify#chang-jian-wen-ti)。
+- Base URL，填写 Ollama 客户端的运行地址，通常为 `http://your_server_ip:11434`。如遇连接问题，请参考[常见问题](https://docs.dify.ai/zh-hans/learn-more/use-cases/private-ai-ollama-deepseek-dify#id-1.-docker-bu-shu-shi-de-lian-jie-cuo-wu)。
 - 其它选项保持默认值。根据 [DeepSeek 模型说明](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B)，最大生成长度为 32,768 Tokens。
 
 ![](https://assets-docs.dify.ai/2025/01/6f3b53427e46786ba7d1374739344142.png)
