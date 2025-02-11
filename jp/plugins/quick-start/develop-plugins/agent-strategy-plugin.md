@@ -205,7 +205,7 @@ def invoke(
     ) -> Generator[LLMResultChunk, None, None] | LLMResult:...
 ```
 
-完全な実装については、モデル呼び出しの[サンプルコード](agent-strategy.md#diao-yong-gong-ju-1)を参照してください。
+完全な実装については、モデル呼び出しの[サンプルコード](agent-strategy-plugin.md#diao-yong-gong-ju-1)を参照してください。
 
 このコードでは、ユーザーが指示を入力すると、エージェント戦略プラグインが自動的にLLMを呼び出し、その結果に基づいてツールの呼び出しに必要なパラメータを構築し、渡します。これにより、モデルは連携されたツールを柔軟に活用し、複雑なタスクを効率的に完了できます。
 
@@ -249,7 +249,7 @@ for tool_call_id, tool_call_name, tool_call_args in tool_calls:
     )
 ```
 
-完全な機能コードについては、ツール呼び出しの[サンプルコード](agent-strategy.md#diao-yong-gong-ju-1)を参照してください。
+完全な機能コードについては、ツール呼び出しの[サンプルコード](agent-strategy-plugin.md#diao-yong-gong-ju-1)を参照してください。
 
 この機能コードを実装すると、エージェント戦略プラグインは自動的にFunction Callingを実行できるようになります。例えば、現在の時刻を自動的に取得するなどが可能です。
 

@@ -57,8 +57,8 @@ Pythonのインストール方法については、[Pythonインストール](ht
 [model-plugin](model-plugin/)
 {% endcontent-ref %}
 
-{% content-ref url="agent-strategy.md" %}
-[agent-strategy.md](agent-strategy.md)
+{% content-ref url="agent-strategy-plugin.md" %}
+[agent-strategy-plugin.md](agent-strategy-plugin.md)
 {% endcontent-ref %}
 
 {% content-ref url="extension-plugin.md" %}

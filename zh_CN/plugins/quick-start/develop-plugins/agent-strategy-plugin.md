@@ -4,18 +4,18 @@ Agent 策略插件能够帮助 LLM 执行推理或决策逻辑，包括工具选
 
 本文将演示如何创建一个具备工具调用（Function Calling）能力，自动获取当前准确时间的插件。
 
-#### 前置准备
+### 前置准备
 
 * Dify 插件脚手架工具
 * Python 环境，版本号 ≥ 3.12
 
-关于如何准备插件开发的脚手架工具，详细说明请参考初始化开发工具。
+关于如何准备插件开发的脚手架工具，详细说明请参考[初始化开发工具](initialize-development-tools.md)。
 
 {% hint style="info" %}
 **Tips**：在终端运行 `dify version` 命令，检查是否出现版本号以确认成功安装脚手架工具。
 {% endhint %}
 
-#### 1. 初始化插件模板
+### 1. 初始化插件模板
 
 运行以下命令，初始化 Agent 插件开发模板。
 
@@ -82,14 +82,14 @@ Models:
 
 插件的功能代码集中在 `strategies/` 目录内。
 
-#### 2. 开发插件功能
+### 2. 开发插件功能
 
 Agent 策略插件的开发主要围绕以下两个文件展开：
 
 * 插件声明文件：`strategies/basic_agent.yaml`
 * 插件功能代码：`strategies/basic_agent.py`
 
-**2.1 定义参数**
+#### 2.1 定义参数
 
 要创建一个 Agent 插件，首先需要在 `strategies/basic_agent.yaml` 文件中定义插件所需的参数。这些参数决定了插件的核心功能，例如调用 LLM 模型和使用工具的能力。
 
@@ -156,7 +156,7 @@ extra:
 
 ![Agent 策略插件的使用页面](https://assets-docs.dify.ai/2025/01/d011e2eba4c37f07a9564067ba787df8.png)
 
-**2.2 获取参数并执行**
+#### 2.2 获取参数并执行
 
 当使用者在插件的使用页面完成基础的信息填写后，插件需要处理已填写的传入参数。因此需要先在 `strategies/basic_agent.py` 文件内定义 Agent 参数类供后续使用。
 
@@ -183,7 +183,7 @@ class BasicAgentAgentStrategy(AgentStrategy):
         params = BasicParams(**parameters)
 ```
 
-**3. 调用模型**
+#### 3. 调用模型
 
 在 Agent 策略插件中，**调用模型**是核心执行逻辑之一。可以通过 SDK 提供的 `session.model.llm.invoke()` 方法高效地调用 LLM 模型，实现文本生成、对话处理等功能。
 
@@ -210,13 +210,13 @@ def invoke(
     ) -> Generator[LLMResultChunk, None, None] | LLMResult:...
 ```
 
-要查看完整的功能实现，请参考模型调用示例代码。
+要查看完整的功能实现，请参考模型调用[示例代码](agent-strategy-plugin.md#diao-yong-gong-ju-1)。
 
 该代码实现了以下功能：用户输入指令后，Agent 策略插件会自动调用 LLM，根据生成结果构建并传递工具调用所需的参数，使模型能够灵活调度已接入的工具，高效完成复杂任务。
 
 ![生成工具的请求参数](https://assets-docs.dify.ai/2025/01/01e32c2d77150213c7c929b3cceb4dae.png)
 
-**4. 调用工具**
+#### 4. 调用工具
 
 填写工具参数后，需赋予 Agent 策略插件实际调用工具的能力。可以通过 SDK 中的`session.tool.invoke()` 函数进行工具调用。
 
@@ -254,13 +254,13 @@ for tool_call_id, tool_call_name, tool_call_args in tool_calls:
     )
 ```
 
-如需查看完整的功能代码，请阅读调用工具示例代码。
+如需查看完整的功能代码，请阅读调用工具[示例代码](agent-strategy-plugin.md#diao-yong-gong-ju-1)。
 
 实现这部分的功能代码后，Agent 策略插件将具备自动 Function Calling 的能力，例如自动获取当前时间：
 
 ![工具调用](https://assets-docs.dify.ai/2025/01/80e5de8acc2b0ed00524e490fd611ff5.png)
 
-**5. 日志创建**
+#### 5. 日志创建
 
 在 **Agent 策略插件**中，通常需要执行多轮操作才能完成复杂任务。记录每轮操作的执行结果对于开发者来说非常重要，有助于追踪 Agent 的执行过程、分析每一步的决策依据，从而更好地评估和优化策略效果。
 
@@ -323,11 +323,11 @@ model_log = self.create_log_message(
 yield model_log
 ```
 
-**插件功能示例代码**
+#### 插件功能示例代码
 
 {% tabs %}
 {% tab title="调用模型" %}
-**调用模型**
+#### 调用模型
 
 以下代码将演示如何赋予 Agent 策略插件调用模型的能力：
 
@@ -554,7 +554,7 @@ class BasicAgentAgentStrategy(AgentStrategy):
 {% endtab %}
 
 {% tab title="调用工具" %}
-**调用工具**
+#### 调用工具
 
 以下代码展示了如何为 Agent 策略插件实现模型调用并向工具发送规范化请求。
 
@@ -781,7 +781,7 @@ class BasicAgentAgentStrategy(AgentStrategy):
 {% endtab %}
 
 {% tab title="完整功能代码示例" %}
-**完整功能代码示例**
+#### 完整功能代码示例
 
 包含**调用模型、调用工具**以及**输出多轮日志功能**的完整插件代码示例：
 
@@ -1039,7 +1039,7 @@ class BasicAgentAgentStrategy(AgentStrategy):
 {% endtab %}
 {% endtabs %}
 
-#### 3. 调试插件
+### 3. 调试插件
 
 配置插件的声明文件与功能代码后，在插件的目录内运行 `python -m main` 命令重启插件。接下来需测试插件是否可以正常运行。Dify 提供远程调试方式，前往[“插件管理”](https://console-plugin.dify.dev/plugins)获取调试 Key 和远程服务器地址。
 
@@ -1058,7 +1058,7 @@ REMOTE_INSTALL_KEY=****-****-****-****-****
 
 <figure><img src="https://assets-docs.dify.ai/2025/01/c82ec0202e5bf914b36e06c796398dd6.png" alt=""><figcaption><p>访问插件</p></figcaption></figure>
 
-#### 打包插件（可选）
+### 打包插件（可选）
 
 确认插件能够正常运行后，可以通过以下命令行工具打包并命名插件。运行以后你可以在当前文件夹发现 `google.difypkg` 文件，该文件为最终的插件包。
 
@@ -1068,11 +1068,11 @@ dify plugin package ./basic_agent/
 
 恭喜，你已完成一个工具类型插件的完整开发、调试与打包过程！
 
-#### 发布插件（可选）
+### 发布插件（可选）
 
 现在可以将它上传至 [Dify Plugins 代码仓库](https://github.com/langgenius/dify-plugins)来发布你的插件了！上传前，请确保插件已遵循[插件发布规范](https://docs.dify.ai/zh-hans/plugins/publish-plugins/publish-to-dify-marketplace)。审核通过后，代码将合并至主分支并自动上线至 [Dify Marketplace](https://marketplace.dify.ai/)。
 
-#### 探索更多
+### 探索更多
 
 复杂任务往往需要多轮思考和多次工具调用。为了实现更智能的任务处理，通常采用循环执行的策略：**模型调用 → 工具调用**，直到任务完成或达到设定的最大迭代次数。
 

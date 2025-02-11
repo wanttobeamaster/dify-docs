@@ -36,7 +36,7 @@ description: 'Author: Yeuoly, Allen'
     例如在开发 Discord Bot 时，既可以使用现有工具，又能实现收发消息的专用端点。关于工具插件的开发详情，请参考[快速开始：Tool 类型插件](quick-start/develop-plugins/tool-type-plugin.md)。
 *   **Agent 策略**
 
-    Agent 策略插件能够定义 Agent 节点内部的推理和决策逻辑，包括工具选择、调用和结果处理。详细说明请参考[快速开始： Agent 策略插件](quick-start/develop-plugins/agent-strategy.md)。
+    Agent 策略插件能够定义 Agent 节点内部的推理和决策逻辑，包括工具选择、调用和结果处理。详细说明请参考[快速开始： Agent 策略插件](quick-start/develop-plugins/agent-strategy-plugin.md)。
 *   **Extensions（扩展）**
 
     仅提供 endpoint 能力，为简单场景设计的轻量级方案，通过 HTTP 服务快速实现功能扩展。适用于只需要基础 API 调用的简单集成场景。关于扩展插件的开发详情，请参考[快速开始：Extension 类型插件](quick-start/develop-plugins/extension-plugin.md)。

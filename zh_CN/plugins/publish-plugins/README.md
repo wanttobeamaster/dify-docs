@@ -62,8 +62,8 @@
 
 详细说明请参考：
 
-{% content-ref url="package-and-publish-plugin-file.md" %}
-[package-and-publish-plugin-file.md](package-and-publish-plugin-file.md)
+{% content-ref url="package-plugin-file-and-publish.md" %}
+[打包为本地文件与分享](package-plugin-file-and-publish.md)
 {% endcontent-ref %}
 
 ### **发布建议**

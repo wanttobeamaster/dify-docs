@@ -55,7 +55,7 @@
 
 詳細については以下をご参照ください：
 
-[ローカルでの公開と共有](https://docs.dify.ai/ja-jp/plugins/publish-plugins/package-and-publish-plugin-file)
+[ローカルでの公開と共有](./package-plugin-file-and-publish)
 
 ## 公開に関する推奨事項
 
