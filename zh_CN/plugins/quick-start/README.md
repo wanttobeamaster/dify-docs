@@ -26,6 +26,10 @@
 [model-plugin](develop-plugins/model-plugin/)
 {% endcontent-ref %}
 
+{% content-ref url="develop-plugins/agent-ce-le-cha-jian.md" %}
+[agent-ce-le-cha-jian.md](develop-plugins/agent-ce-le-cha-jian.md)
+{% endcontent-ref %}
+
 {% content-ref url="develop-plugins/extension-plugin.md" %}
 [extension-plugin.md](develop-plugins/extension-plugin.md)
 {% endcontent-ref %}
