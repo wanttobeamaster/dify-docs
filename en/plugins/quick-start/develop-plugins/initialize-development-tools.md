@@ -53,12 +53,12 @@ Please refer to the following content for examples of different types of plugin 
 [model-plugin](model-plugin/)
 {% endcontent-ref %}
 
-{% content-ref url="agent-strategy.md" %}
-[agent-strategy.md](agent-strategy.md)
+{% content-ref url="agent-strategy-plugin.md" %}
+[agent-strategy-plugin.md](agent-strategy-plugin.md)
 {% endcontent-ref %}
 
 {% content-ref url="extension-plugin.md" %}
-[extension.md](extension-plugin.md)
+[extension-plugin.md](extension-plugin.md)
 {% endcontent-ref %}
 
 {% content-ref url="bundle.md" %}

@@ -18,16 +18,20 @@ If you plan to develop plugins yourself, follow these steps to progressively div
 
 Explore development examples for various plugin types to grasp the basic structure and development process quickly.
 
-{% content-ref url="develop-plugins/tool-type-plugin.md" %}
+{% content-ref url="develop-plugins/tool-plugin.md" %}
 [tool-plugin.md](develop-plugins/tool-plugin.md)
 {% endcontent-ref %}
 
-{% content-ref url="develop-plugins/model/" %}
-[model](develop-plugins/model-plugin/)
+{% content-ref url="develop-plugins/model-plugin/" %}
+[model-plugin](develop-plugins/model-plugin/)
+{% endcontent-ref %}
+
+{% content-ref url="develop-plugins/agent-strategy-plugin.md" %}
+[agent-strategy-plugin.md](develop-plugins/agent-strategy-plugin.md)
 {% endcontent-ref %}
 
 {% content-ref url="develop-plugins/extension-plugin.md" %}
-[extension.md](develop-plugins/extension-plugin.md)
+[extension-plugin.md](develop-plugins/extension-plugin.md)
 {% endcontent-ref %}
 
 {% content-ref url="develop-plugins/bundle.md" %}
@@ -39,7 +43,7 @@ Explore development examples for various plugin types to grasp the basic structu
 Read the **Endpoint Documentation** to gain an in-depth understanding of **key interfaces** and **implementation details** in plugin development.
 
 {% content-ref url="../schema-definition/" %}
-[api-documentation](../schema-definition/)
+[schema-definition](../schema-definition/)
 {% endcontent-ref %}
 
 You can tailor your learning based on your specific needs to efficiently master the use or development of plugins and achieve your goals effectively.
