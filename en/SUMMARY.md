@@ -159,6 +159,7 @@
       * [Integrate the Predefined Model](plugins/quick-start/develop-plugins/model-plugin/predefined-model.md)
       * [Integrate the Customizable Model](plugins/quick-start/develop-plugins/model-plugin/customizable-model.md)
       * [Debug Plugin](plugins/quick-start/develop-plugins/model-plugin/debug-plugin.md)
+    * [Agent Strategy Plugin](plugins/quick-start/develop-plugins/agent-strategy-plugin.md)
     * [Extension Plugin](plugins/quick-start/develop-plugins/extension-plugin.md)
     * [Bundle](plugins/quick-start/develop-plugins/bundle.md)
 * [Manage Plugins](plugins/manage-plugins.md)
