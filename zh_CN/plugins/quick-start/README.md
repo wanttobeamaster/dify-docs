@@ -18,16 +18,16 @@
 
 参考各类型插件的开发示例，快速了解插件的基本结构和开发流程。
 
-{% content-ref url="develop-plugins/tool-type-plugin.md" %}
+{% content-ref url="develop-plugins/tool-plugin.md" %}
 [tool-plugin.md](develop-plugins/tool-plugin.md)
 {% endcontent-ref %}
 
-{% content-ref url="develop-plugins/model/" %}
-[model](develop-plugins/model-plugin/)
+{% content-ref url="develop-plugins/model-plugin/" %}
+[model-plugin](develop-plugins/model-plugin/)
 {% endcontent-ref %}
 
 {% content-ref url="develop-plugins/extension-plugin.md" %}
-[extension.md](develop-plugins/extension-plugin.md)
+[extension-plugin.md](develop-plugins/extension-plugin.md)
 {% endcontent-ref %}
 
 {% content-ref url="develop-plugins/bundle.md" %}
@@ -39,7 +39,7 @@
 阅读**接口定义文档**，深入了解插件开发过程中的**关键接口**和**实现细节**。
 
 {% content-ref url="../schema-definition/" %}
-[api-documentation](../schema-definition/)
+[schema-definition](../schema-definition/)
 {% endcontent-ref %}
 
 你可以根据自身需求，有针对性地学习和掌握插件的使用或开发，高效达成目标。

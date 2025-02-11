@@ -159,7 +159,7 @@
       * [接入预定义模型](plugins/quick-start/develop-plugins/model-plugin/integrate-the-predefined-model.md)
       * [接入自定义模型](plugins/quick-start/develop-plugins/model-plugin/customizable-model.md)
       * [调试插件](plugins/quick-start/develop-plugins/model-plugin/debug-plugin.md)
-    * [Agent 策略插件](plugins/quick-start/develop-plugins/agent-strategy-plugin.md)
+    * [Agent 策略插件](plugins/quick-start/develop-plugins/agent-ce-le-cha-jian.md)
     * [Extension 插件](plugins/quick-start/develop-plugins/extension-plugin.md)
     * [Bundle 插件包](plugins/quick-start/develop-plugins/bundle.md)
 * [插件管理](plugins/manage-plugins.md)
@@ -185,7 +185,7 @@
     * [插件开发者准则](plugins/publish-plugins/publish-to-dify-marketplace/plugin-developer-guidelines.md)
     * [插件隐私政策准则](plugins/publish-plugins/publish-to-dify-marketplace/plugin-privacy-protection-guidelines.md)
   * [发布至个人 GitHub 仓库](plugins/publish-plugins/publish-plugin-on-personal-github-repo.md)
-  * [本地发布与分享](plugins/publish-plugins/package-and-publish-plugin-file.md)
+  * [本地发布与分享](plugins/publish-plugins/ben-di-fa-bu-yu-fen-xiang.md)
 
 ## 研发 <a href="#development" id="development"></a>
 
