@@ -64,21 +64,7 @@
 
 ![](../../.gitbook/assets/zh-conversation-debug.png)
 
-如果回答结果不理想，可以调整提示词和底层模型。你也可以使用多个模型同步进行调试，搭配出合适的配置。
-
-![](../../.gitbook/assets/zh-modify-model.png)
-
-**多个模型进行调试：**
-
-如果使用单一模型调试时感到效率低下，你也可以使用 **“多个模型进行调试”** 功能，批量检视模型的回答效果。
-
-![](../../.gitbook/assets/zh-multiple-models.png)
-
-最多支持同时添加 4 个大模型。
-
-![](../../.gitbook/assets/zh-multiple-models-2.png)
-
-> ⚠️ 使用多模型调试功能时，如果仅看到部分大模型，这是因为暂未添加其它大模型的 Key。你可以在[“增加新供应商”](https://docs.dify.ai/v/zh-hans/guides/model-configuration/new-provider)内手动添加多个模型的 Key。
+若 LLM 给出的回答结果不理想，你可以调整提示词或切换不同底层模型进行效果对比。如需更进一步，同时查看不同模型对于同一个问题的回答情况，请参考[多模型调试](./multiple-llms-debugging.md)。
 
 #### 发布应用
 

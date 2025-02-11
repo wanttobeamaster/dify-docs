@@ -1,16 +1,16 @@
-# Conversation Assistant
+# Chatbot Application
 
-Conversation applications use a one-question-one-answer mode to have a continuous conversation with the user.
+Chatbot applications use a one-question-one-answer mode to have a continuous conversation with the user.
 
 ### Applicable scenarios
 
-Conversation applications can be used in fields such as customer service, online education, healthcare, financial services, etc. These applications can help organizations improve work efficiency, reduce labor costs, and provide a better user experience.
+Chatbot applications can be used in fields such as customer service, online education, healthcare, financial services, etc. These applications can help organizations improve work efficiency, reduce labor costs, and provide a better user experience.
 
 ### How to compose
 
-Conversation applications supports: prompts, variables, context, opening remarks, and suggestions for the next question.
+Chatbot applications supports: prompts, variables, context, opening remarks, and suggestions for the next question.
 
-Here, we use a interviewer application as an example to introduce the way to compose a conversation applications.
+Here, we use a interviewer application as an example to introduce the way to compose a Chatbot applications.
 
 #### Step 1 Create an application
 
@@ -68,20 +68,19 @@ If the results are not satisfactory, you can adjust the prompts and model parame
 
 ![](../../.gitbook/assets/adjust-model-parameters.png)
 
-**Debugging with multiple models:**
+**Multiple Model Debugging:**
 
-If debugging with a single model feels inefficient, you can utilize the **Debug as Multiple Models** feature to batch-test the models’ response effectiveness.
+If the LLM’s response is unsatisfactory, you can refine the prompt or switch to different underlying models for comparison. To simultaneously observe how multiple models respond to the same question, see [Multiple Model Debugging](./multiple-llms-debugging.md).
 
-![](../../.gitbook/assets/multiple-models.png)
-
-Supports adding up to 4 LLMs at the same time.
-
-![](../../.gitbook/assets/multiple-models-2.png)
-
-> ⚠️ When using the multi-model debugging feature, if only some large models are visible, it is because other large models’ keys have not been added yet. You can manually add multiple models’ keys in [“Add New Provider”](https://docs.dify.ai/guides/model-configuration/new-provider).
 
 **2.4 Publish App**
 
 After debugging your application, click the **"Publish"** button in the top right corner to create a standalone AI application. In addition to experiencing the application via a public URL, you can also perform secondary development based on APIs, embed it into websites, and more. For details, please refer to [Publishing](https://docs.dify.ai/guides/application-publishing).
 
 If you want to customize the application that you share, you can Fork our open source [WebApp template](https://github.com/langgenius/webapp-conversation). Based on the template, you can modify the application to meet your specific needs and style requirements.
+
+### FAQ
+
+**How ​​to add a third-party tool within the chatbot?**
+
+The chatbot app does not support adding third-party tools. You can add third-party tools within your [agent](../application-orchestrate/agent.md).
