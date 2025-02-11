@@ -269,4 +269,4 @@ dify-plugin package ./neko
 
 **ベストプラクティス：**
 
-[Telegram Botプラグインの開発](best-practice/develop-slack-bot.md)
+[Slack Botプラグインの開発](best-practice/develop-slack-bot.md)
