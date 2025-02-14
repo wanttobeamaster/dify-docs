@@ -1,10 +1,10 @@
-name: Automatic Language Check
+name: Language Check
 
 on:
   pull_request:
     types: [opened, synchronize]
     paths:
-      - '**.md'  # Only trigger on markdown file changes
+      - '**.md'  # 只在 markdown 文件变更时触发
 
 jobs:
   lang-check:
@@ -14,7 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Get full git history for diff comparison
+          fetch-depth: 0  # 获取完整的 git 历史，以便进行 diff 比较
 
       - name: Setup Git
         run: |
@@ -32,17 +32,13 @@ jobs:
         run: |
           chmod +x ./lang-check/git-diff.sh
           output=$(./lang-check/git-diff.sh)
-          echo "$output"  # Display check results
+          echo "$output"  # 显示检查结果
           
-          # Check if output contains ❌ symbol
+          # 检查输出中是否包含 ❌ 符号
           if echo "$output" | grep -q "❌"; then
-            # Clean up temporary file before exit
-            rm -f ./lang-check/commit-*.txt
-            echo "Check failed, PR cannot be merged"
-            exit 1  # Non-zero exit code will fail the Action
+            echo "检查发现问题，PR 不予通过"
+            exit 1  # 非零退出码会导致 Action 失败
           else
-            # Clean up temporary file before exit
-            rm -f ./lang-check/commit-*.txt
-            echo "Check passed"
-            exit 0  # Zero exit code indicates Action success
+            echo "检查通过"
+            exit 0  # 零退出码表示 Action 成功
           fi
