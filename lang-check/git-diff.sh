@@ -1,20 +1,20 @@
 #!/bin/bash
 
-# 加载 .env 文件
+# Load .env file
 if [ -f "$(dirname "$0")/.env" ]; then
     source "$(dirname "$0")/.env"
 fi
 
-# 检查环境变量是否存在
+# Check if environment variable exists
 if [ -z "${DIFY_API_KEY}" ]; then
-    echo "错误：未设置 DIFY_API_KEY 环境变量"
+    echo "Error: DIFY_API_KEY environment variable is not set"
     exit 1
 fi
 
-# 初始化调试模式标志
+# Initialize debug mode flag
 debug_mode=false
 
-# 处理命令行参数
+# Process command line arguments
 while getopts "t" opt; do
     case $opt in
         t)
@@ -23,39 +23,39 @@ while getopts "t" opt; do
     esac
 done
 
-# 获取当前 commit 的 ID（前 5 位）
+# Get current commit ID (first 5 characters)
 commit_id=$(git log -1 --oneline | awk '{print $1}' | cut -c1-5)
 
-# 获取 Git 仓库的根目录路径
+# Get Git repository root path
 repo_root=$(git rev-parse --show-toplevel)
 
-# 获取当前的月日时间
+# Get current month and day
 current_date=$(date +"%m%d")
 
-# 获取脚本文件的目录路径
+# Get script directory path
 script_dir=$(dirname "$(realpath "$0")")
 
-# 设置文件路径，文件名为 commit ID 加上当前月日时间和 .txt 后缀，并保存在脚本文件的同一路径内
+# Set file path, filename includes commit ID and current date with .txt extension
 log_file="${script_dir}/commit-${commit_id}-${current_date}.txt"
 
-# 创建或清空日志文件
+# Create or clear log file
 echo "" > "$log_file"
 
-# 获取变动文件列表，过滤掉非文件信息，确保比较当前分支与目标分支之间的差异
+# Get list of changed files, filter non-file information
 changed_files=$(git diff --name-only origin/main...HEAD)
 
-# 遍历每个变动文件
+# Iterate through each changed file
 for file in $changed_files
 do
-    # 检查文件是否存在并且是否为 .md 文件
+    # Check if file exists and is a .md file
     if [ -f "$repo_root/$file" ] && [[ "$file" == *.md ]]; then
-        # 输出开始标签
+        # Output start tag
         echo "<start---lang-check/$file---start>" >> "$log_file"
         
-        # 输出文件内容
+        # Output file content
         cat "$repo_root/$file" >> "$log_file"
         
-        # 输出结束标签
+        # Output end tag
         echo -e "\n\n<end---/$file---end>\n" >> "$log_file"
         
     fi
@@ -65,38 +65,30 @@ if [ "$debug_mode" = true ]; then
     echo "Output saved to $log_file"
 fi
 
-# 设置 API 密钥和其他常量
+# Set API key and other constants
 api_key="${DIFY_API_KEY}"
-user=$(git config user.name)  # 获取 Git 配置中的用户名
+user=$(git config user.name)
 
-# 如果获取失败，使用默认值
-if [ -z "$user" ]; then
-    user="abc-123"  # 默认用户名
-    if [ "$debug_mode" = true ]; then
-        echo "警告：无法获取 Git 用户名，使用默认值"
-    fi
-fi
-
-# 检查文件是否存在
+# Check if file exists
 if [ ! -f "$log_file" ]; then
-    echo "错误：文件 $log_file 不存在"
+    echo "Error: File $log_file does not exist"
     exit 1
 fi
 
-# 读取 .txt 文件内容
+# Read .txt file content
 query_content=$(<"$log_file")
 
-# 调试输出
+# Debug output
 if [ "$debug_mode" = true ]; then
-    echo "===== 调试信息 ====="
-    echo "文件路径: $log_file"
-    echo "文件内容长度: ${#query_content}"
-    echo "文件内容预览（前 100 个字符）:"
+    echo "===== Debug Info ====="
+    echo "File path: $log_file"
+    echo "Content length: ${#query_content}"
+    echo "Content preview (first 100 chars):"
     echo "${query_content:0:100}"
     echo "=================="
 fi
 
-# 准备 JSON 数据
+# Prepare JSON data
 json_data=$(cat <<EOF
 {
     "inputs": {"query": $(printf '%s' "$query_content" | jq -R -s .)},
@@ -106,16 +98,16 @@ json_data=$(cat <<EOF
 EOF
 )
 
-# 调试输出
+# Debug output
 if [ "$debug_mode" = true ]; then
-    echo "===== API 请求数据 ====="
+    echo "===== API Request Data ====="
     echo "$json_data"
     echo "===================="
 fi
 
-# 通过 curl 发送 POST 请求
+# Send POST request via curl
 if [ "$debug_mode" = true ]; then
-    # 带调试信息的请求，设置 30 秒超时
+    # Request with debug info, 30 seconds timeout
     response=$(curl -X POST 'https://api.dify.ai/v1/completion-messages' \
     --header "Authorization: Bearer $api_key" \
     --header "Content-Type: application/json" \
@@ -123,7 +115,7 @@ if [ "$debug_mode" = true ]; then
     --max-time 30 \
     -v | jq -r '.answer')
 else
-    # 不带调试信息的请求，设置 30 秒超时
+    # Request without debug info, 30 seconds timeout
     response=$(curl -X POST 'https://api.dify.ai/v1/completion-messages' \
     --header "Authorization: Bearer $api_key" \
     --header "Content-Type: application/json" \
@@ -132,21 +124,16 @@ else
     -s | jq -r '.answer')
 fi
 
-# 检查 curl 是否成功
+# Check if curl was successful
 if [ $? -ne 0 ]; then
-    echo "错误：API 请求超时或失败"
-    # 清理临时文件
-    rm -f "$log_file"
+    echo "Error: API request timeout or failed"
     exit 1
 fi
 
-# 输出 API 响应
+# Output API response
 echo "$response"
 
-# 清理临时文件
-rm -f "$log_file"
-
-# 检查响应中是否包含错误标记
+# Check if response contains error marker
 if echo "$response" | grep -q "❌"; then
     exit 1
 else

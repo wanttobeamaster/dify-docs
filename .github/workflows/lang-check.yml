@@ -4,7 +4,7 @@ on:
   pull_request:
     types: [opened, synchronize]
     paths:
-      - '**.md'  # 只在 markdown 文件变更时触发
+      - '**.md'
 
 jobs:
   lang-check:
@@ -14,7 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # 获取完整的 git 历史，以便进行 diff 比较
+          fetch-depth: 0
 
       - name: Setup Git
         run: |
@@ -32,13 +32,36 @@ jobs:
         run: |
           chmod +x ./lang-check/git-diff.sh
           output=$(./lang-check/git-diff.sh)
-          echo "$output"  # 显示检查结果
+          echo "$output" 
           
-          # 检查输出中是否包含 ❌ 符号
+          # Check ❌
           if echo "$output" | grep -q "❌"; then
-            echo "检查发现问题，PR 不予通过"
-            exit 1  # 非零退出码会导致 Action 失败
+            echo "Inspection found problems, PR Not approved"
+            exit 1  # Action run failed
           else
-            echo "检查通过"
-            exit 0  # 零退出码表示 Action 成功
+            echo "Passed"
+            exit 0  # Action run successfully
           fi
+
+          - name: Comment PR
+          if: always()  # Run even if previous step fails
+          uses: actions/github-script@v7
+          with:
+            script: |
+              const output = `### Language Check Results 🔍
+              
+              ${process.env.RESULT}
+              
+              Status: ${process.env.STATUS === 'passed' ? '✅ Passed' : '❌ Failed'}
+              
+              *Automated message from Language Check Action*`;
+              
+              github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: output
+              })
+          env:
+            RESULT: ${{ steps.check.outputs.result }}
+            STATUS: ${{ steps.check.outputs.status }}
