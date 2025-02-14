@@ -243,3 +243,4 @@
 * [用户协议](policies/agreement/README.md)
   * [服务条款](https://dify.ai/terms)
   * [隐私政策](https://dify.ai/privacy)
+  * [获取合规报告](policies/agreement/get-compliance-report.md)
