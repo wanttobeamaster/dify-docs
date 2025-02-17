@@ -262,4 +262,4 @@ class LLMTool(Tool):
         pass
 ```
 
-若该接口返回 `true` 则表示 `text` 中包含敏感内容。\
+若该接口返回 `true` 则表示 `text` 中包含敏感内容。

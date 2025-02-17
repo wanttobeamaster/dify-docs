@@ -178,7 +178,7 @@ def _invoke_error_mapping(self) -> dict[type[InvokeError], list[type[Exception]]
     """
 ```
 
-完整代码详情请参考 [Github 代码仓库](https://github.com/langgenius/dify-official-plugins/blob/main/models/anthropic/models/llm/llm.py)。
+完整代码详情请参考 [GitHub 代码仓库](https://github.com/langgenius/dify-official-plugins/blob/main/models/anthropic/models/llm/llm.py)。
 
 ### **3. 添加预定义模型配置**
 
@@ -263,7 +263,7 @@ REMOTE_INSTALL_KEY=****-****-****-****-****
 **快速开始：**
 
 * [开发 Extension 类型插件](../extension-plugin.md)
-* [开发 Model 类型插件](README.md)
+* [开发 Model 类型插件](./)
 * [Bundle 类型插件：将多个插件打包](../bundle.md)
 
 **插件接口文档：**

@@ -55,7 +55,7 @@ dify plugin init
 
 勾选所有权限项后，轻点回车完成插件的创建。系统将自动生成插件项目代码。
 
-![Plugins permissions](https://assets-docs.dify.ai/2024/11/5518ca1e425a7135f18f499e55d16bdd.png)
+![Plugins 权限](https://assets-docs.dify.ai/2024/11/5518ca1e425a7135f18f499e55d16bdd.png)
 
 插件的基础文件结构包含以下内容：
 
@@ -86,7 +86,7 @@ dify plugin init
 
 ### 开发插件
 
-#### ;1. 定义插件的请求入口 Endpoint
+#### 1. 定义插件的请求入口 Endpoint
 
 编辑 `endpoints/test_plugin.yaml` ，参考以下代码进行修改：
 
@@ -102,7 +102,7 @@ extra:
 
 #### 2. 编写插件功能
 
-插件功能：请求插件服务，输出一只猫。
+插件功能：请求服务，输出一只彩虹猫。
 
 编写插件的功能实现代码 `endpoints/test_plugin.py` 文件，参考以下示例代码：
 
@@ -254,9 +254,9 @@ dify-plugin package ./neko
 
 **快速开始：**
 
-* [Bundle 类型插件：将多个插件打包](bundle.md)
-* [Tool 类型插件：Google Search](tool-type-plugin.md)
-* [Model 类型插件](model/)
+* [Tool 插件：Google Search](tool-plugin.md)
+* [Model 插件](model-plugin/)
+* [Bundle 插件：将多个插件打包](bundle.md)
 
 **插件接口文档：**
 

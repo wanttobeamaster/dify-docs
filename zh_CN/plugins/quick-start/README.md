@@ -1,6 +1,6 @@
 # 快速开始
 
-针对不同需求，建议按以下路径有选择性地阅读文档：
+根据不同需求，按照以下路径有选择性地阅读文档：
 
 ### 我想要使用插件
 
@@ -12,7 +12,7 @@
 
 ### 我想要开发插件
 
-如果你计划自己开发插件，可以按以下步骤逐步深入：
+如果你计划自己开发插件，可以按照以下内容顺序逐步深入：
 
 #### 1. 快速开始
 
@@ -22,20 +22,20 @@
 [tool-plugin.md](develop-plugins/tool-plugin.md)
 {% endcontent-ref %}
 
-{% content-ref url="develop-plugins/model-plugin/" %}
-[model-plugin](develop-plugins/model-plugin/)
-{% endcontent-ref %}
-
-{% content-ref url="develop-plugins/agent-strategy-plugin.md" %}
-[agent-strategy-plugin.md](develop-plugins/agent-strategy-plugin.md)
-{% endcontent-ref %}
-
 {% content-ref url="develop-plugins/extension-plugin.md" %}
 [extension-plugin.md](develop-plugins/extension-plugin.md)
 {% endcontent-ref %}
 
+{% content-ref url="develop-plugins/model-plugin/" %}
+[model-plugin](develop-plugins/model-plugin/)
+{% endcontent-ref %}
+
 {% content-ref url="develop-plugins/bundle.md" %}
 [bundle.md](develop-plugins/bundle.md)
+{% endcontent-ref %}
+
+{% content-ref url="develop-plugins/agent-strategy-plugin.md" %}
+[agent-strategy-plugin.md](develop-plugins/agent-strategy-plugin.md)
 {% endcontent-ref %}
 
 #### 2. 进阶开发
@@ -46,4 +46,4 @@
 [schema-definition](../schema-definition/)
 {% endcontent-ref %}
 
-你可以根据自身需求，有针对性地学习和掌握插件的使用或开发，高效达成目标。
+你可以根据自身需求，有针对性地学习和掌握插件的使用或开发知识。

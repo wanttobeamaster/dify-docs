@@ -65,4 +65,4 @@ Model 模型插件使 Dify 平台能够调用该模型供应商下的所有 LLM�
 
 1. [创建模型供应商](create-model-providers.md)
 2. 接入[预定义](../../../../guides/model-configuration/predefined-model.md) / [自定义](customizable-model.md)模型
-3. [调试插件](debug-plugin.md)
+3. [调试插件](../../debug-plugins.md)

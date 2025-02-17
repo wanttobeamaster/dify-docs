@@ -44,7 +44,7 @@
 [publish-plugin-on-personal-github-repo.md](publish-plugin-on-personal-github-repo.md)
 {% endcontent-ref %}
 
-#### 插件文件（本地安装）
+#### 3. 插件文件包（本地安装）
 
 **简介**：将插件打包成本地文件（如 `.difypkg` 格式），通过文件分享的方式供他人安装。
 
@@ -63,7 +63,7 @@
 详细说明请参考：
 
 {% content-ref url="package-plugin-file-and-publish.md" %}
-[打包为本地文件与分享](package-plugin-file-and-publish.md)
+[package-plugin-file-and-publish.md](package-plugin-file-and-publish.md)
 {% endcontent-ref %}
 
 ### **发布建议**

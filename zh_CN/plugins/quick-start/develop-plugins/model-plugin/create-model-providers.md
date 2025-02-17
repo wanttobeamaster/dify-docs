@@ -1,6 +1,6 @@
 # 创建模型供应商
 
-创建 Model 类型插件的第一步是初始化插件项目并创建模型供应商文件，随后接入具体的预定义 / 自定义模型。
+创建 Model 类型插件的第一步是初始化插件项目并创建模型供应商文件，随后编写具体的预定义 / 自定义模型代码。
 
 ### 前置准备 <a href="#qian-zhi-zhun-bei" id="qian-zhi-zhun-bei"></a>
 
@@ -50,7 +50,7 @@ dify plugin init
 
     需要手动新增每个模型的凭据配置，例如 `Xinference`，它同时支持 LLM 和 Text Embedding，但是每个模型都有唯一的 **model\_uid**，如果想要将两者同时接入，需要为每个模型配置一个 **model\_uid**。详细开发说明请参考接入自定义模型。
 
-两种配置方式**支持共存**，即存在供应商支持 `predefined-model` + `customizable-model` 或 `predefined-model`  等，即配置了供应商统一凭据可以使用预定义模型和从远程获取的模型，若新增了模型，则可以在此基础上额外使用自定义的模型。
+两种配置方式**支持共存**，即存在供应商支持 `predefined-model` + `customizable-model` 或 `predefined-model` 等，即配置了供应商统一凭据可以使用预定义模型和从远程获取的模型，若新增了模型，则可以在此基础上额外使用自定义的模型。
 
 ### 新增模型供应商
 
@@ -223,7 +223,6 @@ def validate_provider_credentials(self, credentials: dict) -> None:
 #### **自定义模型供应商**
 
 对于其它类型模型供应商而言，请参考以下配置方法。
-
 
 对于像 `Xinference` 这样的自定义模型供应商，可以跳过完整实现的步骤。只需创建一个名为 `XinferenceProvider` 的空类，并在其中实现一个空的 `validate_provider_credentials` 方法。
 

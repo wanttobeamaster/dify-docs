@@ -1,6 +1,10 @@
+---
+description: 'Author: Yeuoly，Allen'
+---
+
 # Endpoint
 
-本文将以[快速开始：彩虹猫](../quick-start/develop-plugins/extension-plugin.md)项目为例，说明插件内的 Endpoint 的结构。完整的插件代码请参考 [Github 仓库](https://github.com/langgenius/dify-plugin-sdks/tree/main/python/examples/neko)。
+本文将以[彩虹猫](../quick-start/develop-plugins/extension-plugin.md)项目为例，说明插件内的 Endpoint 的结构。完整的插件代码请参考 [Github 仓库](https://github.com/langgenius/dify-plugin-sdks/tree/main/python/examples/neko)。
 
 ### 组定义
 
@@ -86,4 +90,3 @@ class Duck(Endpoint):
         return Response(generator(), status=200, content_type="text/html")
 ```
 
-\

@@ -5,11 +5,11 @@
 * Dify 插件脚手架工具
 * Python 环境，版本号 ≥ 3.12
 
-### **1. 安装 Dify 插件开发脚手架工具**
-
 > Dify 插件开发脚手架工具又称为 `dify-plugin-daemon`，可以被视作**插件开发 SDK**。
 
-访问脚手架工具的 [GitHub 项目地址](https://github.com/langgenius/dify-plugin-daemon/releases)，推荐下载并安装最新版本号和对应操作系统的工具。
+### **1. 安装 Dify 插件开发脚手架工具**
+
+访问 [Dify Plugin CLI](https://github.com/langgenius/dify-plugin-daemon/releases) 项目地址，下载并安装最新版本号和对应操作系统的工具。
 
 本文**以装载 M 系列芯片的 macOS** 为例。下载 `dify-plugin-darwin-arm64` 文件后，赋予其执行权限。
 
@@ -23,7 +23,7 @@ chmod +x dify-plugin-darwin-arm64
 ./dify-plugin-darwin-arm64 version
 ```
 
-> 若提示 “Apple 无法验证” 错误，请前 **“设置 → 隐私与安全性 → 安全性”**，轻点 “仍要打开” 按钮。
+> 若提示 “Apple 无法验证” 错误，请前往 **“设置 → 隐私与安全性 → 安全性”**，轻点 “仍要打开” 按钮。
 
 运行命令后，终端若返回类似 `v0.0.1-beta.15` 的版本号信息，则说明安装成功。
 
@@ -34,12 +34,12 @@ chmod +x dify-plugin-darwin-arm64
 
 配置完成后，在终端输入 `dify version` 命令后将输出版本号信息。
 
-<img src="https://assets-docs.dify.ai/2025/01/74e57a57c1ae1cc70f4a45084cbbb37e.png" alt="" data-size="original">
+<img src="https://assets-docs.dify.ai/2025/02/74e57a57c1ae1cc70f4a45084cbbb37e.png" alt="" data-size="original">
 {% endhint %}
 
 ### **2. 初始化 Python 环境**
 
-详细说明请参考 [Python 安装教程](https://pythontest.com/python/installing-python-3-11/)，或询问 LLM 获取完整的安装教程。
+详细说明请参考 [Python 安装教程](https://pythontest.com/python/installing-python-3-11/)，或询问 LLM 安装版本号 ≥ 3.12 的 Python 环境，
 
 ### 3. 开发插件
 

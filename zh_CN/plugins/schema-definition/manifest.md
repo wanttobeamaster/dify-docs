@@ -1,5 +1,5 @@
 ---
-description: 'Author: Yeuoly'
+description: 'Author: Yeuoly，Allen'
 ---
 
 # Manifest
@@ -101,5 +101,4 @@ privacy: "./privacy.md"
     * `language`(string)：目前仅支持 python
     * `version`(string)：语言的版本，目前仅支持 `3.12`
     * `entrypoint`(string)：程序入口，在 python 下应为 `main`
-* `privacy` (string, optional)：可选项，指定插件隐私政策文件的相对路径或 URL，例如 `"./privacy.md"` 或 `"https://your-web/privacy"`。如果计划将插件上架至 Dify Marketplace，该字段为必填项，用于提供明确的用户数据使用和隐私声明。详细填写指引请参考[插件隐私政策准则](../publish-plugins/publish-to-dify-marketplace/plugin-privacy-protection-guidelines.md)。
-
+* `privacy` (string, optional)：可选项，指定插件隐私政策文件的相对路径或 URL，例如 `"./privacy.md"` 或 `"https://your-web/privacy"`。如果计划将插件上架至 Dify Marketplace，**该字段为必填项**，用于提供明确的用户数据使用和隐私声明。详细填写指引请参考[插件隐私政策准则](../publish-plugins/publish-to-dify-marketplace/plugin-privacy-protection-guidelines.md)。

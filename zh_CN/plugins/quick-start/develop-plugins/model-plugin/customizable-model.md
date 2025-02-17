@@ -203,7 +203,7 @@ def validate_credentials(self, model: str, credentials: dict) -> None:
     """
 ```
 
-*   **模型参数 Schema**
+* **模型参数 Schema**
 
 与[预定义模型类型](integrate-the-predefined-model.md)不同，由于未在 YAML 文件中预设模型所支持的参数，因此需要动态生成模型参数的 Schema。
 
@@ -274,7 +274,8 @@ def validate_credentials(self, model: str, credentials: dict) -> None:
       )
 
       return entity
-  ```
+```
+
 * **调用异常错误映射表**
 
 当模型调用异常时需要映射到 Runtime 指定的 `InvokeError` 类型，方便 Dify 针对不同错误做不同后续处理。
@@ -308,8 +309,8 @@ def _invoke_error_mapping(self) -> dict[type[InvokeError], list[type[Exception]]
 
 插件开发完成后，接下来需测试插件是否可以正常运行。详细说明请参考：
 
-{% content-ref url="debug-plugin.md" %}
-[debug-plugin.md](debug-plugin.md)
+{% content-ref url="../../debug-plugins.md" %}
+[debug-plugins.md](../../debug-plugins.md)
 {% endcontent-ref %}
 
 ### 4. 发布插件
