@@ -69,7 +69,7 @@ Tap the document title at the top to quickly switch to other documents in the kn
 {% tab title="Parent-child Mode" %}
 **Parent-child Mode**
 
-In[ Parent-child](maintain-documents.md#parent-child-chunking-mode) mode, content is divided into parent chunks and child chunks.
+In[ Parent-child](maintain-knowledge-documents.md#parent-child-chunking-mode) mode, content is divided into parent chunks and child chunks.
 
 *   **Parent chunks**
 
@@ -89,7 +89,7 @@ In[ Parent-child](maintain-documents.md#parent-child-chunking-mode) mode, conten
 
 In Q\&A Mode, a content chunk consists of a question and an answer. Click on any document title to view the text chunks.
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/98e2486f6c5e06b4ece1b81d078afa08.png" alt=""><figcaption><p><strong>Q&A Mode - check content chunk</strong></p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/2024/12/98e2486f6c5e06b4ece1b81d078afa08.png" alt=""><figcaption><p><strong>Q&#x26;A Mode - check content chunk</strong></p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -149,9 +149,7 @@ Click Add Chunks in the Chunk list to add one or multiple custom **parent chunks
 
 After entering the content, select the **“Add another”** checkbox at the bottom to keep adding more text chunks.
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/ba64232eea364b68f2e38341eb9cf5c1.png" alt=""><figcaption><p>Parent-child mode - Add chunks 2 </p></figcaption></figure>
-
-
+<figure><img src="https://assets-docs.dify.ai/2024/12/ba64232eea364b68f2e38341eb9cf5c1.png" alt=""><figcaption><p>Parent-child mode - Add chunks 2</p></figcaption></figure>
 
 You can add child chunks individually under a parent chunk. Click “Add” on the right side of the child chunk within the parent chunk to add it.
 
@@ -185,7 +183,7 @@ To prevent duplicate edits, an “Edited” tag will appear on the content chunk
 
 A parent chunk contains the content of its child chunks, but they remain independent. You can edit the parent chunk or child chunks separately. Below is a diagram explaining the process of modifying parent and child chunks:
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/aacdb2e95b9b7c0265455caaf0f1f55f.png" alt="" width="375"><figcaption><p> Diagram of editing parent-child chunks</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/2024/12/aacdb2e95b9b7c0265455caaf0f1f55f.png" alt="" width="375"><figcaption><p>Diagram of editing parent-child chunks</p></figcaption></figure>
 
 **To edit a parent chunk:**
 
@@ -211,7 +209,7 @@ You can also treat child chunks as tags for the current parent text block.
 
 In Q\&A chunking mode, each content chunk consists of a question and an answer. Click on the text chunk you wish to edit to modify the question and answer individually. Additionally, you can edit the keywords for the current chunk.
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/5c69adc0d4ec470d0677e67a4dd894a1.png" alt=""><figcaption><p><strong>Q&A Mode - modify text chunks</strong></p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/2024/12/5c69adc0d4ec470d0677e67a4dd894a1.png" alt=""><figcaption><p><strong>Q&#x26;A Mode - modify text chunks</strong></p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -220,19 +218,20 @@ In Q\&A chunking mode, each content chunk consists of a question and an answer. 
 Knowledge Base supports reconfiguring document segmentation.
 
 **Larger Chunks**
-- Retain more context within each chunk, ideal for tasks requiring a broader understanding of the text.
-- Reduce the total number of chunks, lowering processing time and storage overhead.
+
+* Retain more context within each chunk, ideal for tasks requiring a broader understanding of the text.
+* Reduce the total number of chunks, lowering processing time and storage overhead.
 
 **Smaller Chunks**
-- Provide finer granularity, improving accuracy for tasks like extraction or summarization.
-- Reduce the risk of exceeding model token limits, making it safer for models with stricter constraints.
 
-Go to **Chunk Settings**, adjust the settings, and click **Save & Process** to save changes and reprocess the document.
-The chunk list will update automatically once processing is complete—no page refresh needed.
+* Provide finer granularity, improving accuracy for tasks like extraction or summarization.
+* Reduce the risk of exceeding model token limits, making it safer for models with stricter constraints.
+
+Go to **Chunk Settings**, adjust the settings, and click **Save & Process** to save changes and reprocess the document. The chunk list will update automatically once processing is complete—no page refresh needed.
 
 ![Chunk Settings](https://assets-docs.dify.ai/2025/01/36cb20be8aae1f368ebf501c0d579051.png)
 
-<img src="https://assets-docs.dify.ai/2025/01/a47b890c575a7693c40303d3d7cb4952.png" width="400" alt="Save & Process">
+![Save & Process](https://assets-docs.dify.ai/2025/01/a47b890c575a7693c40303d3d7cb4952.png)
 
 ***
 

@@ -1,6 +1,10 @@
 # Debug Plugin
 
-Dify provides remote debugging method, go to "Plugin Management" page to get the debugging key and remote server address.
+
+
+Once plugin development is complete, the next step is to test whether the plugin runs correctly. Dify provides remote debugging method.
+
+Go to ["Plugin"](https://cloud.dify.ai/plugins) page to get the debugging key and remote URL.
 
 ![](https://assets-docs.dify.ai/2024/11/1cf15bc59ea10eb67513c8bdca557111.png)
 
@@ -19,6 +23,6 @@ Run the `python -m main` command to start the plugin. You can see on the plugin 
 
 ![](https://assets-docs.dify.ai/2024/12/e11acb42ccb23c824f400b7e19fb2952.png)
 
-You can initialize this model provider by entering the API Key in Settings → Model Provider.
+You can initialize this model provider by entering the API Key in **Settings → Model Provider**.
 
 ![](https://assets-docs.dify.ai/2024/12/662de537d70a3607c240a05294a9f3e1.png)

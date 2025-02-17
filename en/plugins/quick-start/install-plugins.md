@@ -2,7 +2,7 @@
 description: 'Author: Allen'
 ---
 
-# Installing and Using Plugins
+# Install and Use Plugins
 
 ## Installing Plugins
 
@@ -10,13 +10,11 @@ To install plugins, click **"Plugins"** in the top-right corner of the Dify plat
 
 <figure><img src="https://assets-docs.dify.ai/2025/01/a56c40245090d9252557dcc6f4064a14.png" alt=""><figcaption><p>Install Plugins</p></figcaption></figure>
 
-### Installation Methods
-
 #### Marketplace
 
 Browse and select a plugin from the Marketplace. Click **"Install"** to add it to your current workspace effortlessly.
 
-![Install via Marketplace](https://assets-docs.dify.ai/2025/01/6ae8b661b7fa01b228a954d00ef552f3.png)
+![Install via marketplace](https://assets-docs.dify.ai/2025/01/6ae8b661b7fa01b228a954d00ef552f3.png)
 
 #### GitHub
 
@@ -36,7 +34,7 @@ Some plugins require API Keys or other authorization to function properly. After
 
 ![Authorize Plugin](https://assets-docs.dify.ai/2024/11/972de4c9fa00f792a1ab734b080aafdc.png)
 
----
+***
 
 ## Using Plugins
 
@@ -68,7 +66,7 @@ When using the application, input instructions to utilize the tools. For example
 
 #### Chatflow / Workflow
 
-Chatflow and Workflow applications share the same orchestration canvas, so tool usage is identical. 
+Chatflow and Workflow applications share the same orchestration canvas, so tool usage is identical.
 
 Click the **"+"** button at the end of a node, select the installed Google plugin, and connect it to the upstream nodes.
 
@@ -82,12 +80,12 @@ For usage methods of other plugin types, refer to their respective plugin detail
 
 <figure><img src="https://assets-docs.dify.ai/2025/01/9d826302637638f705a94f73bd653958.png" alt=""><figcaption><p>Using Plugins</p></figcaption></figure>
 
----
+***
 
 ## Read More
 
 To learn how to get started with plugin development, refer to the following guide:
 
 {% content-ref url="develop-plugins/" %}
-[Develop Plugins](develop-plugins/)
+[develop-plugins](develop-plugins/)
 {% endcontent-ref %}

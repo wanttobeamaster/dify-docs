@@ -1,4 +1,4 @@
-# Integrating a Custom Model
+# Integrate the Customizable Model
 
 A **custom model** refers to an LLM that you deploy or configure on your own. This document uses the [Xinference model](https://inference.readthedocs.io/en/latest/) as an example to demonstrate how to integrate a custom model into your **model plugin**.
 
@@ -10,19 +10,16 @@ You do not need to implement `validate_provider_credential` in your provider con
 
 Below are the steps to integrate a custom model:
 
-1. **Create a Model Provider File**  
+1. **Create a Model Provider File**\
    Identify the model types your custom model will include.
-
-2. **Create Code Files by Model Type**  
+2. **Create Code Files by Model Type**\
    Depending on the model’s type (e.g., `llm` or `text_embedding`), create separate code files. Ensure that each model type is organized into distinct logical layers for easier maintenance and future expansion.
-
-3. **Develop the Model Invocation Logic**  
+3. **Develop the Model Invocation Logic**\
    Within each model-type module, create a Python file named for that model type (for example, `llm.py`). Define a class in the file that implements the specific model logic, conforming to the system’s model interface specifications.
-
-4. **Debug the Plugin**  
+4. **Debug the Plugin**\
    Write unit and integration tests for the new provider functionality, ensuring that all components work as intended.
 
----
+***
 
 ### 1. **Create a Model Provider File**
 
@@ -97,7 +94,7 @@ Every model in Xinference requires a `model_name`:
       en_US: Input model name
 ```
 
-Because Xinference must be locally deployed, users need to supply the server address (server_url) and model UID. For instance:
+Because Xinference must be locally deployed, users need to supply the server address (server\_url) and model UID. For instance:
 
 ```yaml
   - variable: server_url
@@ -127,9 +124,9 @@ Once you’ve defined these parameters, the YAML configuration for your custom m
 
 Since Xinference supports llm, rerank, speech2text, and tts, you should create corresponding directories under /models, each containing its respective feature code.
 
-Below is an example for an llm-type model. You’d create a file named llm.py, then define a class—such as XinferenceAILargeLanguageModel—that extends __base.large_language_model.LargeLanguageModel. This class should include:
+Below is an example for an llm-type model. You’d create a file named llm.py, then define a class—such as XinferenceAILargeLanguageModel—that extends \_\_base.large\_language\_model.LargeLanguageModel. This class should include:
 
-- **LLM Invocation**
+* **LLM Invocation**
 
 The core method for invoking the LLM, supporting both streaming and synchronous responses:
 
@@ -176,7 +173,7 @@ def _handle_sync_response(self, **kwargs) -> LLMResult:
     return LLMResult(**response)
 ```
 
-- **Pre-calculating Input Tokens**
+* **Pre-calculating Input Tokens**
 
 If your model doesn’t provide a token-counting interface, simply return 0:
 
@@ -196,7 +193,7 @@ def get_num_tokens(
 
 Alternatively, you can call `self._get_num_tokens_by_gpt2(text: str)` from the `AIModel` base class, which uses a GPT-2 tokenizer. Remember this is an approximation and may not match your model exactly.
 
-- **Validating Model Credentials**
+* **Validating Model Credentials**
 
 Similar to provider-level credential checks, but scoped to a single model:
 
@@ -207,9 +204,9 @@ def validate_credentials(self, model: str, credentials: dict) -> None:
     """
 ```
 
-- **Dynamic Model Parameters Schema**
+* **Dynamic Model Parameters Schema**
 
-Unlike [predefined models](./predefined-model.md), no YAML is defining which parameters a model supports. You must generate a parameter schema dynamically.
+Unlike [predefined models](predefined-model.md), no YAML is defining which parameters a model supports. You must generate a parameter schema dynamically.
 
 For example, Xinference supports `max_tokens`, `temperature`, and `top_p`. Some other providers (e.g., `OpenLLM`) may support parameters like `top_k` only for certain models. This means you need to adapt your schema to each model’s capabilities:
 
@@ -276,19 +273,21 @@ def get_customizable_model_schema(self, model: str, credentials: dict) -> AIMode
     )
 
     return entity
-  ```
+```
 
-- **Error Mapping**
+* **Error Mapping**
 
 When an error occurs during model invocation, map it to the appropriate InvokeError type recognized by the runtime. This lets Dify handle different errors in a standardized manner:
 
 Runtime Errors:
 
-	•	`InvokeConnectionError`
-	•	`InvokeServerUnavailableError`
-	•	`InvokeRateLimitError`
-	•	`InvokeAuthorizationError`
-	•	`InvokeBadRequestError`
+```
+•	`InvokeConnectionError`
+•	`InvokeServerUnavailableError`
+•	`InvokeRateLimitError`
+•	`InvokeAuthorizationError`
+•	`InvokeBadRequestError`
+```
 
 ```python
 @property
@@ -313,8 +312,8 @@ To view the complete code files discussed in this guide, visit the [GitHub Repos
 
 After finishing development, test the plugin to ensure it runs correctly. For more details, refer to:
 
-{% content-ref url="debug-plugin.md" %}
-[debug-plugin.md](debug-plugin.md)
+{% content-ref url="../debug-plugin.md" %}
+[debug-plugin.md](../debug-plugin.md)
 {% endcontent-ref %}
 
 ### 4. Publish the Plugin

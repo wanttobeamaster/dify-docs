@@ -34,16 +34,16 @@ You can manage your knowledge base documents either through a web interface or v
 
 You can administer all documents and their corresponding chunks directly in the knowledge base. For more details, refer to the following documentation:
 
-{% content-ref url="knowledge-and-documents-maintenance/maintain-documents.md" %}
-[maintain-documents.md](knowledge-and-documents-maintenance/maintain-documents.md)
+{% content-ref url="knowledge-and-documents-maintenance/maintain-knowledge-documents.md" %}
+[maintain-knowledge-documents.md](knowledge-and-documents-maintenance/maintain-knowledge-documents.md)
 {% endcontent-ref %}
 
 #### Maintain Knowledge Base Via API
 
 Dify Knowledge Base provides a comprehensive set of standard APIs. Developers can use these APIs to perform routine management and maintenance tasks, such as adding, deleting, updating, and retrieving documents and chunks. For more details, refer to the following documentaiton:
 
-{% content-ref url="maintain-dataset-via-api.md" %}
-[maintain-dataset-via-api.md](maintain-dataset-via-api.md)
+{% content-ref url="knowledge-and-documents-maintenance/maintain-dataset-via-api.md" %}
+[maintain-dataset-via-api.md](knowledge-and-documents-maintenance/maintain-dataset-via-api.md)
 {% endcontent-ref %}
 
 <figure><img src="../../.gitbook/assets/knowledge-base-api.png" alt=""><figcaption><p>Knowledge base API management</p></figcaption></figure>

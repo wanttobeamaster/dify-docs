@@ -8,7 +8,7 @@ You can quickly understand how to develop different types of plugins and master 
 [initialize-development-tools.md](initialize-development-tools.md)
 {% endcontent-ref %}
 
-We use the **Google Search** tool as an example to demonstrate how to develop tool-type plugins. For detailed development examples, please see the following:
+Using the **Google Search** tool as an example to demonstrate how to develop tool-type plugins. For more details, please take refer to the following:
 
 {% content-ref url="tool-plugin.md" %}
 [tool-plugin.md](tool-plugin.md)
@@ -22,13 +22,13 @@ By examining the **Anthropic** and **Xinference** models, we present separate gu
 For development examples, refer to the following content:
 
 {% content-ref url="model-plugin/" %}
-[model](model-plugin/)
+[model-plugin](model-plugin/)
 {% endcontent-ref %}
 
-Extension plugins enable developers to package business code as plugins and automatically provide an Endpoint request entry, functioning akin to an API service hosted on the Dify platform. For more details and development examples, see the following:
+Extension plugins enable developers to package business code as plugins and automatically provide an Endpoint request entry, functioning akin to an API service hosted on the Dify platform. For more details please take refer to:
 
 {% content-ref url="extension-plugin.md" %}
-[extension.md](extension-plugin.md)
+[extension-plugin.md](extension-plugin.md)
 {% endcontent-ref %}
 
 ### **Endpoints Documentation**
@@ -50,11 +50,15 @@ If you want to read detailed interface documentation for plugin projects, you ca
 
 ### **Contribution Guidelines**
 
-Want to contribute code and features to Dify Plugin? Or want to contribute code to official plugins?;
+Want to contribute code and features to Dify Marketplace?&#x20;
 
 We provide detailed development guidelines and contribution guidelines to help you understand our architecture design and contribution process:
 
-* [Dify Plugin Contribution Guidelines](../../publish-plugins/publish-to-dify-marketplace/) Learn how to submit your plugin to the Dify Marketplace to share your work with a broader developer community.
-* [GitHub Publishing Guidelines](../../publish-plugins/publish-plugin-on-personal-github-repo.md) Discover how to publish and manage your plugins on GitHub, ensuring ongoing optimization and collaboration with the community.
+*   [Dify Plugin Contribution Guidelines](../../publish-plugins/publish-to-dify-marketplace/)
+
+    Learn how to submit your plugin to the Dify Marketplace to share your work with a broader developer community.
+*   [GitHub Publishing Guidelines](../../publish-plugins/publish-plugin-on-personal-github-repo.md)
+
+    Discover how to publish and manage your plugins on GitHub, ensuring ongoing optimization and collaboration with the community.
 
 Welcome to join us and become our contributors, and help to enhance the Dify ecosystem alongside developers worldwide!

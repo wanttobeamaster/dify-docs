@@ -4,15 +4,15 @@ Tool type plugins are external tools that can be referenced by Chatflow / Workfl
 
 <figure><img src="https://assets-docs.dify.ai/2024/12/7e7bcf1f9e3acf72c6917ea9de4e4613.png" alt=""><figcaption></figcaption></figure>
 
-Meanwhile, the tool type plugin allows to include multiple tools with the following structure:
+In this article, a "Tool Plugin" refers to a complete project that includes the tool provider file, functional code, and other related components. A tool provider may encompass multiple Tools (which can be understood as additional functionalities offered by a single tool), structured as follows:
 
 ```
-- Tool Suppliers
-    - Action A
-    - Action B
+- Tool provider
+    - Tool A
+    - Tool B
 ```
 
-![Tool structure](https://assets-docs.dify.ai/2025/01/a6b6b631077c13034447242fe3744b56.png)
+![Tool structure](https://assets-docs.dify.ai/2025/02/60c4c86a317d865133aa460592eac079.png)
 
 This article uses `GoogleSearch` as an example of how to quickly develop a tool type of plugin.
 
@@ -25,7 +25,7 @@ For detailed instructions on how to prepare scaffolding tools for plugin develop
 
 ### **Create New Project**
 
-In the current path, run the CLI tool to create a new dify plugin project:
+Run the CLI tool to create a new dify plugin project:
 
 ```bash
 ./dify-plugin-darwin-arm64 plugin init
@@ -37,11 +37,13 @@ If you have renamed the binary file to `dify` and copied it to the `/usr/local/b
 dify plugin init
 ```
 
+> In the following, the command-line tool `dify` is used. If issues occur, please replace the `dify` command with the appropriate path to your command-line tool.
+
 ### Select plugin type and template
 
-There are three types of plugins: tools, models and extensions. All templates within Scaffolding Tools are provided with full code projects. The following part will use the Tool type plugin template as an example.
+There are three types of plugins: tool, model and extension. All templates within SDK are provided with full code projects. The following part will use the **Tool plugin** template as an example.
 
-For developers who are already familiar with plugins, there is no need to rely on templates and can refer to the [schema definition documentation](../schema-definition/) to complete the development of different types of plug-ins.
+> If you are already familiar in plugin development, please refer to the [Schema Definition](../../schema-definition/) to implement various types of plugins.
 
 ![Plugins type](https://assets-docs.dify.ai/2024/12/dd3c0f9a66454e15868eabced7b74fd6.png)
 
@@ -350,7 +352,3 @@ You can now publish your plugin by uploading it to the [Dify Plugins code reposi
 * [Tools](../../guides/tools/)
 * [Models](../schema-definition/model/model-schema.md)
 * [Extend Agent Strategy](../schema-definition/agent.md)
-
-
-
-#### ;

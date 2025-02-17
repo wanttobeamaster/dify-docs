@@ -2,26 +2,26 @@
 
 ## Overview
 
-As an open-source generative AI application development platform, **Dify** empowers developers to build smarter AI applications leveraging DeepSeek LLMs. The Dify platform delivers these key development experiences:  
+As an open-source generative AI application development platform, **Dify** empowers developers to build smarter AI applications leveraging DeepSeek LLMs. The Dify platform delivers these key development experiences:
 
-- **Visual Development** - Create DeepSeek R1-powered AI applications in 3 minutes through intuitive visual orchestration  
-- **Knowledge Base Augmentation** - Activate RAG capabilities by connecting internal documents to build precision Q&A systems  
-- **Workflow Expansion** - Implement complex business logic via drag-and-drop functional nodes and third-party tool plugins  
-- **Data Insights** – Comes with built-in metrics on total conversations, user engagement, and more, and supports integration with specialized monitoring platforms.
-...
+* **Visual Development** - Create DeepSeek R1-powered AI applications in 3 minutes through intuitive visual orchestration
+* **Knowledge Base Augmentation** - Activate RAG capabilities by connecting internal documents to build precision Q\&A systems
+* **Workflow Expansion** - Implement complex business logic via drag-and-drop functional nodes and third-party tool plugins
+* **Data Insights** – Comes with built-in metrics on total conversations, user engagement, and more, and supports integration with specialized monitoring platforms. ...
 
 This guide details DeepSeek API integration with Dify to achieve two core implementations:
 
-- **Intelligent Chatbot Development** - Directly harness DeepSeek R1's chain-of-thought reasoning capabilities
-- **Knowledge-Enhanced Application Construction** - Enable accurate information retrieval and generation through private knowledge bases  
+* **Intelligent Chatbot Development** - Directly harness DeepSeek R1's chain-of-thought reasoning capabilities
+* **Knowledge-Enhanced Application Construction** - Enable accurate information retrieval and generation through private knowledge bases
 
-> For compliance-sensitive industries like finance and legal, Dify offers **[Private Deployment of DeepSeek + Dify: Build Your Own AI Assistant](private-ai-deepseek-dify.md)**:  
-> - Synchronized deployment of DeepSeek models and Dify platform in private networks
-> - Full data sovereignty assurance
+> For compliance-sensitive industries like finance and legal, Dify offers [**Private Deployment of DeepSeek + Dify: Build Your Own AI Assistant**](broken-reference):
+>
+> * Synchronized deployment of DeepSeek models and Dify platform in private networks
+> * Full data sovereignty assurance
 
-The Dify × DeepSeek integration enables developers to bypass infrastructure complexities and directly advance to **scenario-based AI implementation**, accelerating the transformation of LLM technology into operational productivity.  
+The Dify × DeepSeek integration enables developers to bypass infrastructure complexities and directly advance to **scenario-based AI implementation**, accelerating the transformation of LLM technology into operational productivity.
 
----
+***
 
 ## Prerequisites
 
@@ -29,13 +29,13 @@ The Dify × DeepSeek integration enables developers to bypass infrastructure com
 
 Visit the [DeepSeek API Platform](https://platform.deepseek.com/) and follow the instructions to request an API Key.
 
-> If the link is inaccessible, consider deploying DeepSeek locally. See the [local deployment guide](./private-ai-deepseek-dify.md) for more details.
+> If the link is inaccessible, consider deploying DeepSeek locally. See the [local deployment guide](broken-reference) for more details.
 
 ### 2. Register on Dify
 
 Dify is a platform that helps you quickly build generative AI applications. By integrating DeepSeek’s API, you can easily create a functional DeepSeek-powered AI app.
 
----
+***
 
 ## Integration Steps
 
@@ -45,7 +45,7 @@ Go to the Dify platform and navigate to **Profile → Settings → Model Provide
 
 ![](https://assets-docs.dify.ai/2025/01/a7d6b4e05a3c9d85d0cb42f4dd018bc8.png)
 
----
+***
 
 ### 2. Create a DeepSeek AI Application
 
@@ -63,7 +63,7 @@ Once configured, you can start interacting with the chatbot.
 
 ![](https://assets-docs.dify.ai/2025/01/3760e9a0cb7c2070978134d8f7f13929.png)
 
----
+***
 
 ### 3. Enable Text Analysis with Knowledge Base
 
@@ -81,7 +81,7 @@ In the AI app's **Context** settings, add the knowledge base. When users ask que
 
 ![](https://assets-docs.dify.ai/2025/01/4254ec131fece172a59304414a060f4e.png)
 
----
+***
 
 ### 4. Share the AI Application
 
@@ -89,12 +89,12 @@ Once built, you can share the AI application with others or integrate it into ot
 
 ![](https://assets-docs.dify.ai/2025/01/d32857964683b48027d20d029e7e06c0.png)
 
----
+***
 
 ## Further Reading
 
 Beyond simple chatbot applications, you can also use Chatflow or Workflow to build more complex AI solutions with capabilities like document recognition, image processing, and speech recognition. See the following resources for more details:
 
-- [Workflow](https://docs.dify.ai/zh-hans/guides/workflow)
-- [File Upload](https://docs.dify.ai/zh-hans/guides/workflow/file-upload)
-- [Deploy DeepSeek + Dify Locally to Build a Private AI Assistant](./private-ai-deepseek-dify.md)
+* [Workflow](https://docs.dify.ai/zh-hans/guides/workflow)
+* [File Upload](https://docs.dify.ai/zh-hans/guides/workflow/file-upload)
+* [Deploy DeepSeek + Dify Locally to Build a Private AI Assistant](broken-reference)
