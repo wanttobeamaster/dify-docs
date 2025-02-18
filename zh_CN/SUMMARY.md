@@ -162,7 +162,7 @@
     * [Agent 策略插件](plugins/quick-start/develop-plugins/agent-strategy-plugin.md)
     * [Extension 插件](plugins/quick-start/develop-plugins/extension-plugin.md)
     * [Bundle 插件包](plugins/quick-start/develop-plugins/bundle.md)
-  * [插件调试](plugins/quick-start/debug-plugins.md)
+  * [插件调试](plugins/quick-start/debug-plugin.md)
 * [插件管理](plugins/manage-plugins.md)
 * [接口定义](plugins/schema-definition/README.md)
   * [Manifest](plugins/schema-definition/manifest.md)
