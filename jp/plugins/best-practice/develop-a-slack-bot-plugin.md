@@ -303,7 +303,7 @@ dify plugin package ./slack_bot
 
 ### 参考資料
 
-Difyプラグインの完全なプロジェクトコードを確認するには、[Githubコードリポジトリ](https://github.com/langgenius/dify-official-plugins)にアクセスしてください。他のプラグインの完全なコードや詳細も確認できます。
+Difyプラグインの完全なプロジェクトコードを確認するには、[Githubコードリポジトリ](https://github.com/langgenius/dify-plugins)にアクセスしてください。他のプラグインの完全なコードや詳細も確認できます。
 
 プラグインの詳細については、以下を参照してください。
 

@@ -302,7 +302,7 @@ You can now upload it to the [Dify Marketplace repository](https://github.com/la
 
 ### Further Reading
 
-For a complete Dify plugin project example, visit the [GitHub repository](https://github.com/langgenius/dify-official-plugins). You’ll also find additional plugins with full source code and implementation details.
+For a complete Dify plugin project example, visit the [GitHub repository](https://github.com/langgenius/dify-plugins). You’ll also find additional plugins with full source code and implementation details.
 
 If you want to explore more about plugin development, check the following:
 

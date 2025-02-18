@@ -2,7 +2,7 @@
 
 **Dify Marketplace** welcomes plugin submission requests from both partners and community developers. Your contributions will broaden the scope of possibilities for Dify plugins. This guide provides clear publishing procedures and best-practice recommendations to help you successfully release your plugin and create value for the community.
 
-Follow these steps to submit your plugin as a Pull Request (PR) in the [GitHub repository](https://github.com/langgenius/dify-official-plugins) for review. Once approved, your plugin will officially launch on the Dify Marketplace.
+Follow these steps to submit your plugin as a Pull Request (PR) in the [GitHub repository](https://github.com/langgenius/dify-plugins) for review. Once approved, your plugin will officially launch on the Dify Marketplace.
 
 ### Submitting a Pull Request (PR) for Review
 
@@ -11,7 +11,7 @@ To publish your plugin on the Dify Marketplace, follow these steps:
 1. Develop and test your plugin according to the [Plugin Developer Guidelines](plugin-developer-guidelines.md).
 2. Write a [Plugin Privacy Policy](plugin-privacy-protection-guidelines.md) for your plugin in line with Dify’s privacy policy requirements. In your plugin’s [Manifest](../../schema-definition/manifest.md) file, include the file path or URL for this privacy policy.
 3. Package your plugin for distribution.
-4. Fork the [Dify Plugins](../) repository on GitHub.
+4. Fork the [Dify Plugins](https://github.com/langgenius/dify-plugins) repository on GitHub.
 5. Create an organization directory under the repository’s main structure, then create a subdirectory named after your plugin. Place your plugin’s source code and the packaged `.pkg` file in that subdirectory.
 6. Submit a Pull Request (PR) following the required PR template format, then wait for the review;
 7. Once approved, your plugin code will merge into the main branch, and the plugin will be automatically listed on the [Dify Marketplace](https://marketplace.dify.ai/).

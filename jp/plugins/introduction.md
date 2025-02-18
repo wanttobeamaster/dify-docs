@@ -87,7 +87,7 @@
 
 **プラグインの公開**
 
-プラグインを[Dify Marketplace](https://marketplace.dify.ai/)で公開するには、必要な情報と利用方法に関するドキュメントを記入してください。その後、プラグインのコードを[GitHubリポジトリ](https://github.com/langgenius/dify-official-plugins)に提出してください。承認されると、マーケットプレイスに掲載されます。
+プラグインを[Dify Marketplace](https://marketplace.dify.ai/)で公開するには、必要な情報と利用方法に関するドキュメントを記入してください。その後、プラグインのコードを[GitHubリポジトリ](https://github.com/langgenius/dify-plugins)に提出してください。承認されると、マーケットプレイスに掲載されます。
 
 [Dify Marketplaceへの公開](./publish-plugins/publish-to-dify-marketplace)
 

@@ -92,7 +92,7 @@ description: 'Author: Yeuoly, Allen'
 
 **发布插件**
 
-如果想要将插件发布至 [Dify Marketplace](https://marketplace.dify.ai/)，请根据指引填写完整插件信息和相关使用文档。将插件代码投稿至 [GitHub 仓库](https://github.com/langgenius/dify-official-plugins)，审核通过后将在插件市场中上线。
+如果想要将插件发布至 [Dify Marketplace](https://marketplace.dify.ai/)，请根据指引填写完整插件信息和相关使用文档。将插件代码投稿至 [GitHub 仓库](https://github.com/langgenius/dify-plugins)，审核通过后将在插件市场中上线。
 
 {% content-ref url="publish-plugins/publish-to-dify-marketplace/" %}
 [publish-to-dify-marketplace](publish-plugins/publish-to-dify-marketplace/)

@@ -46,7 +46,7 @@ ReAct 策略使 Agent 交替进行思考和行动：LLM 首先思考当前状态
 
 <figure><img src="../../../.gitbook/assets/zh-agnent-2.png" alt=""><figcaption></figcaption></figure>
 
-开发者可以向[公开仓库](https://github.com/langgenius/dify-official-plugins)贡献 Agent 策略插件，经过审核后将在 Marketplace 上架，供其他用户安装使用。
+开发者可以向[公开仓库](https://github.com/langgenius/dify-plugins)贡献 Agent 策略插件，经过审核后将在 Marketplace 上架，供其他用户安装使用。
 
 ### **配置节点参数**
 

@@ -50,7 +50,7 @@ Pros:
 
 <figure><img src="../../../.gitbook/assets/en-agent-2.png" alt=""><figcaption></figcaption></figure>
 
-Developers can contribute Agent strategy plugins to the public [repository](https://github.com/langgenius/dify-official-plugins). After review, these plugins will be listed in the Marketplace for others to install.
+Developers can contribute Agent strategy plugins to the public [repository](https://github.com/langgenius/dify-plugins). After review, these plugins will be listed in the Marketplace for others to install.
 
 ### Configure Node Parameters
 

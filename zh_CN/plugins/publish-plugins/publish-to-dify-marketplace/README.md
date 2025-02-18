@@ -2,7 +2,7 @@
 
 Dify Marketplace 欢迎来自合作伙伴和社区开发者的插件上架申请，您的贡献将进一步丰富 Dify 插件的可能性。本指引将提供清晰的发布流程和最佳实践建议，让您的插件能够顺利发布，并为社区带来价值。
 
-请按照以下步骤，在 [GitHub 代码仓库](https://github.com/langgenius/dify-official-plugins)提交您的插件 Pull Request（PR）并接受审核，通过后插件将正式上线至 Dify Marketplace。
+请按照以下步骤，在 [GitHub 代码仓库](https://github.com/langgenius/dify-plugins)提交您的插件 Pull Request（PR）并接受审核，通过后插件将正式上线至 Dify Marketplace。
 
 ### 插件的发布流程
 
