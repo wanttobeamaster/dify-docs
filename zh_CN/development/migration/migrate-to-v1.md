@@ -40,7 +40,7 @@ cd docker
 docker compose -f docker-compose.yaml up -d
 ```
 
-### 2. 工具迁移为插件
+### 3. 工具迁移为插件
  
 该步骤的目的：将此前社区版本所使用的工具及模型供应商，自动进行数据迁移并安装至新版本的插件环境中。
 
@@ -49,7 +49,11 @@ docker compose -f docker-compose.yaml up -d
 示例：
 
 ```bash
-a3cb19c2****   langgenius/dify-api:1.0.0                   "/bin/bash /entrypoi…"   10 minutes ago   Up 10 minutes             5001/tcp                                                                                                                          docker-api-1
+docker ps
+CONTAINER ID   IMAGE                                       COMMAND                  CREATED       STATUS                 PORTS                                                                                                                             NAMES
+417241cd****   nginx:latest                                "sh -c 'cp /docker-e…"   3 hours ago   Up 3 hours             0.0.0.0:80->80/tcp, :::80->80/tcp, 0.0.0.0:443->443/tcp, :::443->443/tcp                                                          docker-nginx-1
+f84aa773****   langgenius/dify-api:1.0.0                   "/bin/bash /entrypoi…"   3 hours ago   Up 3 hours             5001/tcp                                                                                                                          docker-worker-1
+a3cb19c2****   langgenius/dify-api:1.0.0                   "/bin/bash /entrypoi…"   3 hours ago   Up 3 hours             5001/tcp                                                                                                                          docker-api-1
 ```
 
 运行命令 `docker exec -it a3cb19c2**** bash` 进入容器终端，在容器内运行：

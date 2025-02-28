@@ -30,7 +30,7 @@ docker compose down
 tar -cvf volumes-$(date +%s).tgz volumes
 ```
 
-2. Upgrade the Version
+### 2. Upgrade the Version
 
 `v1.0.0` supports deployment via Docker Compose. Navigate to your Dify project path and run the following commands to upgrade to the Dify version:
 
@@ -40,7 +40,7 @@ cd docker
 docker compose -f docker-compose.yaml up -d
 ```
 
-### 2. Migrate Tools to Plugins
+### 3. Migrate Tools to Plugins
 
 The purpose of this step is to automatically migrate the tools and model vendors previously used in the Community Edition and install them into the new plugin environment.
 
@@ -49,7 +49,11 @@ The purpose of this step is to automatically migrate the tools and model vendors
 Example:
 
 ```bash
-a3cb19c2****   langgenius/dify-api:1.0.0                   "/bin/bash /entrypoi…"   10 minutes ago   Up 10 minutes             5001/tcp                                                                                                                          docker-api-1
+docker ps
+CONTAINER ID   IMAGE                                       COMMAND                  CREATED       STATUS                 PORTS                                                                                                                             NAMES
+417241cd****   nginx:latest                                "sh -c 'cp /docker-e…"   3 hours ago   Up 3 hours             0.0.0.0:80->80/tcp, :::80->80/tcp, 0.0.0.0:443->443/tcp, :::443->443/tcp                                                          docker-nginx-1
+f84aa773****   langgenius/dify-api:1.0.0                   "/bin/bash /entrypoi…"   3 hours ago   Up 3 hours             5001/tcp                                                                                                                          docker-worker-1
+a3cb19c2****   langgenius/dify-api:1.0.0                   "/bin/bash /entrypoi…"   3 hours ago   Up 3 hours             5001/tcp                                                                                                                          docker-api-1
 ```
 
 Run the command `docker exec -it a3cb19c2**** bash` to enter the container terminal, and then run:
