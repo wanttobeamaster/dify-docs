@@ -204,6 +204,9 @@
   * [Integrate Models on LiteLLM Proxy](development/models-integration/litellm.md)
   * [Integrating with GPUStack for Local Model Deployment](development/models-integration/gpustack.md)
   * [Integrating AWS Bedrock Models (DeepSeek)](development/models-integration/aws-bedrock-deepseek.md)
+* [Migration](development/migration/README.md)
+  * [Migrating Community Edition to v1.0.0](development/migration/migrate-to-v1.md)
+
 
 ## Learn More
 
