@@ -217,7 +217,7 @@
   * [构建一个 Notion AI 助手](learn-more/use-cases/build-an-notion-ai-assistant.md)
   * [如何在几分钟内创建一个带有业务数据的官网 AI 智能客服](learn-more/use-cases/create-an-ai-chatbot-with-business-data-in-minutes.md)
   * [使用全套开源工具构建 LLM 应用实战：在 Dify 调用 Baichuan 开源模型能力](learn-more/use-cases/practical-implementation-of-building-llm-applications-using-a-full-set-of-open-source-tools.md)
-  * [手摸手教你把 Dify 接入微信生态](learn-more/use-cases/dify-on-wechat.md)
+  * [手把手教你把 Dify 接入微信生态](learn-more/use-cases/dify-on-wechat.md)
   * [使用 Dify 和 Twilio 构建 WhatsApp 机器人](learn-more/use-cases/dify-on-whatsapp.md)
   * [将 Dify 应用与钉钉机器人集成](learn-more/use-cases/dify-on-dingtalk.md)
   * [使用 Dify 和 Azure Bot Framework 构建 Microsoft Teams 机器人](learn-more/use-cases/dify-on-teams.md)
