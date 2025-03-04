@@ -1,12 +1,12 @@
-# Migrating Community Edition to v1.0.0
+# Upgrading Community Edition to v1.0.0
 
 > This document primarily explains how to upgrade from an older Community Edition version to [v1.0.0](https://github.com/langgenius/dify/releases/tag/1.0.0). If you have not installed the Dify Community Edition yet, you can directly clone the [Dify project](https://github.com/langgenius/dify) and switch to the `1.0.0` branch. For installation commands, refer to the [documentation](https://docs.dify.ai/zh-hans/getting-started/install-self-hosted/docker-compose).
 
 To experience the plugin functionality in the Community Edition, you need to upgrade to version`v1.0.0`. This document will guide you through the steps of upgrading from older versions to `v1.0.0` to access the plugin ecosystem features.
 
-## Start the Migration
+## Start the Upgrade
 
-Migration involves the following steps:
+The upgrade process involves the following steps:
 
 1. Backup your data
 2. Migrate plugins
