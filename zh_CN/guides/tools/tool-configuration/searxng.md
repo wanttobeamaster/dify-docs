@@ -3,7 +3,7 @@
 > 工具作者 @Junytang。
 
 {% hint style="warning" %}
-“工具”已全面升级为“插件”生态，详细的使用说明请参考[插件开发](https://docs.dify.ai/zh-hans/plugins/quick-start/install-plugins)，以下内容已归档。
+“工具”已全面升级为“插件”生态，详细的使用说明请参考[插件开发](https://docs.dify.ai/zh-hans/plugins/quick-start/install-plugins)。以下内容已归档。
 {% endhint %}
 
 SearXNG 是一个免费的互联网元搜索引擎，整合了各种搜索服务的检索结果。用户不会被跟踪，搜索行为也不会被分析。现在你可以直接在 Dify 中使用此工具。

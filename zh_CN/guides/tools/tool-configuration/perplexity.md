@@ -3,7 +3,7 @@
 > 工具作者 @Dify。
 
 {% hint style="warning" %}
-“工具”已全面升级为“插件”生态，详细的使用说明请参考[插件开发](https://docs.dify.ai/zh-hans/plugins/quick-start/install-plugins)，以下内容已归档。
+“工具”已全面升级为“插件”生态，详细的使用说明请参考[插件开发](https://docs.dify.ai/zh-hans/plugins/quick-start/install-plugins)。以下内容已归档。
 {% endhint %}
 
 
