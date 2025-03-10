@@ -1065,6 +1065,8 @@ You’ll see the plugin installed in your Workspace, and team members can also a
 Once everything works, you can package your plugin by running:
 
 ```bash
+# Replace ./basic_agent/ with your actual plugin project path.
+
 dify plugin package ./basic_agent/
 ```
 

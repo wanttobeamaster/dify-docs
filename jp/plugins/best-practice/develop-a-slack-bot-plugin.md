@@ -292,6 +292,8 @@ Slack Appに必要な権限にチェックを入れます。
 プラグインが正常に動作することを確認したら、次のコマンドラインツールを使ってプラグインをパッケージ化して名前を付けることができます。実行すると、現在のフォルダに`slack_bot.difypkg`ファイルが作成されます。これが最終的なプラグインパッケージです。
 
 ```bash
+# Replace ./slack_bot with your actual plugin project path.
+
 dify plugin package ./slack_bot
 ```
 

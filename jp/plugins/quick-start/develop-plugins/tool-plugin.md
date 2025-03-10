@@ -342,7 +342,9 @@ REMOTE_INSTALL_KEY=****-****-****-****-****
 
 プラグインが正常に動作することを確認したら、以下のコマンドラインツールを使用してプラグインをパッケージ化し、名前を付けます。実行後、現在のフォルダに `google.difypkg` ファイルが作成されます。これがプラグインの最終的なパッケージです。
 
-```
+```bash
+# Replace ./google with your actual plugin project path.
+
 dify plugin package ./google
 ```
 
