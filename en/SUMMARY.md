@@ -80,6 +80,7 @@
     * [Maintain Knowledge via API](guides/knowledge-base/knowledge-and-documents-maintenance/maintain-dataset-via-api.md)
   * [Integrate Knowledge Base within Application](guides/knowledge-base/integrate-knowledge-within-application.md)
   * [Retrieval Test / Citation and Attributions](guides/knowledge-base/retrieval-test-and-citation.md)
+  * [Knowledge Request Rate Limit](guides/knowledge-base/knowledge-request-rate-limit.md)
   * [Connect to an External Knowledge Base](guides/knowledge-base/connect-external-knowledge.md)
   * [External Knowledge API](guides/knowledge-base/external-knowledge-api-documentation.md)
 * [Tools](guides/tools/README.md)
