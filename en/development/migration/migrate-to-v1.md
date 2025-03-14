@@ -74,13 +74,20 @@ Ensure your network can access the public internet and support access to: `https
 poetry run flask install-plugins --workers=2
 ```
 
-This command will download and install all necessary plugins into the latest Community Edition. When the terminal shows `Install plugins completed.`, the migration is complete.
+This command will download and install all necessary plugins into the latest Community Edition. 
 
-Finally, migrate the plugin data. This command will update the `provider name` by appending it with `langgenius/{provider_name}/{provider_name}`.
+Finally, migrate the plugin data. Run the following command to update the `provider name` by appending `langgenius/{provider_name}/{provider_name}` to it.
 
 ```bash
 poetry run flask migrate-data-for-plugin
 ``` 
+
+The migration is complete when you see the results in your terminal.
+
+```bash
+Migrate [tool_builtin_providers] data for plugin completed, total: 6
+Migrate data for plugin completed.
+```
 
 ## Verify the Migration
 

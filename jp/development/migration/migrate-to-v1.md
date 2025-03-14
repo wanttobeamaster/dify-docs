@@ -74,12 +74,19 @@ poetry run flask extract-plugins --workers=20
 poetry run flask install-plugins --workers=2
 ```
 
-このコマンドは、最新のコミュニティ版に必要なすべてのプラグインをダウンロードしてインストールします。ターミナルに `Install plugins completed.` と表示されたら、移行は完了です。
+このコマンドは、最新のコミュニティ版に必要なすべてのプラグインをダウンロードしてインストールします。
 
 最後に、プラグインのデータを移行します。このコマンドは `provider name` を更新し、`langgenius/{provider_name}/{provider_name}` を追加します
 
 ```bash
 poetry run flask migrate-data-for-plugin
+```
+
+ターミナルに結果が表示されたら、マイグレーションは完了です。
+
+```bash
+Migrate [tool_builtin_providers] data for plugin completed, total: 6
+Migrate data for plugin completed.
 ```
 
 ## 移行結果の検証
