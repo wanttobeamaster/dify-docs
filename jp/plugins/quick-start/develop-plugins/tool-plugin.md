@@ -329,7 +329,7 @@ class GoogleProvider(ToolProvider):
 
 ```bash
 INSTALL_METHOD=remote
-REMOTE_INSTALL_HOST=localhost
+REMOTE_INSTALL_HOST=remote
 REMOTE_INSTALL_PORT=5003
 REMOTE_INSTALL_KEY=****-****-****-****-****
 ```
