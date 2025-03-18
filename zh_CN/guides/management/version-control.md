@@ -11,7 +11,7 @@
 -   **草稿版本（Current Draft）**： 草稿版本是 Dify 聊天流/工作流管理界面中**唯一呈现当前工作进度的版本**。用户可在此版本中编辑、修改与预览聊天流/工作流。
 
 <p align="center">
-    <img src="https://assets-docs.dify.ai/2025/03/38296a597c0ca31b5fb70be2234f2363.png" width="400" alt="current_draft">
+    <img src="https://assets-docs.dify.ai/2025/03/38296a597c0ca31b5fb70be2234f2363.png" width="400" alt="Current draft">
 </p>
 
 -   **已发布版本（Published Version）**： 用户发布到线上的所有版本，即最新发布版本和历史发布版本的统称。每一次发布操作都会生成一个新的已发布版本。
@@ -19,19 +19,19 @@
 -   **最新发布版本（Latest Version）**： 用户最近一次发布到线上的版本。Dify 在版本管理界面中将其标记为 `Latest` ，以便与其他历史发布版本区分。
 
 <p align="center">
-    <img src="https://assets-docs.dify.ai/2025/03/e4c06a0817c30cf9e8893487c889cb02.png" width="350" alt="latest_version">
+    <img src="https://assets-docs.dify.ai/2025/03/e4c06a0817c30cf9e8893487c889cb02.png" width="350" alt="Latest version">
 </p>
 
 -   **历史发布版本（Previous Version）**： 用户曾经发布过，但现在已经不再处于当前线上状态的版本。
 
 <p align="center">
-    <img src="https://assets-docs.dify.ai/2025/03/4cd05033b93d84b53496f3d02e88601f.png" width="200" alt="prevous_version">
+    <img src="https://assets-docs.dify.ai/2025/03/4cd05033b93d84b53496f3d02e88601f.png" width="200" alt="Previous version">
 </p>
 
 -   **版本回滚（Restore）**： 版本管理中的版本回滚功能允许用户将应用恢复到某个历史版本。
 
 <p align="center">
-    <img src="https://assets-docs.dify.ai/2025/03/607a69b5355886b9ae8d23a08e818e35.jpg" width="200" alt="restore">
+    <img src="https://assets-docs.dify.ai/2025/03/607a69b5355886b9ae8d23a08e818e35.jpg" width="200" alt="Restore feature">
 </p>
 
 ## 功能
@@ -52,13 +52,13 @@
 
 1.  点击右上角的 **版本管理功能** 按钮，进入版本管理界面。
 
-![view_all_versions](https://assets-docs.dify.ai/2025/03/eed667bbc9498425342c09039054cf98.png)
+![View all versions](https://assets-docs.dify.ai/2025/03/eed667bbc9498425342c09039054cf98.png)
 
 2.  版本管理界面显示了一个按时间倒序排列的版本列表。你可以在列表内查看过往版本的 **版本名、版本信息、发布时间、发布者**。
 
 3.  *（可选）* 如果版本列表超过当前可见的数量，你可以点击 **加载更多** 按钮，加载更多的版本记录。
 
-![load_more](https://assets-docs.dify.ai/2025/03/df9aeb06128f11089dc2294f0338e2ca.png)
+![Load more](https://assets-docs.dify.ai/2025/03/df9aeb06128f11089dc2294f0338e2ca.png)
 
 ## 如何查找我需要的版本？
 
@@ -67,27 +67,27 @@
     -   **所有版本**： 显示所有版本，包括你自己和其他用户发布的版本。
     -   **由我发布的版本**： 仅显示由你发布的版本。
 
-      你可以根据需要选择合适的筛选项，以查看对应的版本。
+      你可以根据需要选择合适的筛选项，以查看对应的版本。
 
     <p align="center">
-        <img src="https://assets-docs.dify.ai/2025/03/0bf8fef8858671a8fef160f49dd83dad.jpg" width="200" alt="all_or_only_yours">
+        <img src="https://assets-docs.dify.ai/2025/03/0bf8fef8858671a8fef160f49dd83dad.jpg" width="200" alt="All or only yours">
     </p>
 
 -   **查找已命名的版本**： 如果你只想查看已命名的版本，可以点击 **查找已命名的版本** 选项。启用该选项后，只有已命名版本会出现在版本列表中，其他未命名的版本将被隐藏。
 
 <p align="center">
-    <img src="https://assets-docs.dify.ai/2025/03/2473121caa2e25ad1a76ee42a4127fb4.jpg" width="200" alt="only_show_named_versions">
+    <img src="https://assets-docs.dify.ai/2025/03/2473121caa2e25ad1a76ee42a4127fb4.jpg" width="200" alt="Only show named versions">
 </p>
 
 ## 如何发布新版本？
 
 1.  在 Dify 聊天流/工作流管理界面中完成聊天流/工作流创建后，点击面板的右上角的 **发布 > 发布更新** 按钮，即可直接发布当前版本。
 
-![publish_new_version](https://assets-docs.dify.ai/2025/03/26f3f324ab4ecb965708d553ddd78d97.png)
+![Publish new version](https://assets-docs.dify.ai/2025/03/26f3f324ab4ecb965708d553ddd78d97.png)
 
 2.  发布后，此最新发布版本将被标记为 `Latest` 。相关信息会显示在版本管理界面中。
 
-![latest_version_marked](https://assets-docs.dify.ai/2025/03/67e95de17577bc272addad6c33f8ea59.png)
+![Latest version marked](https://assets-docs.dify.ai/2025/03/67e95de17577bc272addad6c33f8ea59.png)
 
 ## 如何编辑已发布版本的信息？
 
@@ -96,18 +96,18 @@
 -   如果你之前以默认名称保存了该版本，可以点击 **命名此版本**，更新版本名与版本信息。
 
 <p align="center">
-    <img src="https://assets-docs.dify.ai/2025/03/ac149f63da6611d7080d305dd3fad65c.jpg" width="200" alt="edit_version_info_1">
+    <img src="https://assets-docs.dify.ai/2025/03/ac149f63da6611d7080d305dd3fad65c.jpg" width="200" alt="Name this version">
 </p>
 
 -   如果你已经为该版本填写过版本名，可以点击 **编辑版本信息** 修改版本名与版本信息。
 
 <p align="center">
-    <img src="https://assets-docs.dify.ai/2025/03/1d840edf979132a9bbf1e065f95e663c.jpg" width="200" alt="edit_version_info_1">
+    <img src="https://assets-docs.dify.ai/2025/03/1d840edf979132a9bbf1e065f95e663c.jpg" width="200" alt="Edit version info">
 </p>
 
 2. 点击 **发布**，发布版本信息。
 
-![edit_version_info_2](https://assets-docs.dify.ai/2025/03/838e5a12aa277bada6c2a4a214450fa5.jpg)
+![Edit version info](https://assets-docs.dify.ai/2025/03/838e5a12aa277bada6c2a4a214450fa5.jpg)
 
 ## 如何删除历史版本？
 
@@ -116,12 +116,12 @@
 2.  选择 **删除**，弹出确认操作的弹窗。
 
 <p align="center">
-  <img src="https://assets-docs.dify.ai/2025/03/25ad1999fc9f6f44fcac04526ac5563a.jpg" width="200" alt="delete_version">
+  <img src="https://assets-docs.dify.ai/2025/03/25ad1999fc9f6f44fcac04526ac5563a.jpg" width="200" alt="Delete version">
 </p>
 
 3.  点击 **删除**，该版本将从版本管理界面中删除。
 
-![delete_version_confirm](https://assets-docs.dify.ai/2025/03/9326fd0463d024aac1907c83a37fe13b.jpg)
+![Delete Version Confirmed](https://assets-docs.dify.ai/2025/03/9326fd0463d024aac1907c83a37fe13b.jpg)
 
 {% hint style="warning" %}
 -   **草稿版本**（即 Current Draft）为当前聊天流 / 工作流界面正在编辑的草稿版本，无法删除。
@@ -135,12 +135,12 @@
 2.  选择 **回滚**，弹出确认操作的弹窗。
 
 <p align="center">
-  <img src="https://assets-docs.dify.ai/2025/03/c96b714accc29df8e46e711782a7a6a9.jpg" width="200" alt="restore_version">
+  <img src="https://assets-docs.dify.ai/2025/03/c96b714accc29df8e46e711782a7a6a9.jpg" width="200" alt="Restore version">
 </p>
 
 3.  点击 **回滚**，当前的草稿版本将回滚为该历史版本。
 
-![restore_version_confirm](https://assets-docs.dify.ai/2025/03/f3a6e13f2e910f5c7917f52fe77bdfca.jpg)
+![Restore version confirmed](https://assets-docs.dify.ai/2025/03/f3a6e13f2e910f5c7917f52fe77bdfca.jpg)
 
 ## 使用场景
 
@@ -152,14 +152,14 @@
 
 -   系统自动新建 **草稿版本** Version A。
 
-![phase 1](https://assets-docs.dify.ai/2025/03/35ece9d5d5d4d8c46a3fb5ceae4d0c15.jpeg)
+![Phase 1](https://assets-docs.dify.ai/2025/03/35ece9d5d5d4d8c46a3fb5ceae4d0c15.jpeg)
 
 ### 阶段二：首次发布
 
 -   Version A 发布，成为 **最新发布版本**。
 -   系统自动新建 **草稿版本** Version B。
 
-![phase 2](https://assets-docs.dify.ai/2025/03/3d1f66cdeb08710f01462a6b0f3ed0a8.jpeg)
+![Phase 2](https://assets-docs.dify.ai/2025/03/3d1f66cdeb08710f01462a6b0f3ed0a8.jpeg)
 
 ### 阶段三：再次发布
 
@@ -167,14 +167,14 @@
 -   Version A 成为 **历史发布版本**。
 -   系统自动新建 **草稿版本** Version C。
 
-![phase 3](https://assets-docs.dify.ai/2025/03/92ffbf88a3cbeeeeab47c1bd8b4f7198.jpeg)
+![Phase 3](https://assets-docs.dify.ai/2025/03/92ffbf88a3cbeeeeab47c1bd8b4f7198.jpeg)
 
 ### 阶段四：回滚操作
 
 -   Version A 回滚至 **草稿版本**，覆盖 Version C。
 -   Version B 仍为 **最新发布版本**。
 
-![phase 4](https://assets-docs.dify.ai/2025/03/541f1891416af90dab5b51bfec833249.jpeg)
+![Phase 4](https://assets-docs.dify.ai/2025/03/541f1891416af90dab5b51bfec833249.jpeg)
 
 ### 阶段五：发布回滚
 
@@ -182,11 +182,11 @@
 -   Version A 与 Version B 成为 **历史发布版本**。
 -   系统自动新建 **草稿版本** Version D。
 
-![phase 5](https://assets-docs.dify.ai/2025/03/3572a4f2edef166c3f14e4ec4e68b297.jpeg)
+![Phase 5](https://assets-docs.dify.ai/2025/03/3572a4f2edef166c3f14e4ec4e68b297.jpeg)
 
 ### 全流程演示
 
-![workflow](https://assets-docs.dify.ai/2025/03/dc7c15a4dfafb72ce7fffea294d5b5e5.gif)
+![Workflow](https://assets-docs.dify.ai/2025/03/dc7c15a4dfafb72ce7fffea294d5b5e5.gif)
 
 ## FAQ
 
