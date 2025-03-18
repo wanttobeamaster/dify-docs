@@ -11,7 +11,7 @@
 - **下書きバージョン（Current Draft）**： Difyのチャットフローやワークフロー管理インターフェースにおいて、**現在の作業状態を示す唯一のバージョン**です。ユーザーはこのバージョンでチャットフローやワークフローの編集、修正、プレビューを行うことができます。
 
 <p align="center">
-    <img src="https://assets-docs.dify.ai/2025/03/38296a597c0ca31b5fb70be2234f2363.png" width="400" alt="current_draft">
+    <img src="https://assets-docs.dify.ai/2025/03/38296a597c0ca31b5fb70be2234f2363.png" width="400" alt="Current draft">
 </p>
 
 - **公開バージョン（Published Version）**： ユーザーがオンラインに公開したすべてのバージョンの総称です。最新の公開バージョンと過去の公開バージョンの総称です。公開操作を実行するたびに、新しい公開バージョンが生成されます。
@@ -19,19 +19,19 @@
 - **最新公開バージョン（Latest Version）**： ユーザーが最後にオンラインに公開したバージョンです。Difyのバージョン管理インターフェースでは、これを`Latest`としてマークし、他の過去の公開バージョンと区別しています。
 
 <p align="center">
-    <img src="https://assets-docs.dify.ai/2025/03/e4c06a0817c30cf9e8893487c889cb02.png" width="350" alt="latest_version">
+    <img src="https://assets-docs.dify.ai/2025/03/e4c06a0817c30cf9e8893487c889cb02.png" width="350" alt="Latest version">
 </p>
 
 - **過去の公開バージョン（Previous Version）**： 以前に公開されたが、現在は最新ではなくなったバージョンを指します。
 
 <p align="center">
-    <img src="https://assets-docs.dify.ai/2025/03/4cd05033b93d84b53496f3d02e88601f.png" width="200" alt="prevous_version">
+    <img src="https://assets-docs.dify.ai/2025/03/4cd05033b93d84b53496f3d02e88601f.png" width="200" alt="Previous version">
 </p>
 
 - **バージョンの復元（Restore）**： バージョン管理の復元機能を使用すると、アプリを特定の過去のバージョンに戻すことができます。
 
 <p align="center">
-    <img src="https://assets-docs.dify.ai/2025/03/607a69b5355886b9ae8d23a08e818e35.jpg" width="200" alt="restore">
+    <img src="https://assets-docs.dify.ai/2025/03/607a69b5355886b9ae8d23a08e818e35.jpg" width="200" alt="Restore feature">
 </p>
 
 ## 主な機能
@@ -52,13 +52,13 @@
 
 1. 右上の**バージョン管理**ボタンをクリックして、バージョン管理インターフェースにアクセスします。
 
-![view_all_versions](https://assets-docs.dify.ai/2025/03/eed667bbc9498425342c09039054cf98.png)
+![View all versions](https://assets-docs.dify.ai/2025/03/eed667bbc9498425342c09039054cf98.png)
 
 2. バージョン管理インターフェースには、時系列の降順で並べられたバージョンリストが表示されます。各バージョンの**名前、説明情報、公開日時、公開者**を確認できます。
 
 3. *（オプション）* バージョンリストが多数ある場合は、**さらに読み込む**ボタンをクリックすると、より多くのバージョン履歴を表示できます。
 
-![load_more](https://assets-docs.dify.ai/2025/03/df9aeb06128f11089dc2294f0338e2ca.png)
+![Load more](https://assets-docs.dify.ai/2025/03/df9aeb06128f11089dc2294f0338e2ca.png)
 
 ## 特定のバージョンを検索する方法
 
@@ -69,24 +69,24 @@
     必要に応じて、適切なフィルターを選択して、対応するバージョンをご確認いただけます。
 
     <p align="center">
-        <img src="https://assets-docs.dify.ai/2025/03/0bf8fef8858671a8fef160f49dd83dad.jpg" width="200" alt="all_or_only_yours">
+        <img src="https://assets-docs.dify.ai/2025/03/0bf8fef8858671a8fef160f49dd83dad.jpg" width="200" alt="All or only yours">
     </p>
 
 - **名前付きバージョンを検索**: 名前が付けられたバージョンのみを表示したい場合は、**名前付きバージョンを検索**オプションをクリックしてください。このオプションを有効にすると、名前付きバージョンのみがバージョンリストに表示され、名前のないバージョンは非表示になります。
 
 <p align="center">
-    <img src="https://assets-docs.dify.ai/2025/03/2473121caa2e25ad1a76ee42a4127fb4.jpg" width="200" alt="only_show_named_versions">
+    <img src="https://assets-docs.dify.ai/2025/03/2473121caa2e25ad1a76ee42a4127fb4.jpg" width="200" alt="Only show named versions">
 </p>
 
 ## 新しいバージョンの公開方法
 
 1. チャットフロー/ワークフローの作成が完了したら、画面右上の**公開する > 公開更新**をクリックすると、現在のバージョンが公開されます。
 
-![publish_new_version](https://assets-docs.dify.ai/2025/03/26f3f324ab4ecb965708d553ddd78d97.png)
+![Publish new version](https://assets-docs.dify.ai/2025/03/26f3f324ab4ecb965708d553ddd78d97.png)
 
 2. 公開後、この最新バージョンは`Latest`としてマークされ、関連情報がバージョン管理インターフェースに表示されます。
 
-![latest_version_marked](https://assets-docs.dify.ai/2025/03/67e95de17577bc272addad6c33f8ea59.png)
+![Latest version marked](https://assets-docs.dify.ai/2025/03/67e95de17577bc272addad6c33f8ea59.png)
 
 ## 公開済みバージョンの情報編集方法
 
@@ -95,18 +95,18 @@
 - 以前にデフォルト名でバージョンを保存した場合は、**このバージョンに名前を付ける**をクリックします。
 
 <p align="center">
-    <img src="https://assets-docs.dify.ai/2025/03/ac149f63da6611d7080d305dd3fad65c.jpg" width="200" alt="name_this_version">
+    <img src="https://assets-docs.dify.ai/2025/03/ac149f63da6611d7080d305dd3fad65c.jpg" width="200" alt="Name this version">
 </p>
 
 - すでに名前を付けている場合は、**バージョン情報を編集**をクリックして、バージョン名と説明を修正できます。
 
 <p align="center">
-    <img src="https://assets-docs.dify.ai/2025/03/1d840edf979132a9bbf1e065f95e663c.jpg" width="200" alt="edit_version_info_1">
+    <img src="https://assets-docs.dify.ai/2025/03/1d840edf979132a9bbf1e065f95e663c.jpg" width="200" alt="Edit version info">
 </p>
 
 2. **公開する**をクリックして、バージョン情報を公開します。
 
-![edit_version_info_2](https://assets-docs.dify.ai/2025/03/838e5a12aa277bada6c2a4a214450fa5.jpg)
+![Edit version info](https://assets-docs.dify.ai/2025/03/838e5a12aa277bada6c2a4a214450fa5.jpg)
 
 ## 履歴バージョンを削除するには？
 
@@ -114,9 +114,13 @@
 
 2. **削除**を選択すると、確認ダイアログが表示されます。
 
+<p align="center">
+  <img src="https://assets-docs.dify.ai/2025/03/25ad1999fc9f6f44fcac04526ac5563a.jpg" width="200" alt="Delete version">
+</p>
+
 3. **削除**をクリックすると、そのバージョンがバージョン管理画面から削除されます。
 
-![delete_version_confirm](https://assets-docs.dify.ai/2025/03/9326fd0463d024aac1907c83a37fe13b.jpg)
+![Delete Version Confirmed](https://assets-docs.dify.ai/2025/03/9326fd0463d024aac1907c83a37fe13b.jpg)
 
 {% hint style="warning" %}
 - **下書きバージョン**（Current Draft）は、現在のチャットフロー/ワークフロー画面で編集中のバージョンであり、削除できません。
@@ -129,9 +133,13 @@
 
 2. **ロールバック**を選択すると、確認ダイアログが表示されます。
 
+<p align="center">
+  <img src="https://assets-docs.dify.ai/2025/03/c96b714accc29df8e46e711782a7a6a9.jpg" width="200" alt="Restore version">
+</p>
+
 3. **ロールバック**をクリックすると、現在の下書きバージョンがその履歴バージョンに置き換えられます。
 
-![restore_version_confirm](https://assets-docs.dify.ai/2025/03/f3a6e13f2e910f5c7917f52fe77bdfca.jpg)
+![Restore version confirmed](https://assets-docs.dify.ai/2025/03/f3a6e13f2e910f5c7917f52fe77bdfca.jpg)
 
 ## 使用シナリオ
 
@@ -150,7 +158,7 @@
 - Version Aが公開され、**最新公開バージョン**になります。
 - システムが自動的に**下書きバージョン** Version Bを作成します。
 
-![phase 2](https://assets-docs.dify.ai/2025/03/3d1f66cdeb08710f01462a6b0f3ed0a8.jpeg)
+![Phase 2](https://assets-docs.dify.ai/2025/03/3d1f66cdeb08710f01462a6b0f3ed0a8.jpeg)
 
 ### ステージ3：再公開
 
@@ -158,14 +166,14 @@
 - Version Aは**履歴公開バージョン**になります。
 - システムが自動的に**下書きバージョン** Version Cを作成します。
 
-![phase 3](https://assets-docs.dify.ai/2025/03/92ffbf88a3cbeeeeab47c1bd8b4f7198.jpeg)
+![Phase 3](https://assets-docs.dify.ai/2025/03/92ffbf88a3cbeeeeab47c1bd8b4f7198.jpeg)
 
 ### ステージ4：ロールバック操作
 
 - Version Aが**下書きバージョン**として復元され、Version Cが上書きされます。
 - Version Bは引き続き**最新公開バージョン**です。
 
-![phase 4](https://assets-docs.dify.ai/2025/03/541f1891416af90dab5b51bfec833249.jpeg)
+![Phase 4](https://assets-docs.dify.ai/2025/03/541f1891416af90dab5b51bfec833249.jpeg)
 
 ### ステージ5：ロールバック後の公開
 
@@ -173,11 +181,11 @@
 - 以前のVersion AとVersion Bは**履歴公開バージョン**になります。
 - システムが自動的に**下書きバージョン** Version Dを作成します。
 
-![phase 5](https://assets-docs.dify.ai/2025/03/3572a4f2edef166c3f14e4ec4e68b297.jpeg)
+![Phase 5](https://assets-docs.dify.ai/2025/03/3572a4f2edef166c3f14e4ec4e68b297.jpeg)
 
 ### 全体フロー
 
-![workflow](https://assets-docs.dify.ai/2025/03/dc7c15a4dfafb72ce7fffea294d5b5e5.gif)
+![Workflow](https://assets-docs.dify.ai/2025/03/dc7c15a4dfafb72ce7fffea294d5b5e5.gif)
 
 ## よくある質問
 
