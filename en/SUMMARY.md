@@ -53,6 +53,7 @@
     * [HTTP Request](guides/workflow/node/http-request.md)
     * [Agent](guides/workflow/node/agent.md)
     * [Tools](guides/workflow/node/tools.md)
+    * [Loop](guides/workflow/node/loop.md)
   * [Shortcut Key](guides/workflow/shortcut-key.md)
   * [Orchestrate Node](guides/workflow/orchestrate-node.md)
   * [File Upload](guides/workflow/file-upload.md)

@@ -53,6 +53,7 @@
     * [工具](guides/workflow/node/tools.md)
     * [结束](guides/workflow/node/end.md)
     * [直接回复](guides/workflow/node/answer.md)
+    * [循环](guides/workflow/node/loop.md)
   * [快捷键](guides/workflow/shortcut-key.md)
   * [编排节点](guides/workflow/orchestrate-node.md)
   * [文件上传](guides/workflow/file-upload.md)
