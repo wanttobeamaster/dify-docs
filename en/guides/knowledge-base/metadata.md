@@ -242,9 +242,9 @@ To update metadata in bulk:
 
 Use **Apply to All Documents** to control changes:
 
-    - **Unchecked (Default)**: Updates only documents that already have the field.
+  - **Unchecked (Default)**: Updates only documents that already have the field.
 
-    - **Checked**: Adds or updates fields across all selected documents.
+  - **Checked**: Adds or updates fields across all selected documents.
 
 <p align="center"><img src="https://assets-docs.dify.ai/2025/03/4550c68960802c24271492b63a39ad05.png" width="400" alt="Apply all changes"></p>
 
