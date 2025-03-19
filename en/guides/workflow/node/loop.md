@@ -78,6 +78,6 @@ A **Loop** node executes repetitive tasks that depend on previous iteration resu
 
 **Future releases will include:**
 
-    - Loop variables: Store and reference values across iterations for improved state management and conditional logic.
+  - Loop variables: Store and reference values across iterations for improved state management and conditional logic.
 
-    - `break` node: Terminate loops from within the execution path, enabling more sophisticated control flow patterns.
+  - `break` node: Terminate loops from within the execution path, enabling more sophisticated control flow patterns.
