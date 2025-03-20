@@ -27,7 +27,7 @@ The request accepts the following data in JSON format.
 | knowledge_id | TRUE | string | Your knowledge's unique ID | AAA-BBB-CCC |
 | query | TRUE | string | User's query | What is Dify? |
 | retrieval_setting | TRUE | object | Knowledge's retrieval parameters | See below |
-| metadata_condition | TRUE | Object | Original array filtering | See below |
+| metadata_condition | FALSE | Object | Original array filtering | See below |
 
 The `retrieval_setting` property is an object containing the following keys:
 
