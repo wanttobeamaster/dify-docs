@@ -25,7 +25,7 @@ Authorization: Bearer {API_KEY}
 | knowledge_id | TRUE | string | ナレッジベースの一意ID | AAA-BBB-CCC |
 | query | TRUE | string | ユーザーのクエリ | Difyとは何ですか？ |
 | retrieval_setting | TRUE | object | 知識の検索パラメータ | 以下参照 |
-| metadata_condition | TRUE | object | 元の配列のフィルタリング | 以下参照 |
+| metadata_condition | FALSE | object | 元の配列のフィルタリング | 以下参照 |
 
 `retrieval_setting` プロパティは以下のキーを含むオブジェクトです：
 
