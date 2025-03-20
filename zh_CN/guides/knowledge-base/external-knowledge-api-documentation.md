@@ -27,7 +27,7 @@ Authorization: Bearer {API_KEY}
 | knowledge_id | 是 | 字符串 | 知识库唯一 ID | AAA-BBB-CCC |
 | query | 是 | 字符串 | 用户的查询 | Dify 是什么？ |
 | retrieval_setting | 是 | 对象 | 知识检索参数 | 见下文 |
-| metadata_condition | 是 | 对象 | 原数组筛选 | 见下文 |
+| metadata_condition | 否 | 对象 | 原数组筛选 | 见下文 |
 
 `retrieval_setting` 属性是一个包含以下键的对象：
 
