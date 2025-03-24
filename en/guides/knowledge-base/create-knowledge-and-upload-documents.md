@@ -5,7 +5,7 @@ Steps to upload documents to create a knowledge base:
 1. Create a knowledge base and import either local document file or online data.
 
 {% content-ref url="create-knowledge-and-upload-documents/1.-import-text-data/" %}
-[1.-import-text-data](create-knowledge-and-upload-documents/1.-import-text-data/)
+[1.-import-text-data](create-knowledge-and-upload-documents/1.-import-text-data/README.md)
 {% endcontent-ref %}
 
 2. Choose a chunking mode and preview the spliting results. This stage involves content preprocessing and structuring, where long texts are divided into multiple smaller chunks.
