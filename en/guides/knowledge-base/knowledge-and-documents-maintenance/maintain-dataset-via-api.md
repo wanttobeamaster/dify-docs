@@ -708,7 +708,7 @@ Response example:
 Request example:
 
 ```bash
-curl --location --request DELETE 'https://api.dify.ai/v1/datasets/{dataset_id}/document/metadata/{metadata_id}' \
+curl --location --request DELETE 'https://api.dify.ai/v1/datasets/{dataset_id}/metadata/{metadata_id}' \
 --header 'Authorization: Bearer {api_key}'
 ```
 
@@ -723,7 +723,7 @@ Response example:
 Request example:
 
 ```bash
-curl --location --request DELETE 'https://api.dify.ai/v1/datasets/{dataset_id}/document/metadata/built-in/{action}' \
+curl --location --request DELETE 'https://api.dify.ai/v1/datasets/{dataset_id}/metadata/built-in/{action}' \
 --header 'Authorization: Bearer {api_key}'
 ```
 
