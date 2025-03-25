@@ -1,4 +1,4 @@
-# 将 Dify 快速接入 QQ、微信、飞书、钉钉、Telegram、Discord 等平台
+# 将 Dify 快速接入 QQ、微信、飞书、钉钉等平台
 
 ## 1. 概述
 
@@ -8,7 +8,7 @@
 
 ### 2.1. 部署 LangBot
 
-有三种方式：
+你可以通过以下三种方式部署 LangBot：
 
 1. Docker 部署：[对应链接](https://docs.langbot.app/deploy/langbot/docker.html)
 2. 手动部署：[对应链接](https://docs.langbot.app/deploy/langbot/one-click/bt.html)
@@ -20,15 +20,13 @@
 
 ## 3. 接入 Dify
 
-在首次运行 LangBot 后，会在 LangBot 目录生成 data 文件夹，打开其中的 `config/provider.json`
-
-设置其中的`runner`为`dify-service-api`
+在首次运行 LangBot 后，会在 LangBot 目录生成 data 文件夹，打开其中的 `config/provider.json` 文件，设置其中的 `runner` 为 `dify-service-api`。
 
 ```json
 "runner": "dify-service-api",
 ```
 
-相应的，配置`dify-service-api`
+相应的，配置 `dify-service-api`：
 
 ```json
     "dify-service-api": {
@@ -79,8 +77,7 @@
   - `output-key`：Dify 工作流应用的输出键，用于获取工作流应用的输出结果。默认为`summary`，对应工作流编排时，end节点的输出变量。
   - `timeout`：Dify 工作流应用的请求超时时间，以秒为单位，默认是 120 秒。
 
-<figure><img src="../../.gitbook/assets/dify-langbot-provider-workflow-end.png
- " alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/2025/03/a0359b706a8e7526c12487dc6d78c983.png)
 
 当使用工作流时，LangBot 会显式传入以下参数，您可以自行在 Dify 工作流的开始节点中添加：
 
@@ -91,8 +88,7 @@
 
 您可以[通过插件自定义任何变量](https://docs.langbot.app/plugin/dev/api-ref.html#设置请求变量)
 
-<figure><img src="../../.gitbook/assets/dify-langbot-provider-workflow-start.png
- " alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/2025/03/6db041d813987581b27ce434001575bb.png)
 
 使用 工作流 应用或 Agent 应用时，如果开启了`platform.json`中的`track-function-calls`，将会在 Dify 执行每个工具调用时，输出一个`调用函数xxx`的消息给用户。
 但如果是使用`chat`应用下的`ChatFlow`（聊天助手->工作流编排），无论如何只会输出 Answer（直接回复）节点返回的文本。
@@ -101,9 +97,7 @@
 
 > 下面仅为微信和飞书的，其他平台如 QQ、钉钉、Telegram 等平台均可接入
 
-<figure><img src="../../.gitbook/assets/dify-langbot-showcase-wechat.png
- " alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/2025/03/88bfcb4e72ab852069d49104ad7aa51d.png)
 
-<figure><img src="../../.gitbook/assets/dify-langbot-showcase-feishu.png
- " alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/2025/03/9682c62f9bcafcffb0b61c2b0f5a6cb1.png)
 
