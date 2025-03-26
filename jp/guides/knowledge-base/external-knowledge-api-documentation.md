@@ -159,3 +159,11 @@ HTTPステータスコード：403
 **InternalServerException**
 内部サーバーエラーが発生しました。リクエストを再試行してください。
 HTTPステータスコード：500
+
+## 開発例
+
+以下の動画では、LlamaCloudを例として外部ナレッジベースプラグインの開発方法を学ぶことができます：
+
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/FaOzKZRS-2E" title="LlamaCloudナレッジベースへの接続方法" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+詳細については、プラグインの[GitHubリポジトリ](https://github.com/langgenius/dify-official-plugins/tree/main/extensions/llamacloud)を参照してください。
