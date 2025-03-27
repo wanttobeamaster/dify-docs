@@ -97,7 +97,7 @@ description: 作者： Allen。 Dify Technical Writer。
 
 #### AWS Bedrock
 
-[如何连接 AWS Bedrock 知识库](../../learn-more/use-cases/how-to-connect-aws-bedrock.md "mention")
+[how-to-connect-aws-bedrock.md](../../learn-more/use-cases/how-to-connect-aws-bedrock.md "mention")
 
 #### LlamaCloud
 
@@ -107,11 +107,13 @@ description: 作者： Allen。 Dify Technical Writer。
 
 按照插件配置向导，填写 LlamaCloud 的 API 密钥和其他必要信息。完成配置后，您可以在知识库列表中看到连接的外部知识库。
 
-##### 视频教程
+**视频教程**
 
 以下视频详细展示了如何使用 LlamaCloud 插件连接外部知识库：
 
-<iframe width="100%" height="480" src="https://www.youtube.com/embed/FaOzKZRS-2E" title="如何连接 LlamaCloud 知识库" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% embed url="https://www.youtube.com/embed/FaOzKZRS-2E" %}
+
+
 
 如需了解功能原理，请参考插件 [GitHub 地址](https://github.com/langgenius/dify-official-plugins/tree/main/extensions/llamacloud)。
 
