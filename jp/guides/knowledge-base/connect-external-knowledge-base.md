@@ -122,7 +122,7 @@ LlamaCloudプラグインを使用すると、カスタムAPIを作成するこ�
 
 以下の動画では、LlamaCloudプラグインを使用して外部ナレッジベースに接続する方法を詳しく説明しています：
 
-<iframe width="100%" height="480" src="https://www.youtube.com/embed/FaOzKZRS-2E" title="LlamaCloudナレッジベースへの接続方法" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% embed url="https://www.youtube.com/embed/FaOzKZRS-2E" %}
 
 ## よくある問題
 
