@@ -114,9 +114,9 @@ Follow the steps in **Apply for Educational Verification** to renew verification
 
 - **How can I learn about Dify?**
 
-1. Read the [Dify official documentation](https://docs.dify.ai/) for guides.
-
-2. Join the [Dify Discord community](https://discord.com/invite/FngNHpbcY7) to share your experiences with developers.
+   - Read the [Dify official documentation](https://docs.dify.ai/) for guides.
+   
+   - Join the [Dify Discord community](https://discord.com/invite/FngNHpbcY7) to share your experiences with developers.
 
 - **How much do Dify subscription plans cost?**
 
