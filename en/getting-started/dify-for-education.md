@@ -114,9 +114,9 @@ Follow the steps in **Apply for Educational Verification** to renew verification
 
 - **How can I learn about Dify?**
 
-   - Read the [Dify official documentation](https://docs.dify.ai/) for guides.
+1. Read the [Dify official documentation](https://docs.dify.ai/) for guides.
    
-   - Join the [Dify Discord community](https://discord.com/invite/FngNHpbcY7) to share your experiences with developers.
+2. Join the [Dify Discord community](https://discord.com/invite/FngNHpbcY7) to share your experiences with developers.
 
 - **How much do Dify subscription plans cost?**
 
@@ -162,6 +162,5 @@ Your plan continues until the billing period ends, but the promo code expires pe
 - **I canceled my subscription and then apply for Dify for Education. Can I still use the promo code?**
 
 Yes, but timing matters:
-
-- Your current subscription must expire before resubscribing for the promo code to apply.
-- The promo code will not apply if you renew or change plans before your subscription expires.
+1. Your current subscription must expire before resubscribing for the promo code to apply.
+2. The promo code will not apply if you renew or change plans before your subscription expires.
