@@ -14,10 +14,10 @@
 
 ## Benefits
 
-Dify for Education currently offers a **50% discount** coupon for **one Dify Professional Plan subscription**.
+Dify for Education offers **a 50% off coupon for the Dify Professional Plan subscription**.
 
 {% hint style="info" %}
-More exclusive education benefits will be added in the future.
+More exclusive educational benefits will be added in the future.
 {% endhint %}
 
 ## How to Apply for Dify for Education
@@ -66,11 +66,13 @@ Click profile picture (top-right) and look for `Edu` in subscription status.
 
 ### Dify Education Coupon
 
-Your account will receive a Dify Education coupon after verification. Use this coupon to get discounts on Dify Professional subscription plan.
+Your account will receive a Dify Education coupon after verification. Use this coupon to get discounts on Dify Professional Plan subscription.
 
 {% hint style="info" %}
 Discount: **50%**
+
 Validity: **12 months**
+
 Limitations:
 - Coupons must be used within the validity period; **expired coupons are invalid**.
 - Educational verification can only be applied for **once** per year, and only **one coupon** can be obtained per application.
@@ -154,7 +156,7 @@ Yes. If your Stripe payment info are saved, the promo code will automatically ap
 
 - **What happens to my plan after education verification is approved?**
 
-For Professional plan users, the promo code applies at your next billing period. For other plans, the promo code is saved and applies when you change it to Professional.
+For Professional Plan users, the promo code applies at your next billing period. For other plans’ users, the promo code is saved and applies when you change it to Professional.
 
 - **What happens if I cancel my professional subscription plan after educational verification but before my next billing date?**
 
