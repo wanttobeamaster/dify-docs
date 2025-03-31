@@ -113,9 +113,9 @@ Dify教育認証が完了すると、教育クーポンが自動的にあなた�
 
 - **Difyを学習の方法は？**
 
-1. 公式ドキュメントを参照する：[Dify公式ドキュメント](https://docs.dify.ai/ja-jp)で、詳細な使用ガイドをご覧いただけます。
-
-2. コミュニティに参加する：[Dify Discordコミュニティ](https://discord.com/invite/FngNHpbcY7)に参加して、開発者と交流し、使用体験を共有しましょう。
+    - 公式ドキュメントを参照する：[Dify公式ドキュメント](https://docs.dify.ai/ja-jp)で、詳細な使用ガイドをご覧いただけます。
+    
+    - コミュニティに参加する：[Dify Discordコミュニティ](https://discord.com/invite/FngNHpbcY7)に参加して、開発者と交流し、使用体験を共有しましょう。
 
 - **Difyプランの料金はいくらですか？**
 
