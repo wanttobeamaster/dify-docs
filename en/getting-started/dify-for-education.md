@@ -114,9 +114,9 @@ Follow the steps in **Apply for Educational Verification** to renew verification
 
 - **How can I learn about Dify?**
 
-- Read the [Dify official documentation](https://docs.dify.ai/) for guides.
+1. Read the [Dify official documentation](https://docs.dify.ai/) for guides.
 
-- Join the [Dify Discord community](https://discord.com/invite/FngNHpbcY7) to share your experiences with developers.
+2. Join the [Dify Discord community](https://discord.com/invite/FngNHpbcY7) to share your experiences with developers.
 
 - **How much do Dify subscription plans cost?**
 
@@ -132,10 +132,10 @@ See [pricing page](https://dify.ai/pricing) for more information.
 
 Your educational verification application may be rejected or revoked in the following situations:
 
-- Non-educational email registration
-- Fraudulent email or information
-- Educational privilege misuse
-- False institutional information
+   - Non-educational email registration
+   - Fraudulent email or information
+   - Educational privilege misuse
+   - False institutional information
 
 To appeal a rejected/revoked verification, please email <support@dify.ai> for assistance.
 
