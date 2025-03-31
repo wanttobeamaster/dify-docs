@@ -14,7 +14,7 @@
 
 ## Benefits
 
-Dify for Education offers **a 50% off coupon for the Dify Professional Plan subscription**.
+Dify for Education offers **a 50% off coupon for the Dify Professional subscription plan**.
 
 {% hint style="info" %}
 More exclusive educational benefits will be added in the future.
@@ -66,7 +66,7 @@ Click profile picture (top-right) and look for `Edu` in subscription status.
 
 ### Dify Education Coupon
 
-Your account will receive a Dify Education coupon after verification. Use this coupon to get discounts on Dify Professional Plan subscription.
+Your account will receive a Dify Education coupon after verification. Use this coupon to get discounts on the Dify Professional subscription plan.
 
 {% hint style="info" %}
 Discount: **50%**
@@ -81,7 +81,7 @@ Limitations:
 
 ### Use Education Coupon
 
-1. On the pricing page, select the Dify Professional subscription plan.
+1. On the pricing page, select the Dify Professional plan.
 
 - Monthly payment: Click **Get Started** to go to the payment page.
 - Annual payment: Toggle **Annual Billing** and click **Get Started** to go to the payment page.
@@ -120,7 +120,7 @@ Follow the steps in **Apply for Educational Verification** to renew verification
    
 2. Join the [Dify Discord community](https://discord.com/invite/FngNHpbcY7) to share your experiences with developers.
 
-- **How much do Dify subscription plans cost?**
+- **How much do Dify plans cost?**
 
 See [pricing page](https://dify.ai/pricing) for more information.
 
