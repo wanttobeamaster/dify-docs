@@ -114,9 +114,9 @@ Dify 教育版目前包含的权益为**一张 Dify 专业版订阅** **50% 折�
 
 -   **如何学习 Dify？**
 
-    - 查阅官方文档：阅读 [Dify 官方文档](https://docs.dify.ai/)，获取完整的使用指南。
+1. 查阅官方文档：阅读 [Dify 官方文档](https://docs.dify.ai/)，获取完整的使用指南。
     
-    - 参与社区交流：加入 [Dify Discord 社区](https://discord.com/invite/FngNHpbcY7)，与开发者交流分享你的使用心得。
+2. 参与社区交流：加入 [Dify Discord 社区](https://discord.com/invite/FngNHpbcY7)，与开发者交流分享你的使用心得。
 
 -   **Dify 订阅计划的费用是多少？**
 
