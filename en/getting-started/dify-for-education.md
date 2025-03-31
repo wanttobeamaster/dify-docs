@@ -132,10 +132,11 @@ See [pricing page](https://dify.ai/pricing) for more information.
 
 Your educational verification application may be rejected or revoked in the following situations:
 
-   - Non-educational email registration
-   - Fraudulent email or information
-   - Educational privilege misuse
-   - False institutional information
+1. Did not accept *Terms & Agreements* when applying for educational verification
+2. Non-educational email registration
+3. Fraudulent email or information
+4. Educational privilege misuse
+5. False institutional information
 
 To appeal a rejected/revoked verification, please email <support@dify.ai> for assistance.
 
