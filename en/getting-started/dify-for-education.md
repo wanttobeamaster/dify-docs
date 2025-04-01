@@ -130,7 +130,7 @@ See [pricing page](https://dify.ai/pricing) for more information.
 
 2. Users registered with personal emails (e.g., Gmail).
 
-- **Why was my educational verification application rejected/revoked? What should I do if my application is rejected/revoked?**
+- **Why was my educational verification rejected/revoked? What should I do if my application is rejected/revoked?**
 
 Your educational verification application may be rejected or revoked in the following situations:
 
@@ -154,7 +154,7 @@ Educational verification requires a valid institutional email address. Personal 
 
 Yes. If your Stripe payment info are saved, the promo code will automatically apply when you resubscribe.
 
-- **What happens to my plan after education verification is approved?**
+- **What happens to my plan after educational verification is approved?**
 
 For Professional Plan users, the promo code applies at your next billing period. For other plans’ users, the promo code is saved and applies when you change it to Professional.
 
