@@ -94,13 +94,13 @@ Limitations:
 
 4. Complete the payment to finalize subscription.
 
-5. Once subscribed, your subscription status will update to `Pro(Edu)`.
+5. Once subscribed, your subscription status will be updated to `Pro(Edu)`.
 
 ## How to Update My Educational Information
 
 ### Update Email
 
-Changing email address can only be processed manually. Please email <support@dify.ai> for assistance.
+Email <support@dify.ai> to change your email address.
 
 ### Update School Information
 
