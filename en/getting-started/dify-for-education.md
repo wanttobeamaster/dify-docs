@@ -96,7 +96,7 @@ Limitations:
 
 5. Once subscribed, your subscription status will update to `Pro(Edu)`.
 
-## How to Update My Educational Information?
+## How to Update My Educational Information
 
 ### Update Email
 
@@ -108,7 +108,7 @@ Changing email address can only be processed manually. Please email <support@dif
 
 - **For expired verification**: Enter new school information during re-verification.
 
-## How to Renew Dify Educational Verification?
+## How to Renew Dify Educational Verification
 
 Follow the steps in **Apply for Educational Verification** to renew verification.
 
