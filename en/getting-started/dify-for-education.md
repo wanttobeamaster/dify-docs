@@ -34,11 +34,7 @@ To qualify for Dify for Education, you must meet **all** of the following requir
 
 1. **Create a Dify Account**
 
-   Before applying for educational verification, you need to have a Dify account:
-
-   - If you have an educational email address, use it to [register a Dify account](https://cloud.dify.ai/signin).
-
-   - If you have an existing account, [update to your educational email](https://docs.dify.ai/guides/management/personal-account-management).
+Before applying for educational verification, [register a Dify account](https://cloud.dify.ai/signin) with your educational email.
 
 2. **Apply for Educational Verification**
 
