@@ -34,11 +34,7 @@ Dify 教育版目前包含的权益为**一张 50% 折扣的 Dify 专业版优�
 
 1.  **创建 Dify 账号**
 
-在申请教育版认证前，你需要拥有 Dify 账号：
-
--   如果你有教育邮箱，请使用该邮箱[注册 Dify 账号](https://cloud.dify.ai/signin)。
-
--   如果你已经使用个人邮箱注册了 Dify 账号，请先将邮箱[更新为教育邮箱](https://docs.dify.ai/zh-hans/guides/management/personal-account-management)，再申请教育版认证。
+在申请教育版认证前，请使用你的教育邮箱[注册 Dify 账号](https://cloud.dify.ai/signin)。
 
 2.  **完成 Dify 教育版认证**
 
