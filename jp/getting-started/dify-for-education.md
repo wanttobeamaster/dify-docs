@@ -34,11 +34,7 @@ Dify教育版認証を申請するには、以下の条件を**すべて**満た
 
 1. **Difyアカウントの作成**
 
-教育版認証を申請する前に、Difyアカウントが必要です：
-
-- 教育用メールアドレスをお持ちの場合は、そのメールアドレスで[Difyアカウントを登録](https://cloud.dify.ai/signin)してください。
-
-- すでに個人用メールアドレスでアカウントを登録している場合は、まず[メールアドレスを教育用メールアドレスに変更](https://docs.dify.ai/ja-jp/guides/management/personal-account-management)してから、教育版認証を申請してください。
+教育版認証を申請する前に、教育用メールアドレスで[Difyアカウントを登録](https://cloud.dify.ai/signin)してください。
 
 2. **Dify教育版認証の申請**
 
