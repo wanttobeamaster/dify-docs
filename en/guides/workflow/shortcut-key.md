@@ -1,13 +1,13 @@
 # Shortcut Key
 
-The Chatflow / Workflow application orchestration page supports the following shortcut keys to help you improve the efficiency of orchestration nodes.
+The Chatflow / Workflow application orchestration page supports the following shortcut keys to help you improve the efficiency of orchestration blocks.
 
 | Windows          | macOS               | Explanation                    |
 | ---------------- | ------------------- | ------------------------------ |
-| Ctrl + C         | Command + C         | Copy nodes                     |
-| Ctrl + V         | Command + V         | Paste nodes                    |
-| Ctrl + D         | Command + D         | Duplicate nodes                |
-| Ctrl + O         | Command + O         | Organize nodes                 |
+| Ctrl + C         | Command + C         | Copy blocks                     |
+| Ctrl + V         | Command + V         | Paste blocks                    |
+| Ctrl + D         | Command + D         | Duplicate blocks                |
+| Ctrl + O         | Command + O         | Organize blocks                 |
 | Ctrl + Z         | Command + Z         | Undo                           |
 | Ctrl + Y         | Command + Y         | Redo                           |
 | Ctrl + Shift + Z | Command + Shift + Z | Redo                           |
@@ -18,6 +18,6 @@ The Chatflow / Workflow application orchestration page supports the following sh
 | Shift + 5        | Shift + 5           | Scales canvas to 50%           |
 | H                | H                   | Canvas toggles to Hand mode    |
 | V                | V                   | Canvas toggles to Pointer mode |
-| Delete/Backspace | Delete/Backspace    | Delete selected nodes          |
+| Delete/Backspace | Delete/Backspace    | Delete selected blocks          |
 | Alt + R          | Option + R          | Workflow starts to run         |
 
