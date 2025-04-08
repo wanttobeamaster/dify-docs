@@ -1,8 +1,8 @@
-# 接入 GPUStack 进行本地模型部署
+# 整合通过 GPUStack 部署的本地模型
 
-[GPUStack](https://github.com/gpustack/gpustack) 是一个用于运行大语言模型（LLMs）的开源 GPU 集群管理器。
+[GPUStack](https://github.com/gpustack/gpustack) 是一个用于运行 AI 模型的开源 GPU 集群管理器。
 
-Dify 支持与 GPUStack 集成，用于本地部署大语言模型推理、嵌入和重排序能力。
+Dify 支持与 GPUStack 集成，用于本地部署大语言模型推理、嵌入、重排序、语音转文本和文本转语音能力。
 
 ## 部署 GPUStack
 
@@ -36,7 +36,7 @@ Invoke-Expression (Invoke-WebRequest -Uri "https://get.gpustack.ai" -UseBasicPar
 
 3. 点击`保存`以部署模型。
 
-![gpustack-deploy-llm](/en/.gitbook/assets/gpustack-deploy-llm.png)
+![gpustack-deploy-llm](https://assets-docs.dify.ai/2025/04/d19b69596b95ae94071f9430a1b983e6.png)
 
 ## 创建 API 密钥
 
@@ -60,6 +60,6 @@ Invoke-Expression (Invoke-WebRequest -Uri "https://get.gpustack.ai" -UseBasicPar
 
    点击"保存"以在应用中使用该模型。
 
-![add-gpustack-llm](/en/.gitbook/assets/add-gpustack-llm.png)
+![add-gpustack-llm](https://assets-docs.dify.ai/2025/04/8178418f93ccea1668564d8bd9777303.png)
 
-更多关于 GPUStack 的信息，请参考 [Github 仓库](https://github.com/gpustack/gpustack)。
+更多关于 GPUStack 的信息，请参考 [GitHub 仓库](https://github.com/gpustack/gpustack)。

@@ -1,8 +1,8 @@
-# GPUStackとの統合によるローカルモデルのデプロイ
+# GPUStackによってデプロイされたローカルモデルの統合
 
-[GPUStack](https://github.com/gpustack/gpustack)は、大規模言語モデル（LLM）を実行するために設計されたオープンソースのGPUクラスターマネージャーです。
+[GPUStack](https://github.com/gpustack/gpustack)は、AIモデルを実行するために設計されたオープンソースのGPUクラスターマネージャーです。
 
-Difyは、大規模言語モデルの推論、埋め込み、再順位付け機能をローカル環境で展開するために、GPUStackとの統合を実現しています。
+Difyは、大規模言語モデルの推論、埋め込み、再順位付け、音声からテキスト、テキストから音声への機能をローカル環境で展開するために、GPUStackとの統合を実現しています。
 
 ## GPUStackの展開方法
 
@@ -36,7 +36,7 @@ GPUStackにホストされたLLMを使用する方法の例です：
 
 3. モデルを展開するために「Save」をクリックします。
 
-![gpustack-deploy-llm](../../../en/.gitbook/assets/gpustack-deploy-llm.png)
+![gpustack-deploy-llm](https://assets-docs.dify.ai/2025/04/d19b69596b95ae94071f9430a1b983e6.png)
 
 ## APIキーの作成方法
 
@@ -60,6 +60,6 @@ GPUStackにホストされたLLMを使用する方法の例です：
 
    モデルをアプリケーションで使用するために、「Save」をクリックしてください。
 
-![add-gpustack-llm](../../../en/.gitbook/assets/add-gpustack-llm.png)
+![add-gpustack-llm](https://assets-docs.dify.ai/2025/04/8178418f93ccea1668564d8bd9777303.png)
 
 GPUStackに関する詳細情報は、[Github Repo](https://github.com/gpustack/gpustack)を参照してください。

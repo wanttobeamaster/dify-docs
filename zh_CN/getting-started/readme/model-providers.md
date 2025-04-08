@@ -374,7 +374,15 @@ Dify 为以下模型提供商提供原生支持：
             <td align="center">✔️</td>
             <td align="center"></td>
             <td align="center"></td>
-        </tr>        
+        </tr>
+        <tr>
+            <td align="center">GPUStack</td>
+            <td align="center">✔️(🔧️)(👓)</td>
+            <td align="center">✔️</td>
+            <td align="center">✔️</td>
+            <td align="center">✔️</td>
+            <td align="center">✔️</td>
+        </tr>
     </tbody>
 </table>
 

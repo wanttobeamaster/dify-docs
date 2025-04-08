@@ -374,7 +374,15 @@ Difyは以下のモデルプロバイダーをサポートしています：
             <td align="center">✔️</td>
             <td align="center"></td>
             <td align="center"></td>
-        </tr>        
+        </tr>
+        <tr>
+            <td align="center">GPUStack</td>
+            <td align="center">✔️(🔧️)(👓)</td>
+            <td align="center">✔️</td>
+            <td align="center">✔️</td>
+            <td align="center">✔️</td>
+            <td align="center">✔️</td>
+        </tr>
     </tbody>
 </table>
 
