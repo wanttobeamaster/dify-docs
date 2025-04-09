@@ -130,6 +130,4 @@
 
 5. 詩のインスピレーションを入力すると、モデルは4つのバージョンの詩を出力します。各詩は前の詩に基づいて生成されます。
 
-<video width="100%" controls>
-  <source src="https://assets-docs.dify.ai/2025/04/7ecfc04458aa38e721baaa5f6355486c.mp4" type="video/mp4">
-</video>
+{% embed url="https://assets-docs.dify.ai/2025/04/7ecfc04458aa38e721baaa5f6355486c.mp4" %}
