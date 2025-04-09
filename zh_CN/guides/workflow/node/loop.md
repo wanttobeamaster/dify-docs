@@ -134,6 +134,4 @@
 
 5. 输入你的诗歌灵感，模型将输出四个版本的诗歌，每一篇诗歌都以前一篇为基础而产生。
 
-<video width="100%" controls>
-  <source src="https://assets-docs.dify.ai/2025/04/7ecfc04458aa38e721baaa5f6355486c.mp4" type="video/mp4">
-</video>
+{% embed url="https://assets-docs.dify.ai/2025/04/7ecfc04458aa38e721baaa5f6355486c.mp4" %}
