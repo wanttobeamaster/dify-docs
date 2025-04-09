@@ -128,6 +128,4 @@ The first iteration begins with the initial verse value `I haven't started creat
 
 5. When executed, the workflow will produce four versions of your poem, each iteration building upon its previous output.
 
-<video width="100%" controls>
-  <source src="https://assets-docs.dify.ai/2025/04/7ecfc04458aa38e721baaa5f6355486c.mp4" type="video/mp4">
-</video>
+{% embed url="https://assets-docs.dify.ai/2025/04/7ecfc04458aa38e721baaa5f6355486c.mp4" %}
